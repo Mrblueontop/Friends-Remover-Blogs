@@ -1,10 +1,36 @@
 {
-  "id": 4,
-  "title": "Compact View 1.1 – Coming Soon",
+  "title": "Compact View 1.1",
   "cat": "Updates",
-  "date": "April 2026",
-  "badge": "COMING SOON",
-  "excerpt": "Compact View is now enforced across Chrome. Dark mode, Rotectors API, live Roblox status, API freeze protection, and more.",
-  "thumbImage": "https://cdn.discordapp.com/attachments/...",
-  "body": "<p>Compact View 1.1 is coming soon with a range of new features and improvements.</p>"
+  "date": "April 24, 2026",
+  "badge": "UPDATE",
+  "excerpt": "Compact View is now enforced on Chrome. Dark mode, Rotectors API, live Roblox status, and a ton of fixes.",
+  "thumbStyle": "background: radial-gradient(ellipse at 60% 40%, #001a0e 0%, #0d0d0d 70%);",
+  "thumbContent": "<div style=\"text-align:center;\"><div style=\"font-size:3.2rem;font-weight:900;color:#22c55e;\">v1.1</div><div style=\"font-size:1.15rem;font-weight:700;color:#4ade80;margin-top:10px;\">Compact View</div></div>",
+  "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week. We also saw an increase in how long people use the popup with Compact View — it's less laggy since it requires fewer API calls and only displays one friend at a time.</p><p>Because of this, we've officially removed the old friends list-style popup on Chrome. Compact View has become one of our best updates, so we're now fully enforcing it.</p>",
+  "changes": {
+    "added": [
+      "Dark mode to Compact View",
+      "Rotectors API — auto-removal in background settings and flagger in popup",
+      "Live Roblox status in popup",
+      "Scroll cooldown",
+      "Pin cooldown and spam protection",
+      "Search bar to unfriend history",
+      "API freezes after inactivity in settings or popup"
+    ],
+    "removed": [
+      "Friends list-style popup — Compact View is now enforced on Chrome"
+    ],
+    "fixed": [
+      "Multi-select in Compact View buttons",
+      "Friend removal completion after closing and reopening the popup",
+      "Glitchy homepage behind Compact View"
+    ],
+    "improved": [
+      "Settings loading screen",
+      "Headshot loading speed",
+      "Reduced API calls",
+      "Moved background removers into their own dropdown and settings card",
+      "Updated all popup modals"
+    ]
+  }
 }
