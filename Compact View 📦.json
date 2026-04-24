@@ -1,35 +1,35 @@
 {
-  "title": "Compact View 📦",
+  "title": "Compact View 1.1",
   "cat": "Updates",
   "date": "April 24, 2026",
   "badge": "UPDATE",
-  "excerpt": "Compact View is now enforced on Chrome. Dark mode, Rotectors API, live Roblox status, and a ton of fixes.",
-  "thumbImage": "https://media.discordapp.net/attachments/1490248802177913022/1497340114412507186/New_Project94.png?ex=69ed2a26&is=69ebd8a6&hm=08d8a1ee9a4f199f8e5feb4177619d5faadadbd6ab5521308c6ff9b3837c591d&=&format=webp&quality=lossless&width=880&height=560",
-  "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week. We also saw an increase in how long people use the popup with Compact View — it's less laggy since it requires fewer API calls and only displays one friend at a time.</p><p>Because of this, we've officially removed the old friends list-style popup on Chrome. Compact View has become one of our best updates, so we're now fully enforcing it.</p>",
+  "version": "1.1",
+  "platforms": ["Chrome", "Firefox"],
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp",
+    "firefox": "https://addons.mozilla.org/en-US/firefox/addon/friends-remover/"
+  },
+  "excerpt": "Compact View 1.1 improves performance, adds new protections, and expands cross-browser support.",
+  "thumbImage": "https://your-image-url.png",
+  "read": "3 min read",
+  "body": "<p>Compact View 1.1 focuses on performance, stability, and usability. This update continues refining the one-at-a-time friend system while reducing API load.</p><p>We also expanded support to Firefox and improved background processing to make removals more reliable.</p>",
   "changes": {
     "added": [
-      "Dark mode to Compact View",
-      "Rotectors API — auto-removal in background settings and flagger in popup",
-      "Live Roblox status in popup",
-      "Scroll cooldown",
-      "Pin cooldown and spam protection",
-      "Search bar to unfriend history",
-      "API freezes after inactivity in settings or popup"
+      "Firefox support",
+      "Improved spam protection for pin/unfriend actions",
+      "Search bar for unfriend history"
     ],
     "removed": [
-      "Friends list-style popup — Compact View is now enforced on Chrome"
+      "Legacy friends list popup (fully deprecated)"
     ],
     "fixed": [
-      "Multi-select in Compact View buttons",
-      "Friend removal completion after closing and reopening the popup",
-      "Glitchy homepage behind Compact View"
+      "Unfriend actions failing after popup reopen",
+      "UI freezing during rapid scrolling"
     ],
     "improved": [
-      "Settings loading screen",
-      "Headshot loading speed",
       "Reduced API calls",
-      "Moved background removers into their own dropdown and settings card",
-      "Updated all popup modals"
+      "Faster avatar/headshot loading",
+      "Cleaner settings layout"
     ]
   }
 }
