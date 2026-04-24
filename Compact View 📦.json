@@ -4,7 +4,7 @@
   "date": "April 24, 2026",
   "badge": "UPDATE",
   "excerpt": "Compact View is now enforced on Chrome. Dark mode, Rotectors API, live Roblox status, and a ton of fixes.",
-  "thumbImage": "https://media.discordapp.net/attachments/1490248802177913022/1497340114412507186/New_Project94.png?ex=69ed2a26&is=69ebd8a6&hm=08d8a1ee9a4f199f8e5feb4177619d5faadadbd6ab5521308c6ff9b3837c591d&=&format=webp&quality=lossless&width=880&height=560"
+  "thumbImage": "https://media.discordapp.net/attachments/1490248802177913022/1497340114412507186/New_Project94.png?ex=69ed2a26&is=69ebd8a6&hm=08d8a1ee9a4f199f8e5feb4177619d5faadadbd6ab5521308c6ff9b3837c591d&=&format=webp&quality=lossless&width=880&height=560",
   "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week. We also saw an increase in how long people use the popup with Compact View — it's less laggy since it requires fewer API calls and only displays one friend at a time.</p><p>Because of this, we've officially removed the old friends list-style popup on Chrome. Compact View has become one of our best updates, so we're now fully enforcing it.</p>",
   "changes": {
     "added": [
