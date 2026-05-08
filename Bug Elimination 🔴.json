@@ -1,0 +1,127 @@
+{
+  "title": "Bug Elimination 🔴",
+  "cat": "Updates",
+  "date": "May 8, 2026",
+  "badge": "COMING SOON",
+  "version": "1.2",
+  "breaking": false,
+  "platforms": ["Chrome"],
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+  },
+  "excerpt": "Massive stability update with self-repair systems, popup inactivity tracking, API protection, cleaner UI, reporting systems, and major lag fixes.",
+  "thumbImage": "https://media.discordapp.net/attachments/1490242997772882074/1497637916187427018/New_Project95.png?ex=69f0e27f&is=69ef90ff&hm=d0b13f1ce837e6e6cffa27bf41d5ec4579d9cf8162362fb55a3edd14c4f39da6&format=webp&quality=lossless&width=2560&height=1600&",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+  "body": "<p>This update mainly focuses on stability, recovery systems, and reducing lag across the extension. We added smarter API protection, popup inactivity handling, reporting systems, and multiple fixes for scheduled removals and popup loading.</p><p>We also cleaned up old systems, updated the UI, removed broken features, and improved extension recovery when services temporarily go offline.</p>",
+  "changes": {
+    "added": [
+      {
+        "title": "Inactive Popup Tracker",
+        "moreInfo": "If you stay inactive for too long, a 30-second warning will appear before the popup automatically closes."
+      },
+      {
+        "title": "API Offline Warnings",
+        "moreInfo": "Warnings now appear across all pages whenever the base API is temporarily unavailable."
+      },
+      {
+        "title": "Experimental Badge",
+        "moreInfo": "Added a new experimental badge in settings alongside warning notices for unstable features."
+      },
+      {
+        "title": "Self-Repair Systems",
+        "moreInfo": "The error handler can now force multiple recovery methods to help get the extension working again."
+      },
+      {
+        "title": "Notification Cooldown System",
+        "moreInfo": "Added a global background cooldown system to prevent false notification spam."
+      },
+      {
+        "title": "Daily Scheduled Removal Limits",
+        "moreInfo": "Added daily scheduled removal limits. VIP users can bypass the restriction."
+      },
+      {
+        "title": "Settings Report System",
+        "moreInfo": "Users can now report broken settings directly through the extension."
+      },
+      {
+        "title": "Popup Error Report System",
+        "moreInfo": "Users can now report popup or settings errors directly from the extension."
+      },
+      {
+        "title": "Orange Theme",
+        "moreInfo": "Added a new orange color theme."
+      },
+      {
+        "title": "Uninstall Page",
+        "moreInfo": "Added a custom uninstall page when removing the extension."
+      }
+    ],
+    "removed": [
+      {
+        "title": "Old St. Patrick’s Day Theme",
+        "moreInfo": "Removed the old seasonal theme and fixed the glitch where it appeared briefly while the popup was loading."
+      },
+      {
+        "title": "Filter by Age Group",
+        "moreInfo": "Removed due to reliability issues, excessive API calls, and lag spikes."
+      },
+      {
+        "title": "Unused Modals",
+        "moreInfo": "Removed old unused modal HTML and CSS files to clean up the extension."
+      },
+      {
+        "title": "Gold Theme",
+        "moreInfo": "Removed the old gold theme from the extension."
+      }
+    ],
+    "fixed": [
+      {
+        "title": "Error Messages",
+        "moreInfo": "Error messages now properly appear in both the popup and settings."
+      },
+      {
+        "title": "Scheduled Removals",
+        "moreInfo": "Scheduled removals are now less laggy and properly work again."
+      },
+      {
+        "title": "Background Removal Dropdown",
+        "moreInfo": "Fixed issues causing the dropdown system to malfunction."
+      },
+      {
+        "title": "Red Theme Colors",
+        "moreInfo": "Fixed the red theme colors to properly match the intended design."
+      },
+      {
+        "title": "Offline Popup Loading",
+        "moreInfo": "The extension now skips unnecessary API loading when services are offline."
+      }
+    ],
+    "improved": [
+      {
+        "title": "Popup UI",
+        "moreInfo": "Removed excessive roundness from popup elements for a cleaner design."
+      },
+      {
+        "title": "API Request Handling",
+        "moreInfo": "The extension now checks API status before every request to prevent spam while services are offline."
+      },
+      {
+        "title": "Settings Performance",
+        "moreInfo": "Reduced lag and improved overall settings loading performance."
+      },
+      {
+        "title": "Modal Design",
+        "moreInfo": "Updated all modals to better match the extension UI with a cleaner appearance."
+      },
+      {
+        "title": "Settings Organization",
+        "moreInfo": "Moved Block Mode into Removal Settings and reorganized color theme dropdowns."
+      },
+      {
+        "title": "Overall Stability",
+        "moreInfo": "Added multiple backend and recovery improvements to make the extension more stable during failures."
+      }
+    ]
+  }
+}
