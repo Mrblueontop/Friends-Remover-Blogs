@@ -2,8 +2,8 @@
   "title": "Compact View 📦",
   "cat": "Updates",
   "date": "April 24, 2026",
-  "badge": "OUT NOW",
-  "version": "1.2",
+  "badge": "MOST DOWNLOADS",
+  "version": "1.1",
   "breaking": false,
   "platforms": ["Chrome"],
   "download": {
@@ -16,28 +16,76 @@
   "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week. We also saw an increase in how long people use the popup with Compact View — it's less laggy since it requires fewer API calls and only displays one friend at a time.</p><p>Because of this, we've officially removed the old friends list-style popup on Chrome. Compact View has become one of our best updates, so we're now fully enforcing it.</p>",
   "changes": {
     "added": [
-      "Dark mode to Compact View",
-      "Rotectors API — auto-removal in background settings and flagger in popup",
-      "Live Roblox status in popup",
-      "Scroll cooldown",
-      "Pin cooldown and spam protection",
-      "Search bar to unfriend history",
-      "API freezes after inactivity in settings or popup"
+      {
+        "text": "Dark mode to Compact View",
+        "moreInfo": "Compact View now has a full dark theme that syncs with your extension settings. Toggle it from the popup header — no page reload needed."
+      },
+      {
+        "text": "Rotectors API — auto-removal in background settings and flagger in popup",
+        "moreInfo": "Friends Remover now connects to the Rotectors database. You can enable auto-removal of flagged users in Background Settings, and the popup will show a warning badge next to any friend flagged as a known exploiter."
+      },
+      {
+        "text": "Live Roblox status in popup",
+        "moreInfo": "Each friend card in Compact View now shows their current Roblox status — online, in-game, or offline — pulled in real time so you always know who's active."
+      },
+      {
+        "text": "Scroll cooldown",
+        "moreInfo": "A short cooldown is now applied between friend card scrolls to prevent hammering the Roblox API when flicking through your list quickly."
+      },
+      {
+        "text": "Pin cooldown and spam protection",
+        "moreInfo": "Rapidly pinning and unpinning the same friend no longer triggers multiple API writes. A brief cooldown debounces the action so only the final state gets saved."
+      },
+      {
+        "text": "Search bar to unfriend history",
+        "moreInfo": "The removal history panel now has a search box at the top. Type any username to filter your history instantly — useful if you have a long list and need to check a specific person."
+      },
+      {
+        "text": "API freezes after inactivity in settings or popup",
+        "moreInfo": "If the popup or settings page is left open but idle for a while, background API polling now pauses automatically. This saves quota and prevents stale data from piling up."
+      }
     ],
     "removed": [
-      "Friends list-style popup — Compact View is now enforced on Chrome"
+      {
+        "text": "Friends list-style popup — Compact View is now enforced on Chrome",
+        "moreInfo": "The original list-style popup showed all your friends at once, which required a large number of API calls on load and caused noticeable lag on bigger lists. Compact View displays one friend at a time and is now the only popup mode on Chrome."
+      }
     ],
     "fixed": [
-      "Multi-select in Compact View buttons",
-      "Friend removal completion after closing and reopening the popup",
-      "Glitchy homepage behind Compact View"
+      {
+        "text": "Multi-select in Compact View buttons",
+        "moreInfo": "Tapping the select button on multiple friends in a row would sometimes deselect previous picks or freeze the UI. The selection state is now tracked correctly across all cards."
+      },
+      {
+        "text": "Friend removal completion after closing and reopening the popup",
+        "moreInfo": "If you closed the popup mid-removal and reopened it, the removal queue would silently stop. The extension now resumes or correctly reports completion when the popup is reopened."
+      },
+      {
+        "text": "Glitchy homepage behind Compact View",
+        "moreInfo": "The Roblox homepage would sometimes flicker or render incorrectly when Compact View was open on top of it. The overlay layering has been fixed so the page underneath stays stable."
+      }
     ],
     "improved": [
-      "Settings loading screen",
-      "Headshot loading speed",
-      "Reduced API calls",
-      "Moved background removers into their own dropdown and settings card",
-      "Updated all popup modals"
+      {
+        "text": "Settings loading screen",
+        "moreInfo": "The settings page now shows a proper skeleton loader while your preferences are being fetched, instead of a blank flash or partially rendered layout."
+      },
+      {
+        "text": "Headshot loading speed",
+        "moreInfo": "Profile pictures are now cached after the first load so they don't get re-fetched every time you scroll to a friend you've already seen in the same session."
+      },
+      {
+        "text": "Reduced API calls",
+        "moreInfo": "Several redundant calls to the Roblox API have been merged or removed. On average, opening the popup now uses roughly half the API requests compared to v1.1."
+      },
+      {
+        "text": "Moved background removers into their own dropdown and settings card",
+        "moreInfo": "Background removal options (like Rotectors auto-remove) were previously scattered across the settings page. They now live in a dedicated collapsible card for a cleaner layout."
+      },
+      {
+        "text": "Updated all popup modals",
+        "moreInfo": "Confirmation dialogs, error messages, and info modals across the popup have been restyled to match the current design language and work correctly in both light and dark mode."
+      }
     ]
   }
 }
