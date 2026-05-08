@@ -1,90 +1,126 @@
 {
-  "title": "Compact View 📦",
+  "text": "Bug Elimination 🔴",
   "cat": "Updates",
-  "date": "April 24, 2026",
-  "badge": "MOST DOWNLOADS",
-  "version": "1.1",
+  "date": "May 8, 2026",
+  "badge": "COMING SOON",
+  "version": "1.2",
   "breaking": false,
   "platforms": ["Chrome"],
   "download": {
-    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgfahelckfinnhkpidebp"
   },
-  "excerpt": "Compact View is now enforced on Chrome. Dark mode, Rotectors API, live Roblox status, and a ton of fixes.",
+  "excerpt": "Massive stability update with self-repair systems, popup inactivity tracking, API protection, cleaner UI, reporting systems, and major lag fixes.",
   "thumbImage": "https://media.discordapp.net/attachments/1490242997772882074/1497637916187427018/New_Project95.png?ex=69f0e27f&is=69ef90ff&hm=d0b13f1ce837e6e6cffa27bf41d5ec4579d9cf8162362fb55a3edd14c4f39da6&format=webp&quality=lossless&width=2560&height=1600&",
   "thumbFit": "contain",
   "thumbPosition": "center",
-  "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week. We also saw an increase in how long people use the popup with Compact View — it's less laggy since it requires fewer API calls and only displays one friend at a time.</p><p>Because of this, we've officially removed the old friends list-style popup on Chrome. Compact View has become one of our best updates, so we're now fully enforcing it.</p>",
+  "body": "<p>This update mainly focuses on stability, recovery systems, and reducing lag across the extension. We added smarter API protection, popup inactivity handling, reporting systems, and multiple fixes for scheduled removals and popup loading.</p><p>We also cleaned up old systems, updated the UI, removed broken features, and improved extension recovery when services temporarily go offline.</p>",
   "changes": {
     "added": [
       {
-        "text": "Dark mode to Compact View",
-        "moreInfo": "Compact View now has a full dark theme that syncs with your extension settings. Toggle it from the popup header — no page reload needed."
+        "text": "Inactive Popup Tracker",
+        "moreInfo": "If you stay inactive for too long, a 30-second warning will appear before the popup automatically closes."
       },
       {
-        "text": "Rotectors API — auto-removal in background settings and flagger in popup",
-        "moreInfo": "Friends Remover now connects to the Rotectors database. You can enable auto-removal of flagged users in Background Settings, and the popup will show a warning badge next to any friend flagged as a known exploiter."
+        "text": "API Offline Warnings",
+        "moreInfo": "Warnings now appear across all pages whenever the base API is temporarily unavailable."
       },
       {
-        "text": "Live Roblox status in popup",
-        "moreInfo": "Each friend card in Compact View now shows their current Roblox status — online, in-game, or offline — pulled in real time so you always know who's active."
+        "text": "Experimental Badge",
+        "moreInfo": "Added a new experimental badge in settings alongside warning notices for unstable features."
       },
       {
-        "text": "Scroll cooldown",
-        "moreInfo": "A short cooldown is now applied between friend card scrolls to prevent hammering the Roblox API when flicking through your list quickly."
+        "text": "Self-Repair Systems",
+        "moreInfo": "The error handler can now force multiple recovery methods to help get the extension working again."
       },
       {
-        "text": "Pin cooldown and spam protection",
-        "moreInfo": "Rapidly pinning and unpinning the same friend no longer triggers multiple API writes. A brief cooldown debounces the action so only the final state gets saved."
+        "text": "Notification Cooldown System",
+        "moreInfo": "Added a global background cooldown system to prevent false notification spam."
       },
       {
-        "text": "Search bar to unfriend history",
-        "moreInfo": "The removal history panel now has a search box at the top. Type any username to filter your history instantly — useful if you have a long list and need to check a specific person."
+        "text": "Daily Scheduled Removal Limits",
+        "moreInfo": "Added daily scheduled removal limits. VIP users can bypass the restriction."
       },
       {
-        "text": "API freezes after inactivity in settings or popup",
-        "moreInfo": "If the popup or settings page is left open but idle for a while, background API polling now pauses automatically. This saves quota and prevents stale data from piling up."
+        "text": "Settings Report System",
+        "moreInfo": "Users can now report broken settings directly through the extension."
+      },
+      {
+        "text": "Popup Error Report System",
+        "moreInfo": "Users can now report popup or settings errors directly from the extension."
+      },
+      {
+        "text": "Orange Theme",
+        "moreInfo": "Added a new orange color theme."
+      },
+      {
+        "text": "Uninstall Page",
+        "moreInfo": "Added a custom uninstall page when removing the extension."
       }
     ],
     "removed": [
       {
-        "text": "Friends list-style popup — Compact View is now enforced on Chrome",
-        "moreInfo": "The original list-style popup showed all your friends at once, which required a large number of API calls on load and caused noticeable lag on bigger lists. Compact View displays one friend at a time and is now the only popup mode on Chrome."
+        "text": "Old St. Patrick’s Day Theme",
+        "moreInfo": "Removed the old seasonal theme and fixed the glitch where it appeared briefly while the popup was loading."
+      },
+      {
+        "text": "Filter by Age Group",
+        "moreInfo": "Removed due to reliability issues, excessive API calls, and lag spikes."
+      },
+      {
+        "text": "Unused Modals",
+        "moreInfo": "Removed old unused modal HTML and CSS files to clean up the extension."
+      },
+      {
+        "text": "Gold Theme",
+        "moreInfo": "Removed the old gold theme from the extension."
       }
     ],
     "fixed": [
       {
-        "text": "Multi-select in Compact View buttons",
-        "moreInfo": "Tapping the select button on multiple friends in a row would sometimes deselect previous picks or freeze the UI. The selection state is now tracked correctly across all cards."
+        "text": "Error Messages",
+        "moreInfo": "Error messages now properly appear in both the popup and settings."
       },
       {
-        "text": "Friend removal completion after closing and reopening the popup",
-        "moreInfo": "If you closed the popup mid-removal and reopened it, the removal queue would silently stop. The extension now resumes or correctly reports completion when the popup is reopened."
+        "text": "Scheduled Removals",
+        "moreInfo": "Scheduled removals are now less laggy and properly work again."
       },
       {
-        "text": "Glitchy homepage behind Compact View",
-        "moreInfo": "The Roblox homepage would sometimes flicker or render incorrectly when Compact View was open on top of it. The overlay layering has been fixed so the page underneath stays stable."
+        "text": "Background Removal Dropdown",
+        "moreInfo": "Fixed issues causing the dropdown system to malfunction."
+      },
+      {
+        "text": "Red Theme Colors",
+        "moreInfo": "Fixed the red theme colors to properly match the intended design."
+      },
+      {
+        "text": "Offline Popup Loading",
+        "moreInfo": "The extension now skips unnecessary API loading when services are offline."
       }
     ],
     "improved": [
       {
-        "text": "Settings loading screen",
-        "moreInfo": "The settings page now shows a proper skeleton loader while your preferences are being fetched, instead of a blank flash or partially rendered layout."
+        "text": "Popup UI",
+        "moreInfo": "Removed excessive roundness from popup elements for a cleaner design."
       },
       {
-        "text": "Headshot loading speed",
-        "moreInfo": "Profile pictures are now cached after the first load so they don't get re-fetched every time you scroll to a friend you've already seen in the same session."
+        "text": "API Request Handling",
+        "moreInfo": "The extension now checks API status before every request to prevent spam while services are offline."
       },
       {
-        "text": "Reduced API calls",
-        "moreInfo": "Several redundant calls to the Roblox API have been merged or removed. On average, opening the popup now uses roughly half the API requests compared to v1.1."
+        "text": "Settings Performance",
+        "moreInfo": "Reduced lag and improved overall settings loading performance."
       },
       {
-        "text": "Moved background removers into their own dropdown and settings card",
-        "moreInfo": "Background removal options (like Rotectors auto-remove) were previously scattered across the settings page. They now live in a dedicated collapsible card for a cleaner layout."
+        "text": "Modal Design",
+        "moreInfo": "Updated all modals to better match the extension UI with a cleaner appearance."
       },
       {
-        "text": "Updated all popup modals",
-        "moreInfo": "Confirmation dialogs, error messages, and info modals across the popup have been restyled to match the current design language and work correctly in both light and dark mode."
+        "text": "Settings Organization",
+        "moreInfo": "Moved Block Mode into Removal Settings and reorganized color theme dropdowns."
+      },
+      {
+        "text": "Overall Stability",
+        "moreInfo": "Added multiple backend and recovery improvements to make the extension more stable during failures."
       }
     ]
   }
