@@ -2,7 +2,9 @@
   "title": "Bug Elimination 🔴",
   "cat": "Updates",
   "date": "May 8, 2026",
-  "badge": "COMING SOON",
+  "badge": "COUNTDOWN",
+  "badgeTimestamp": "2026-05-16T00:00:00",
+  "badgeAfter": "OUT NOW",
   "version": "1.2",
   "breaking": false,
   "platforms": ["Chrome"],
@@ -10,7 +12,7 @@
     "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgfahelckfinnhkpidebp"
   },
   "excerpt": "Massive stability update with self-repair systems, popup inactivity tracking, API protection, cleaner UI, reporting systems, and major lag fixes.",
-  "thumbImage": "https://media.discordapp.net/attachments/1490242997772882074/1497637916187427018/New_Project95.png?ex=69f0e27f&is=69ef90ff&hm=d0b13f1ce837e6e6cffa27bf41d5ec4579d9cf8162362fb55a3edd14c4f39da6&format=webp&quality=lossless&width=2560&height=1600&",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BugElimination.png",
   "thumbFit": "contain",
   "thumbPosition": "center",
   "body": "<p>This update mainly focuses on stability, recovery systems, and reducing lag across the extension. We added smarter API protection, popup inactivity handling, reporting systems, and multiple fixes for scheduled removals and popup loading.</p><p>We also cleaned up old systems, updated the UI, removed broken features, and improved extension recovery when services temporarily go offline.</p>",
@@ -59,7 +61,7 @@
     ],
     "removed": [
       {
-        "text": "Old St. Patrick’s Day Theme",
+        "text": "Old St. Patrick's Day Theme",
         "moreInfo": "Removed the old seasonal theme and fixed the glitch where it appeared briefly while the popup was loading."
       },
       {
