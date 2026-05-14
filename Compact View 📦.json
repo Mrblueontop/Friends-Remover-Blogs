@@ -13,11 +13,25 @@
   "thumbImages": ["CompactImage.png"],
   "thumbFit": "contain",
   "thumbPosition": "center",
-  "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week...</p>",
+  "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week. We also saw an increase in how long people use the popup with Compact View — it's less laggy since it requires fewer API calls and only displays one friend at a time.</p><p>Because of this, we've officially removed the old friends list-style popup on Chrome. Compact View has become one of our best updates, so we're now fully enforcing it.</p>",
   "changes": {
-    "added": [...],
-    "removed": [...],
-    "fixed": [...],
+    "added": [
+      "Dark mode to Compact View",
+      "Rotectors API — auto-removal in background settings and flagger in popup",
+      "Live Roblox status in popup",
+      "Scroll cooldown",
+      "Pin cooldown and spam protection",
+      "Search bar to unfriend history",
+      "API freezes after inactivity in settings or popup"
+    ],
+    "removed": [
+      "Friends list-style popup — Compact View is now enforced on Chrome"
+    ],
+    "fixed": [
+      "Multi-select in Compact View buttons",
+      "Friend removal completion after closing and reopening the popup",
+      "Glitchy homepage behind Compact View"
+    ],
     "improved": [
       "Settings loading screen",
       "Headshot loading speed",
