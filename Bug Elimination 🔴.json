@@ -4,7 +4,7 @@
   "date": "May 8, 2026",
   "badge": "COUNTDOWN",
   "badgeTimestamp": "2026-05-16T00:00:00",
-  "badgeAfter": "OUT NOW",
+  "badgeAfter": "DELAYED",
   "version": "1.2",
   "breaking": false,
   "platforms": ["Chrome"],
