@@ -2,7 +2,7 @@
   "title": "Bug Elimination 🔴",
   "cat": "Updates",
   "date": "May 8, 2026",
-  "badgeAfter": "DELAYED",
+  "badge": "DELAYED",
   "version": "1.2",
   "breaking": false,
   "platforms": ["Chrome"],
