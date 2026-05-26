@@ -1,1 +1,170 @@
-
+{
+  "title": "Trusted Friends 💙",
+  "cat": "Updates",
+  "date": "2026-05-29",
+  "badge": "MAJOR UPDATE",
+  "badgeTimestamp": 1780012800000,
+  "badgeAfter": "OUT NOW",
+  "version": "1.3",
+  "breaking": false,
+  "coming_soon": true,
+  "platforms": ["Chrome"],
+  "body": "<p>Roblox added Trusted Friends a while ago, but we realized we could use them in a much better way inside Friends Remover. Trusted Friends are now fully protected just like pinned friends, meaning they can no longer accidentally be removed by you or by any background removal systems. </p>",
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/..."
+  },
+  "changes": {
+    "added": [
+      {
+        "text": "Added Trusted Friends Protection",
+        "moreInfo": "Trusted Friends are now treated the same as pinned friends and are fully protected from manual removals and automatic/background removals."
+      },
+      {
+        "text": "Added Trusted Friends support everywhere pinned friends are supported",
+        "moreInfo": "Trusted Friends now work with all systems that previously only supported pinned friends."
+      },
+      {
+        "text": "Added Auto Re-Add Removed Pinned Friends setting",
+        "moreInfo": "If a pinned friend gets removed somehow, Friends Remover can automatically attempt to re-add them."
+      },
+      {
+        "text": "Added Tutorial System",
+        "moreInfo": "New users will now see a guided tutorial explaining the popup, removal system, selection system, and major buttons. Tutorials are skippable for new users only."
+      },
+      {
+        "text": "Added notification system powered by our worker",
+        "moreInfo": "Important alerts, outages, announcements, and notices can now appear directly inside the popup."
+      },
+      {
+        "text": "Added Roblox badges next to usernames",
+        "moreInfo": "Users can now display badges such as Verified, Roblox Admin, Star Creator, Premium, and more."
+      },
+      {
+        "text": "Added Friends Remover badge",
+        "moreInfo": "Users who use Friends Remover can now show a sleek Friends Remover badge next to their profile."
+      },
+      {
+        "text": "Added notifications when somebody removes you",
+        "moreInfo": "If somebody removes you from their friends list, Friends Remover can now notify you."
+      },
+      {
+        "text": "Added captcha when removing friends",
+        "moreInfo": "Extra protection was added to prevent accidental removals and improve reliability during large removals."
+      },
+      {
+        "text": "Added Reduce Animations setting",
+        "moreInfo": "The extension can now dynamically reduce animations depending on how fast or slow your device is."
+      },
+      {
+        "text": "Added Speed Arrows in Compact View",
+        "moreInfo": "Holding the arrows now instantly jumps to the first or last friend in your list."
+      },
+      {
+        "text": "Added sleek new easter egg",
+        "moreInfo": "Shhh... it has something to do with interacting with the developer as a friend in Compact View."
+      },
+      {
+        "text": "Added warning when removing large or important users",
+        "moreInfo": "Extra warnings now appear when attempting to remove users such as admins, verified users, or Star Creators."
+      },
+      {
+        "text": "Added toggle for bad users visibility",
+        "moreInfo": "You can now choose whether bad users flagged by Rotectors API are shown or hidden."
+      }
+    ],
+    "removed": [
+      "Removed old hold-to-select removal logic",
+      {
+        "text": "Removed Dark Mode",
+        "moreInfo": "Dark Mode may return in the future, but for now it has been removed due to maintenance and usability issues."
+      }
+    ],
+    "fixed": [
+      "Fixed multiple selection being extremely glitchy",
+      "Fixed status removal issues",
+      "Fixed inactivity tracker incorrectly running during removals",
+      "Fixed inactivity tracker triggering during tutorials",
+      {
+        "text": "Fixed local storage handling",
+        "moreInfo": "The extension now handles offline saving and API downtime much better using improved local storage systems."
+      },
+      {
+        "text": "Fixed popup lag spikes",
+        "moreInfo": "Animations and heavy effects are now temporarily paused automatically if the extension detects lag or FPS instability."
+      }
+    ],
+    "improved": [
+      {
+        "text": "Pins now save after closing the popup",
+        "moreInfo": "Pinned users are no longer instantly synced every time you pin or unpin somebody. Changes now save after closing the popup for much better performance."
+      },
+      {
+        "text": "Settings now save after closing the settings page",
+        "moreInfo": "Settings are now batched together and saved only after leaving settings instead of constantly syncing changes."
+      },
+      {
+        "text": "Improved Block Mode",
+        "moreInfo": "Block Mode now includes a dedicated logo and temporarily changes the popup theme to blue while enabled without affecting your actual saved theme."
+      },
+      {
+        "text": "Improved bad user warning UI",
+        "moreInfo": "Warnings for bad users are now cleaner, easier to understand, and less intrusive."
+      },
+      {
+        "text": "Improved friends playing status UI",
+        "moreInfo": "Game statuses now use sleek toast notifications instead of modals."
+      },
+      {
+        "text": "Improved headshot styling",
+        "moreInfo": "Users currently in-game now have subtle shadows added to their avatars for cleaner visuals."
+      },
+      {
+        "text": "Improved game title truncation",
+        "moreInfo": "Long game titles are now displayed better and unnecessary title tags like (NEW), (UPD), and similar text are automatically cleaned."
+      },
+      {
+        "text": "Improved presence refresh interval",
+        "moreInfo": "Friend activity and status updates now refresh faster."
+      },
+      {
+        "text": "Reworked friend selection logic",
+        "moreInfo": "Selecting friends is now much cleaner and easier. Simply use the checkmark system instead of holding users."
+      },
+      {
+        "text": "Replaced confirmation and success modals with clickable toasts",
+        "moreInfo": "The popup now feels significantly faster and cleaner during removals and actions."
+      },
+      {
+        "text": "Improved inactivity tracker",
+        "moreInfo": "You are now considered inactive after 1 minute of no popup interaction and are given a 30 second warning before the popup closes."
+      },
+      {
+        "text": "Updated statuses to use a new API",
+        "moreInfo": "Statuses are now powered by a cleaner and easier-to-maintain API."
+      }
+    ],
+    "experimental": [
+      {
+        "text": "Automatic lag detection system",
+        "moreInfo": "When severe lag is detected, Friends Remover can temporarily disable animations until performance stabilizes."
+      }
+    ],
+    "deprecated": [],
+    "security": [
+      {
+        "text": "Trusted Friends safety protection",
+        "moreInfo": "Trusted Friends can no longer accidentally be removed by removal systems or background processes."
+      },
+      {
+        "text": "Pinned user removal prevention",
+        "moreInfo": "Pinned and trusted users now have stronger safeguards to reduce accidental removals."
+      }
+    ],
+    "other": [
+      "Pinned users now display with gold usernames",
+      "You can no longer pin users flagged as bad by Rotectors API",
+      "Bad user flags are provided by Rotectors public API",
+      "Notification system currently only appears inside the popup",
+      "Popup performance has been heavily optimized throughout the extension"
+    ]
+  },
