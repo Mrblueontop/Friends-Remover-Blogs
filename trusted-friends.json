@@ -149,17 +149,6 @@
         "moreInfo": "When severe lag is detected, Friends Remover can temporarily disable animations until performance stabilizes."
       }
     ],
-    "deprecated": [],
-    "security": [
-      {
-        "text": "Trusted Friends safety protection",
-        "moreInfo": "Trusted Friends can no longer accidentally be removed by removal systems or background processes."
-      },
-      {
-        "text": "Pinned user removal prevention",
-        "moreInfo": "Pinned and trusted users now have stronger safeguards to reduce accidental removals."
-      }
-    ],
     "other": [
       "Pinned users now display with gold usernames",
       "You can no longer pin users flagged as bad by Rotectors API",
