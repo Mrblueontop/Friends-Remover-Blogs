@@ -40,14 +40,14 @@
       },
       {
         "text": "Roblox badges next to usernames",
-        "moreInfo": "Users now display badges such as Verified, Roblox Admin, Star Creator, Premium, and more. on side of their name"
+        "moreInfo": "Users now display badges such as Verified, Roblox Admin, Star Creator, Premium, and more next to their names."
       },
       {
         "text": "Friends Remover badge",
         "moreInfo": "Users who use Friends Remover will have this now sleek Friends Remover badge next to their profile."
       },
       {
-        "text": "Notify when somebody removes you" setting",
+        "text": "Notify when somebody removes you setting",
         "moreInfo": "With this setting enabled if somebody removes you from their friends list, Friends Remover can now notify you."
       },
       {
@@ -56,7 +56,7 @@
       },
       {
         "text": "Reduce Animations setting",
-        "moreInfo": Thhis doesn't have a default if your new the background will scan your lag and turn it on one time if you are lagging."
+        "moreInfo": "This doesn’t have a default. If you're new, the background will scan your device for lag and enable it automatically one time if you are experiencing performance issues."
       },
       {
         "text": "Speed Arrows in Compact View",
