@@ -40,15 +40,15 @@
       },
       {
         "text": "Roblox badges next to usernames",
-        "moreInfo": "Users now display badges such as Verified, Roblox Admin, Star Creator, Premium, and more next to their names."
+        "moreInfo": "Users can now display badges such as Verified, Roblox Admin, Star Creator, Premium, and more."
       },
       {
         "text": "Friends Remover badge",
-        "moreInfo": "Users who use Friends Remover will have this now sleek Friends Remover badge next to their profile."
+        "moreInfo": "Users who use Friends Remover can now show a sleek Friends Remover badge next to their profile."
       },
       {
-        "text": "Notify when somebody removes you setting",
-        "moreInfo": "With this setting enabled if somebody removes you from their friends list, Friends Remover can now notify you."
+        "text": "Notifications when somebody removes you",
+        "moreInfo": "If somebody removes you from their friends list, Friends Remover can now notify you."
       },
       {
         "text": "Captcha when removing friends",
@@ -56,7 +56,7 @@
       },
       {
         "text": "Reduce Animations setting",
-        "moreInfo": "This doesn’t have a default. If you're new, the background will scan your device for lag and enable it automatically one time if you are experiencing performance issues."
+        "moreInfo": "The extension can now dynamically reduce animations depending on how fast or slow your device is."
       },
       {
         "text": "Speed Arrows in Compact View",
@@ -64,7 +64,7 @@
       },
       {
         "text": "Sleek new easter egg",
-        "moreInfo": "Shhh... it has something to do with interacting with the me as a friend in Compact View."
+        "moreInfo": "Shhh... it has something to do with interacting with the developer as a friend in Compact View."
       },
       {
         "text": "Warning when removing large or important users",
