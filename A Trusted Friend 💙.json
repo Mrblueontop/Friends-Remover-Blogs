@@ -10,7 +10,7 @@
   "coming_soon": true,
   "platforms": ["Chrome"],
   "excerpt": "Trusted Friends are now fully protected just like pinned friends — plus tutorials, badges, notifications, and a massive overhaul.",
-  "thumbImage": https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/TrustedFriend.png,
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/TrustedFriend.png",
   "thumbFit": "contain",
   "thumbPosition": "center",
   "body": "<p>Roblox added Trusted Friends a while ago, but we realized we could use them in a much better way inside Friends Remover. Trusted Friends are now fully protected just like pinned friends, meaning they can no longer accidentally be removed by you or by any background removal systems. </p>",
