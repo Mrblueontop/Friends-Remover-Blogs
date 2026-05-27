@@ -2,10 +2,10 @@
   "title": "A Trusted Friend 💙",
   "cat": "Updates",
   "date": "May 27, 2026",
-  "badge": "OUT NOW",
+  "badge": "OUT OUT NOW",
   "badgeAfter": "OUT NOW",
   "version": "1.3",
-  "breaking": false,
+  "breaking": true,
   "coming_soon": true,
   "platforms": ["Chrome"],
   "excerpt": "Trusted Friends are now fully protected just like pinned friends — plus tutorials, badges, notifications, and a massive overhaul.",
@@ -36,15 +36,15 @@
       },
       {
         "text": "Roblox badges next to usernames",
-        "moreInfo": "Users can now display badges such as Verified, Roblox Admin, Star Creator, Premium, and more."
+        "moreInfo": "Users who are verified or have other special status will now have their corresponding badges next to their display names or usernames in the popup."
       },
       {
         "text": "Friends Remover badge",
-        "moreInfo": "Users who has or used Friends Remover has a sleek Friends Remover badge next to their profile."
+        "moreInfo": "Users who have or used Friends Remover now have a sleek badge next to their username or display name."
       },
       {
-        "text": "Notifications when somebody removes you",
-        "moreInfo": "If somebody removes you from their friends list, Friends Remover can now notify you."
+        "text": "\"Notify if a Friend Removes You\" Setting",
+        "moreInfo": "If this setting is on, you will be notified if a friend is removed from your friends list."
       },
       {
         "text": "Captcha when removing friends",
@@ -52,7 +52,7 @@
       },
       {
         "text": "Reduce Animations setting",
-        "moreInfo": "The extension can now dynamically reduce animations depending on how fast or slow your device is."
+        "moreInfo": "This setting doesn't have a fixed default and will be determined to turn on or off depending on your frames per second when you first install the extension and start using the popup. The extension can now dynamically reduce animations if you start to experience lag while using the popup."
       },
       {
         "text": "Speed Arrows in Compact View",
@@ -69,6 +69,10 @@
       {
         "text": "Toggle for bad users visibility",
         "moreInfo": "You can now choose whether bad users flagged by Rotectors API are shown or hidden."
+      },
+      {
+        "text": "Game icon shown behind headshots",
+        "moreInfo": "When a friend is currently playing a game, their game icon will now appear behind their avatar headshot."
       }
     ],
     "removed": [
@@ -80,16 +84,17 @@
     ],
     "fixed": [
       "Multiple selection being extremely glitchy",
-      "Status removal issues",
-      "Inactivity tracker incorrectly running during removals",
-      "Inactivity tracker triggering during tutorials",
+      {
+        "text": "Status removal issues",
+        "moreInfo": "I don't know why the status was missing from the last update, but we fixed it. So sorry, lol."
+      },
+      {
+        "text": "Updated inactivity tracker showing logic",
+        "moreInfo": "The activity tracker will no longer show on specific pages when you're doing specific stuff in the popup, such as when you're on the friend removal screen, and even when you're doing our tutorial."
+      },
       {
         "text": "Local storage handling",
         "moreInfo": "The extension now handles offline saving and API downtime much better using improved local storage systems."
-      },
-      {
-        "text": "Popup lag spikes",
-        "moreInfo": "Animations and heavy effects are now temporarily paused automatically if the extension detects lag or FPS instability."
       }
     ],
     "improved": [
@@ -106,16 +111,12 @@
         "moreInfo": "Block Mode now includes a dedicated logo and temporarily changes the popup theme to blue while enabled without affecting your actual saved theme."
       },
       {
-        "text": "Bad user warning UI",
-        "moreInfo": "Warnings for bad users are now cleaner, easier to understand, and less intrusive."
-      },
-      {
         "text": "Friends playing status UI",
         "moreInfo": "Game statuses now use sleek toast notifications instead of modals."
       },
       {
         "text": "Headshot styling",
-        "moreInfo": "Users currently in-game now have subtle shadows added to their avatars for cleaner visuals."
+        "moreInfo": "Users who are currently in a game will now have a shadow added to their avatar only if the game icon is shown behind them."
       },
       {
         "text": "Game title truncation",
@@ -142,17 +143,9 @@
         "moreInfo": "Statuses are now powered by a cleaner and easier-to-maintain API."
       }
     ],
-    "experimental": [
-      {
-        "text": "Automatic lag detection system",
-        "moreInfo": "When severe lag is detected, Friends Remover can temporarily disable animations until performance stabilizes."
-      }
-    ],
+    "experimental": [],
     "other": [
-      "Pinned users now display with gold usernames",
-      "You can no longer pin users flagged as bad by Rotectors API",
-      "Bad user flags are provided by Rotectors public API",
-      "Notification system currently only appears inside the popup",
+      "Pinned users will now have a golden username",
       "Popup performance has been heavily optimized throughout the extension"
     ]
   }
