@@ -35,10 +35,6 @@
         "moreInfo": "New users will now see a guided tutorial explaining the popup, removal system, selection system, and major buttons. Tutorials are skippable for new users only."
       },
       {
-        "text": "Notification system powered by our worker",
-        "moreInfo": "Important alerts, outages, announcements, and notices can now appear directly inside the popup."
-      },
-      {
         "text": "Roblox badges next to usernames",
         "moreInfo": "Users can now display badges such as Verified, Roblox Admin, Star Creator, Premium, and more."
       },
