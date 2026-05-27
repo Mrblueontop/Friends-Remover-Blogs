@@ -1,8 +1,8 @@
 {
   "title": "A Trusted Friend 💙",
   "cat": "Updates",
-  "date": "May 29, 2026",
-  "badge": "COMING SOON",
+  "date": "May 27, 2026",
+  "badge": "OUT NOW",
   "badgeAfter": "OUT NOW",
   "version": "1.3",
   "breaking": false,
@@ -40,7 +40,7 @@
       },
       {
         "text": "Friends Remover badge",
-        "moreInfo": "Users who use Friends Remover can now show a sleek Friends Remover badge next to their profile."
+        "moreInfo": "Users who has or used Friends Remover has a sleek Friends Remover badge next to their profile."
       },
       {
         "text": "Notifications when somebody removes you",
