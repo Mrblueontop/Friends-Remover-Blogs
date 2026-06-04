@@ -16,7 +16,7 @@
   "thumbFit": "contain",
   "thumbPosition": "center",
 
-  "body": "<p>For almost a year, Friends Remover has been ONE of the many extensions to help you get rid of your Roblox friends on PC. However, as a removal extension, we aren't really that special. Sure, we have unfriend history, background removals, and more, but I want something better. I want a bigger way to stand out maybe for users to use Friends Remover on mobile.</p><p>And that's where Friends Remover Mobile Edition comes in. We have been experimenting, and we are preparing the beta version of Friends Remover for mobile!</p><p><b>Android</b><br>How does it work?</p><p>1. Go to your Play Store.<br>2. Search for \"quetaa.\"<br>3. Download the app.<br>4. Go to our extension page by searching for \"Chrome Web Store\" and looking up \"Friends Remover.\"<br>5. Click \"Add to Chrome.\"</p><p>And boom! Mobile support will soon be available on Android devices. iOS support will be available soon after.</p>",
+  "body": "<p>For almost a year, Friends Remover has been one of the many extensions used to manage Roblox friends on PC. While the extension already includes features like Unfriend History and background removals, we are now working toward a larger goal: mobile support.</p><p>This is where Friends Remover Mobile Edition comes in. We have been experimenting and are preparing a beta version for mobile devices.</p><p><b>Android</b><br>How it works:</p><p>1. Open the Play Store.<br>2. Search for \"quetaa.\"<br>3. Install the app.<br>4. Open Chrome Web Store and search for \"Friends Remover.\"<br>5. Click \"Add to Chrome.\"</p><p>Mobile support will be available soon on Android, with iOS support planned afterward.</p>",
 
   "changes": {
     "added": [
@@ -26,9 +26,9 @@
         "moreInfo": "Redesigned settings UI for mobile devices."
       },
       {
-        "text": "Swipe Navigation on Mobile",
+        "text": "Swipe Navigation",
         "platform": "Mobile",
-        "moreInfo": "Swipe left or right to change friends on mobile."
+        "moreInfo": "Swipe left or right to switch between friends."
       },
       {
         "text": "AFK Warning Toast",
@@ -48,7 +48,7 @@
       {
         "text": "FrActionGuard",
         "platform": "All",
-        "moreInfo": "Rate limits sensitive actions and triggers captcha when needed."
+        "moreInfo": "Rate-limits sensitive actions and triggers CAPTCHA when needed."
       }
     ],
 
@@ -64,19 +64,14 @@
         "moreInfo": "Fixed redirecting back to friends list."
       },
       {
-        "text": "Headshot Rendering Issues",
+        "text": "Captcha Avatar Loading",
         "platform": "All",
-        "moreInfo": "Fixed headshots appearing incorrectly or not loading."
-      },
-      {
-        "text": "Captcha Headshot Loading",
-        "platform": "All",
-        "moreInfo": "Fixed missing avatars during captcha."
+        "moreInfo": "Fixed missing avatars during CAPTCHA sessions."
       },
       {
         "text": "Inactive Friends System",
         "platform": "All",
-        "moreInfo": "Fixed inactive friend detection and background removal issues."
+        "moreInfo": "Fixed inactive friend detection and background removal logic."
       },
       {
         "text": "Menu Button Bug",
@@ -87,14 +82,14 @@
 
     "improved": [
       {
-        "text": "Unfriend History UI Overhaul",
+        "text": "Unfriend History UI",
         "platform": "All",
-        "moreInfo": "Made history UI match friends list design."
+        "moreInfo": "Updated history UI to match friends compact view design."
       },
       {
-        "text": "Simplified History Menu",
+        "text": "Simplified Unfriend History Menu",
         "platform": "All",
-        "moreInfo": "Removed extra options, now only shows View Profile."
+        "moreInfo": "Reduced options to only View Profile."
       },
       {
         "text": "Expanded Auto Sync System",
@@ -102,42 +97,42 @@
         "moreInfo": "Background sync now waits for API recovery before applying changes."
       },
       {
-        "text": "Captcha Scaling System",
+        "text": "Dynamic CAPTCHA Scaling",
         "platform": "All",
-        "moreInfo": "Dynamic captcha requirements based on removal size."
+        "moreInfo": "CAPTCHA requirements scale based on action size."
       },
       {
-        "text": "Dynamic Polling System",
+        "text": "Dynamic Background Polling",
         "platform": "All",
-        "moreInfo": "Background polling now scales with friend count."
+        "moreInfo": "Polling speed adapts to friend count."
       },
       {
         "text": "Dynamic Headshot Quality",
         "platform": "All",
-        "moreInfo": "Lower friend counts = higher quality avatars."
+        "moreInfo": "Avatar quality scales with friend count for performance."
       },
       {
-        "text": "Performance Logging Cleanup",
+        "text": "Logging Cleanup",
         "platform": "All",
-        "moreInfo": "Removed excessive debug logs."
+        "moreInfo": "Removed excessive debug logging."
       },
       {
-        "text": "Reduced Animations Mode",
+        "text": "Reduced Animation Mode",
         "platform": "All",
-        "moreInfo": "Also reduces avatar headshot sizes."
+        "moreInfo": "Reduces animations and avatar rendering load."
       }
     ],
 
     "security": [
       {
-        "text": "Captcha Protection Expansion",
+        "text": "Expanded CAPTCHA Protection",
         "platform": "All",
-        "moreInfo": "Added captcha to more sensitive actions."
+        "moreInfo": "CAPTCHA added to more sensitive actions."
       },
       {
         "text": "Removal Safety Lock",
         "platform": "All",
-        "moreInfo": "Cannot cancel removal when fewer than 7 friends remain."
+        "moreInfo": "Prevents cancellation when fewer than 7 friends remain."
       }
     ],
 
@@ -148,14 +143,14 @@
         "moreInfo": "Hard limit set to 775 entries."
       },
       {
-        "text": "History Search Button Integration",
+        "text": "History Search Integration",
         "platform": "All",
-        "moreInfo": "Uses avatar headshot search button."
+        "moreInfo": "Uses header search button for to search through friends now."
       },
       {
-        "text": "Settings Mobile Support",
+        "text": "Mobile Settings Support",
         "platform": "Mobile",
-        "moreInfo": "Settings now fully usable on mobile."
+        "moreInfo": "Settings fully usable on mobile devices."
       },
       {
         "text": "Mobile Navigation System",
@@ -163,7 +158,7 @@
         "moreInfo": "Added hamburger menu and sidebar navigation."
       },
       {
-        "text": "Toast System Update",
+        "text": "Toast settings Update",
         "platform": "Mobile",
         "moreInfo": "Toasts now slide from bottom instead of side."
       }
