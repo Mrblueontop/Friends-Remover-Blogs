@@ -21,77 +21,66 @@
   "changes": {
     "added": [
       {
-        "text": "Unfriend History Back Button",
-        "moreInfo": "Added a back button to navigate out of Unfriend History."
-      },
-      {
-        "text": "Dismiss Entry System",
-        "moreInfo": "You can now dismiss entries in Unfriend History."
-      },
-      {
-        "text": "Custom Unfriend History Logo",
-        "moreInfo": "A custom logo now appears when Unfriend History is open."
-      },
-      {
-        "text": "Captcha Verification Expansion",
-        "moreInfo": "Added captcha protection for more actions like pin spam and untrusting friends."
-      },
-      {
-        "text": "AFK Warning Toast",
-        "moreInfo": "AFK warning system now uses a toast notification instead of a banner."
-      },
-      {
         "text": "Mobile UI Settings Redesign",
-        "moreInfo": "Settings UI redesigned for mobile devices."
+        "platform": "Mobile",
+        "moreInfo": "Redesigned settings UI for mobile devices."
       },
       {
         "text": "Swipe Navigation on Mobile",
-        "moreInfo": "Swipe between friends on mobile devices."
+        "platform": "Mobile",
+        "moreInfo": "Swipe left or right to change friends on mobile."
       },
       {
-        "text": "FrActionGuard System",
-        "moreInfo": "Rate-limits sensitive actions and requires captcha when needed."
+        "text": "AFK Warning Toast",
+        "platform": "All",
+        "moreInfo": "AFK warning now appears as a toast notification."
       },
       {
-        "text": "Dynamic Background Polling",
-        "moreInfo": "Background polling speed now adjusts based on friend count."
-      }
-    ],
-
-    "removed": [
-      {
-        "text": "Old Unfriend History Top Bar",
-        "moreInfo": "Removed legacy top bar from Unfriend History."
+        "text": "Dismiss Entry System",
+        "platform": "All",
+        "moreInfo": "Unfriend History entries can now be dismissed."
       },
       {
-        "text": "Details Option in History Menu",
-        "moreInfo": "Simplified menu to only include View Profile."
+        "text": "Custom Unfriend History Logo",
+        "platform": "All",
+        "moreInfo": "Logo changes when Unfriend History is open."
+      },
+      {
+        "text": "FrActionGuard",
+        "platform": "All",
+        "moreInfo": "Rate limits sensitive actions and triggers captcha when needed."
       }
     ],
 
     "fixed": [
       {
         "text": "Unfriend History Server Sync",
-        "moreInfo": "Fixed history loading local data instead of server data."
+        "platform": "All",
+        "moreInfo": "Fixed history loading only local data instead of server data."
       },
       {
         "text": "History Redirect Bug",
+        "platform": "All",
         "moreInfo": "Fixed redirecting back to friends list."
       },
       {
-        "text": "Headshot Cycling Issue",
-        "moreInfo": "Fixed headshots incorrectly cycling in Unfriend History."
+        "text": "Headshot Rendering Issues",
+        "platform": "All",
+        "moreInfo": "Fixed headshots appearing incorrectly or not loading."
       },
       {
         "text": "Captcha Headshot Loading",
-        "moreInfo": "Fixed missing headshots during captcha."
+        "platform": "All",
+        "moreInfo": "Fixed missing avatars during captcha."
       },
       {
         "text": "Inactive Friends System",
-        "moreInfo": "Fixed inactive friends settings and background removal issues."
+        "platform": "All",
+        "moreInfo": "Fixed inactive friend detection and background removal issues."
       },
       {
         "text": "Menu Button Bug",
+        "platform": "All",
         "moreInfo": "Fixed menu button randomly disabling."
       }
     ],
@@ -99,65 +88,84 @@
     "improved": [
       {
         "text": "Unfriend History UI Overhaul",
-        "moreInfo": "Made Unfriend History match Friends List design."
+        "platform": "All",
+        "moreInfo": "Made history UI match friends list design."
       },
       {
-        "text": "Server Auto Sync System",
-        "moreInfo": "Background changes now wait for API recovery before syncing."
+        "text": "Simplified History Menu",
+        "platform": "All",
+        "moreInfo": "Removed extra options, now only shows View Profile."
+      },
+      {
+        "text": "Expanded Auto Sync System",
+        "platform": "All",
+        "moreInfo": "Background sync now waits for API recovery before applying changes."
       },
       {
         "text": "Captcha Scaling System",
-        "moreInfo": "Medium: 3–5 captchas, Large: 5–7, Massive: 8–10, Full removal: 10."
+        "platform": "All",
+        "moreInfo": "Dynamic captcha requirements based on removal size."
+      },
+      {
+        "text": "Dynamic Polling System",
+        "platform": "All",
+        "moreInfo": "Background polling now scales with friend count."
       },
       {
         "text": "Dynamic Headshot Quality",
-        "moreInfo": "Headshot quality now adjusts based on friend count."
+        "platform": "All",
+        "moreInfo": "Lower friend counts = higher quality avatars."
       },
       {
-        "text": "Reduce Animations Optimization",
-        "moreInfo": "Now also reduces headshot sizes for performance."
+        "text": "Performance Logging Cleanup",
+        "platform": "All",
+        "moreInfo": "Removed excessive debug logs."
       },
       {
-        "text": "Log Cleanup",
-        "moreInfo": "Removed excessive background logs causing lag."
-      },
-      {
-        "text": "Inactive Friends API Update",
-        "moreInfo": "Updated to use newer inactive friends API."
-      },
-      {
-        "text": "History Capacity System",
-        "moreInfo": "History limit set to 775 entries with warning instead of trimming."
+        "text": "Reduced Animations Mode",
+        "platform": "All",
+        "moreInfo": "Also reduces avatar headshot sizes."
       }
     ],
 
     "security": [
       {
-        "text": "Removal Cancellation Protection",
+        "text": "Captcha Protection Expansion",
+        "platform": "All",
+        "moreInfo": "Added captcha to more sensitive actions."
+      },
+      {
+        "text": "Removal Safety Lock",
+        "platform": "All",
         "moreInfo": "Cannot cancel removal when fewer than 7 friends remain."
       }
     ],
 
     "other": [
       {
-        "text": "History Search Integration",
-        "moreInfo": "Uses headshot search button in Unfriend History."
+        "text": "History Entry Limit",
+        "platform": "All",
+        "moreInfo": "Hard limit set to 775 entries."
+      },
+      {
+        "text": "History Search Button Integration",
+        "platform": "All",
+        "moreInfo": "Uses avatar headshot search button."
       },
       {
         "text": "Settings Mobile Support",
-        "moreInfo": "Settings now fully supported on mobile devices."
+        "platform": "Mobile",
+        "moreInfo": "Settings now fully usable on mobile."
       },
       {
         "text": "Mobile Navigation System",
-        "moreInfo": "Added top bar, hamburger menu, and sidebar drawer."
+        "platform": "Mobile",
+        "moreInfo": "Added hamburger menu and sidebar navigation."
       },
       {
-        "text": "API Banner Dismiss",
-        "moreInfo": "API status banner can now be dismissed."
-      },
-      {
-        "text": "Captcha Session Rule Change",
-        "moreInfo": "Captcha sessions only save after at least one correct answer."
+        "text": "Toast System Update",
+        "platform": "Mobile",
+        "moreInfo": "Toasts now slide from bottom instead of side."
       }
     ]
   }
