@@ -1,81 +1,97 @@
 {
-  "title": "Mobile Edition",
+  "title": "Friends Remover Mobile Edition",
   "cat": "Updates",
   "date": "June 3, 2026",
   "badge": "COMING SOON",
   "version": "1.4",
   "breaking": false,
-  "platforms": ["Chrome"],
+
   "download": {
     "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgfahelckfinnhkpidebp"
+  },
 
-  "excerpt": "Mobile Edition Beta launches alongside a major Unfriend History overhaul, improved security systems, performance upgrades, and multiple stability fixes.",
+  "excerpt": "Mobile Edition is coming soon alongside a major Unfriend History overhaul, improved stability, stronger security systems, performance upgrades, and major UI improvements.",
 
-  "body": "<p>For almost a year, Friends Remover has been ONE of the many extensions to help you get rid of your Roblox friends on PC. However, as a removal extension, we aren't really that special. Sure, we have unfriend history, background removals, and more, but I want something better. I want a bigger way to stand out maybe for users to use Friends Remover on mobile.</p><p>And that's where Friends Remover Mobile Edition comes in. We have been experimenting, and we are ready to release our beta version of Friends Remover on mobile!</p><p><b>Android</b><br>How does it work?</p><p>1. Go to your Play Store.<br>2. Search for \"quetaa.\"<br>3. Download the app.<br>4. Go to our extension page by searching for \"Chrome Web Store\" and looking up \"Friends Remover.\"<br>5. Click \"Add to Chrome.\"</p><p>And boom! Now you have Friends Remover on your Android tablet or phone — anything Android. iOS support will be available soon!</p>",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/MobileEdition.png",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+
+  "body": "<p>For almost a year, Friends Remover has been ONE of the many extensions to help you get rid of your Roblox friends on PC. However, as a removal extension, we aren't really that special. Sure, we have unfriend history, background removals, and more, but I want something better. I want a bigger way to stand out maybe for users to use Friends Remover on mobile.</p><p>And that's where Friends Remover Mobile Edition comes in. We have been experimenting, and we are preparing the beta version of Friends Remover for mobile!</p><p><b>Android</b><br>How does it work?</p><p>1. Go to your Play Store.<br>2. Search for \"quetaa.\"<br>3. Download the app.<br>4. Go to our extension page by searching for \"Chrome Web Store\" and looking up \"Friends Remover.\"<br>5. Click \"Add to Chrome.\"</p><p>And boom! Mobile support will soon be available on Android devices. iOS support will be available soon after.</p>",
 
   "changes": {
     "added": [
       {
-        "text": "Mobile UI Settings Redesign",
-        "platform": "Mobile",
-        "moreInfo": "Redesigned settings UI for mobile devices."
-      },
-      {
-        "text": "Swipe Navigation on Mobile",
-        "platform": "Mobile",
-        "moreInfo": "Swipe left or right to change friends on mobile."
-      },
-      {
-        "text": "AFK Warning Toast",
-        "platform": "All",
-        "moreInfo": "AFK warning now appears as a toast notification."
+        "text": "Unfriend History Back Button",
+        "moreInfo": "Added a back button to navigate out of Unfriend History."
       },
       {
         "text": "Dismiss Entry System",
-        "platform": "All",
-        "moreInfo": "Unfriend History entries can now be dismissed."
+        "moreInfo": "You can now dismiss entries in Unfriend History."
       },
       {
         "text": "Custom Unfriend History Logo",
-        "platform": "All",
-        "moreInfo": "Logo changes when Unfriend History is open."
+        "moreInfo": "A custom logo now appears when Unfriend History is open."
       },
       {
-        "text": "FrActionGuard",
-        "platform": "All",
-        "moreInfo": "Rate limits sensitive actions and triggers captcha when needed."
+        "text": "Captcha Verification Expansion",
+        "moreInfo": "Added captcha protection for more actions like pin spam and untrusting friends."
+      },
+      {
+        "text": "AFK Warning Toast",
+        "moreInfo": "AFK warning system now uses a toast notification instead of a banner."
+      },
+      {
+        "text": "Mobile UI Settings Redesign",
+        "moreInfo": "Settings UI redesigned for mobile devices."
+      },
+      {
+        "text": "Swipe Navigation on Mobile",
+        "moreInfo": "Swipe between friends on mobile devices."
+      },
+      {
+        "text": "FrActionGuard System",
+        "moreInfo": "Rate-limits sensitive actions and requires captcha when needed."
+      },
+      {
+        "text": "Dynamic Background Polling",
+        "moreInfo": "Background polling speed now adjusts based on friend count."
+      }
+    ],
+
+    "removed": [
+      {
+        "text": "Old Unfriend History Top Bar",
+        "moreInfo": "Removed legacy top bar from Unfriend History."
+      },
+      {
+        "text": "Details Option in History Menu",
+        "moreInfo": "Simplified menu to only include View Profile."
       }
     ],
 
     "fixed": [
       {
         "text": "Unfriend History Server Sync",
-        "platform": "All",
-        "moreInfo": "Fixed history loading only local data instead of server data."
+        "moreInfo": "Fixed history loading local data instead of server data."
       },
       {
         "text": "History Redirect Bug",
-        "platform": "All",
         "moreInfo": "Fixed redirecting back to friends list."
       },
       {
-        "text": "Headshot Rendering Issues",
-        "platform": "All",
-        "moreInfo": "Fixed headshots appearing incorrectly or not loading."
+        "text": "Headshot Cycling Issue",
+        "moreInfo": "Fixed headshots incorrectly cycling in Unfriend History."
       },
       {
         "text": "Captcha Headshot Loading",
-        "platform": "All",
-        "moreInfo": "Fixed missing avatars during captcha."
+        "moreInfo": "Fixed missing headshots during captcha."
       },
       {
         "text": "Inactive Friends System",
-        "platform": "All",
-        "moreInfo": "Fixed inactive friend detection and background removal issues."
+        "moreInfo": "Fixed inactive friends settings and background removal issues."
       },
       {
         "text": "Menu Button Bug",
-        "platform": "All",
         "moreInfo": "Fixed menu button randomly disabling."
       }
     ],
@@ -83,84 +99,65 @@
     "improved": [
       {
         "text": "Unfriend History UI Overhaul",
-        "platform": "All",
-        "moreInfo": "Made history UI match friends list design."
+        "moreInfo": "Made Unfriend History match Friends List design."
       },
       {
-        "text": "Simplified History Menu",
-        "platform": "All",
-        "moreInfo": "Removed extra options, now only shows View Profile."
-      },
-      {
-        "text": "Expanded Auto Sync System",
-        "platform": "All",
-        "moreInfo": "Background sync now waits for API recovery before applying changes."
+        "text": "Server Auto Sync System",
+        "moreInfo": "Background changes now wait for API recovery before syncing."
       },
       {
         "text": "Captcha Scaling System",
-        "platform": "All",
-        "moreInfo": "Dynamic captcha requirements based on removal size."
-      },
-      {
-        "text": "Dynamic Polling System",
-        "platform": "All",
-        "moreInfo": "Background polling now scales with friend count."
+        "moreInfo": "Medium: 3–5 captchas, Large: 5–7, Massive: 8–10, Full removal: 10."
       },
       {
         "text": "Dynamic Headshot Quality",
-        "platform": "All",
-        "moreInfo": "Lower friend counts = higher quality avatars."
+        "moreInfo": "Headshot quality now adjusts based on friend count."
       },
       {
-        "text": "Performance Logging Cleanup",
-        "platform": "All",
-        "moreInfo": "Removed excessive debug logs."
+        "text": "Reduce Animations Optimization",
+        "moreInfo": "Now also reduces headshot sizes for performance."
       },
       {
-        "text": "Reduced Animations Mode",
-        "platform": "All",
-        "moreInfo": "Also reduces avatar headshot sizes."
+        "text": "Log Cleanup",
+        "moreInfo": "Removed excessive background logs causing lag."
+      },
+      {
+        "text": "Inactive Friends API Update",
+        "moreInfo": "Updated to use newer inactive friends API."
+      },
+      {
+        "text": "History Capacity System",
+        "moreInfo": "History limit set to 775 entries with warning instead of trimming."
       }
     ],
 
     "security": [
       {
-        "text": "Captcha Protection Expansion",
-        "platform": "All",
-        "moreInfo": "Added captcha to more sensitive actions."
-      },
-      {
-        "text": "Removal Safety Lock",
-        "platform": "All",
+        "text": "Removal Cancellation Protection",
         "moreInfo": "Cannot cancel removal when fewer than 7 friends remain."
       }
     ],
 
     "other": [
       {
-        "text": "History Entry Limit",
-        "platform": "All",
-        "moreInfo": "Hard limit set to 775 entries."
-      },
-      {
-        "text": "History Search Button Integration",
-        "platform": "All",
-        "moreInfo": "Uses avatar headshot search button."
+        "text": "History Search Integration",
+        "moreInfo": "Uses headshot search button in Unfriend History."
       },
       {
         "text": "Settings Mobile Support",
-        "platform": "Mobile",
-        "moreInfo": "Settings now fully usable on mobile."
+        "moreInfo": "Settings now fully supported on mobile devices."
       },
       {
         "text": "Mobile Navigation System",
-        "platform": "Mobile",
-        "moreInfo": "Added hamburger menu and sidebar navigation."
+        "moreInfo": "Added top bar, hamburger menu, and sidebar drawer."
       },
       {
-        "text": "Toast System Update",
-        "platform": "Mobile",
-        "moreInfo": "Toasts now slide from bottom instead of side."
+        "text": "API Banner Dismiss",
+        "moreInfo": "API status banner can now be dismissed."
+      },
+      {
+        "text": "Captcha Session Rule Change",
+        "moreInfo": "Captcha sessions only save after at least one correct answer."
       }
     ]
   }
