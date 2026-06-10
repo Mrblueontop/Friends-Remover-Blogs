@@ -20,11 +20,13 @@
 "added": [
 {
 "text": "FR+ Membership",
-"moreInfo": "VIP has been completely replaced with FR+, a redesigned premium membership featuring exclusive tools, perks, and future updates for a one-time purchase of 115 Robux."
+"moreInfo": "VIP has been completely replaced with FR+, a redesigned premium membership featuring exclusive tools, perks, and future updates for a one-time purchase of 115 Robux.",
+"platform": "FR Plus"
 },
 {
 "text": "Scheduled Removals in Popup",
-"moreInfo": "Scheduled removals have been moved out of settings and are now managed directly inside the popup for a cleaner experience."
+"moreInfo": "Scheduled removals have been moved out of settings and are now managed directly inside the popup for a cleaner experience.",
+"platform": "FR Plus"
 },
 {
 "text": "Friend Sorting System",
@@ -123,12 +125,22 @@
 {
 "text": "Verification System",
 "moreInfo": "Avatar puzzle verifications have been dramatically reduced and now only appear in genuinely unusual situations."
+},
+{
+"text": "Larger Settings Logo",
+"moreInfo": "The Friends Remover logo displayed throughout settings has been increased in size for better visibility and a cleaner appearance."
 }
 ],
 "experimental": [],
 "other": [
-"Block Mode is now exclusive to FR+ members",
-"Scheduled Removals are now exclusive to FR+ members",
+{
+"text": "Block Mode is now exclusive to FR+ members",
+"platform": "FR Plus"
+},
+{
+"text": "Scheduled Removals are now exclusive to FR+ members",
+"platform": "FR Plus"
+},
 "Massive performance improvements throughout the entire extension",
 "Dozens of community-reported bugs have been fixed",
 "Large friends lists now perform significantly better than before"
