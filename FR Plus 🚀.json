@@ -1,0 +1,137 @@
+{
+"title": "Introducing FR+ 🚀",
+"cat": "Updates",
+"date": "June 10, 2026",
+"badge": "VERSION 1.4",
+"badgeAfter": "OUT NOW",
+"version": "1.4",
+"breaking": false,
+"coming_soon": false,
+"platforms": ["Chrome"],
+"excerpt": "FR+ replaces VIP with a completely redesigned membership, massive performance improvements, dozens of bug fixes, popup upgrades, sorting systems, and major quality-of-life improvements for users with large friends lists.",
+"thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/FRPlus.png",
+"thumbFit": "contain",
+"thumbPosition": "center",
+"body": "<p>We might have cooked our biggest update ever.</p><p>VIP has officially been retired and replaced with <strong>FR+</strong>, a completely redesigned premium membership packed with exclusive features for a one-time purchase of just 115 Robux.</p><p>Alongside FR+, we've spent weeks fixing bugs reported by the community, improving extension performance, redesigning menus, and making Friends Remover significantly faster and more reliable for users with large friends lists.</p>",
+"download": {
+"chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+},
+"changes": {
+"added": [
+{
+"text": "FR+ Membership",
+"moreInfo": "VIP has been completely replaced with FR+, a redesigned premium membership featuring exclusive tools, perks, and future updates for a one-time purchase of 115 Robux."
+},
+{
+"text": "Scheduled Removals in Popup",
+"moreInfo": "Scheduled removals have been moved out of settings and are now managed directly inside the popup for a cleaner experience."
+},
+{
+"text": "Friend Sorting System",
+"moreInfo": "You can now sort friends inside the popup based on their status, making it easier to organize and manage your friends list."
+},
+{
+"text": "New Roblox Group",
+"moreInfo": "A brand-new Roblox group has been created for the Friends Remover community."
+}
+],
+"removed": [
+{
+"text": "VIP Membership",
+"moreInfo": "The old VIP system has been fully retired and replaced by FR+."
+},
+{
+"text": "Scheduled Removal Settings Page",
+"moreInfo": "Scheduled removals are no longer configured through settings."
+},
+{
+"text": "Custom Theme Builder",
+"moreInfo": "The custom theme builder has been removed."
+},
+{
+"text": "Mobile Window Size Fallback Detection",
+"moreInfo": "The old fallback system used to detect mobile-sized windows has been removed."
+},
+{
+"text": "Settings Roundness",
+"moreInfo": "All rounded corners and radius styling have been removed from settings elements."
+}
+],
+"fixed": [
+{
+"text": "Dynamic Pins",
+"moreInfo": "Dynamic Pins were not functioning correctly and have now been fully fixed."
+},
+{
+"text": "Clear All VIP Button",
+"moreInfo": "The Clear All button inside the old VIP section was not working properly and has been fixed."
+},
+{
+"text": "Refresh Button",
+"moreInfo": "The refresh button located inside the three-dots menu now properly refreshes data."
+},
+{
+"text": "Loading Screen Freeze",
+"moreInfo": "The extension could become stuck forever on the loading screen. It now times out after 20 seconds and displays an error instead."
+},
+{
+"text": "Friend Name Security Issue",
+"moreInfo": "Friend usernames are now safely handled to prevent malicious content from being injected into the extension."
+},
+{
+"text": "Notification Spam",
+"moreInfo": "Automatic background removals now generate a single summary notification instead of spamming multiple notifications."
+},
+{
+"text": "Context Menu Protection",
+"moreInfo": "Pinned users can no longer be removed through the Roblox context menu. The extension now checks pinned status before any removal action."
+},
+{
+"text": "Non-Friend Removal Errors",
+"moreInfo": "Attempting to remove users who are not actually your friend now displays a proper error instead of incorrectly reporting success."
+},
+{
+"text": "Scheduled Friend Protection",
+"moreInfo": "Friends scheduled for future actions can no longer be accidentally removed by background removal systems."
+}
+],
+"improved": [
+{
+"text": "Performance Optimizations",
+"moreInfo": "Friends load significantly faster. Profile information and avatars are fetched simultaneously, and the friends list now appears before online statuses finish loading."
+},
+{
+"text": "Reduce Animations Mode",
+"moreInfo": "Reduce Animations now disables animated game backgrounds and popup header animations for improved performance."
+},
+{
+"text": "Automatic Large List Optimization",
+"moreInfo": "Users with over 400 friends will now automatically have Reduce Animations permanently enabled."
+},
+{
+"text": "Three-Dots Menu Redesign",
+"moreInfo": "The menu has been redesigned and now uses your active theme color instead of a semi-transparent black background."
+},
+{
+"text": "Game Status Titles",
+"moreInfo": "Game titles shown in popup statuses now truncate after 23 characters for a cleaner appearance."
+},
+{
+"text": "Popup Navigation Memory",
+"moreInfo": "The popup now remembers where you were and returns you to that page after reopening."
+},
+{
+"text": "Verification System",
+"moreInfo": "Avatar puzzle verifications have been dramatically reduced and now only appear in genuinely unusual situations."
+}
+],
+"experimental": [],
+"other": [
+"Block Mode is now exclusive to FR+ members",
+"Scheduled Removals are now exclusive to FR+ members",
+"Massive performance improvements throughout the entire extension",
+"Dozens of community-reported bugs have been fixed",
+"Large friends lists now perform significantly better than before"
+]
+}
+}
