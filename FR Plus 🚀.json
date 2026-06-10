@@ -65,8 +65,8 @@
 "moreInfo": "Dynamic Pins were not functioning correctly and have now been fully fixed."
 },
 {
-"text": "Clear All VIP Button",
-"moreInfo": "The Clear All button inside the old VIP section was not working properly and has been fixed."
+"text": "Clear All Button",
+"moreInfo": "The Clear All button in popup was not working properly and has been fixed."
 },
 {
 "text": "Refresh Button",
