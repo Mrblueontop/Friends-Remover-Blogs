@@ -151,7 +151,7 @@
       },
       {
         "text": "Rocaptcha filtering",
-        "moreInfo": "Rocaptcha now skips headless avatars and avatars with identical colors."
+        "moreInfo": "Rocaptcha now skips headless avatars and avatars with identical colors all over their avatar."
       },
       {
         "text": "Game title truncation",
