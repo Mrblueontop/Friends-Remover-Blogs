@@ -130,12 +130,7 @@
       },
       {
         "text": "FR+ startup detection",
-        "moreInfo": "Updated startup detection to identify FR+ users faster and more reliably.",
-        "platform": "FR Plus"
-      },
-      {
-        "text": "FR+ ownership detection",
-        "moreInfo": "Many FR+ features now work using ownership detection instead of API requests.",
+        "moreInfo": "Now uses the Roblox API for subscriptions on startup",
         "platform": "FR Plus"
       },
       {
