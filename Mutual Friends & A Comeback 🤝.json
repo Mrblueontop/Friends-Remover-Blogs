@@ -112,7 +112,7 @@
       },
       {
         "text": "undefined has been removed notification",
-        "moreInfo": "Fixed this unnecessary notification appearing incorrectly."
+        "moreInfo": "Fixed this unnecessary notification appearing incorrectly and removed it completely bye-bye bug."
       },
       {
         "text": "Search button disappearing after history",
