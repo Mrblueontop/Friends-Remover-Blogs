@@ -25,163 +25,136 @@
       },
       {
         "text": "Suggest pins system with settings",
-        "moreInfo": "Recommends friends you should pin based on how long you've been friends and how many mutual friends you share. It recommends up to five users and is randomized. It can be turned off in the General settings tab."
+        "moreInfo": "Recommends friends you should pin based on how long you've been friends and mutual connections."
       },
       {
         "text": "Mutual friend viewer in popup",
-        "moreInfo": "You can see if a friend is also a friend of another user. It appears on the right side of their avatar. You can click a mutual friend to view them in Compact Viewer."
+        "moreInfo": "Shows shared friends between users in Compact Viewer."
       },
       {
         "text": "FR+ subscription system",
-        "moreInfo": "FR+ is now a subscription-based system costing 115 Robux per month instead of a gamepass. Existing gamepass owners will be granted FR+. If the subscription expires or is canceled, FR+ access will be removed.",
+        "moreInfo": "FR+ is now 115 Robux per month subscription.",
         "platform": "FR Plus"
       },
       {
         "text": "Email required before purchasing FR+",
-        "moreInfo": "Users must enter an email before purchasing FR+ for verification.",
+        "moreInfo": "Users must enter an email for verification.",
         "platform": "FR Plus"
       },
       {
         "text": "FR+ policy acceptance requirement",
-        "moreInfo": "Users must accept the FR+ terms before purchasing FR+.",
+        "moreInfo": "Users must accept terms before purchase.",
         "platform": "FR Plus"
       },
       {
         "text": "Security lock",
-        "moreInfo": "Secure your account from misuse of Friends Remover to remove all friends. To reset your password, go to the Discord server."
+        "moreInfo": "Protects account from misuse of mass friend removal."
       },
       {
         "text": "Friend duration in Compact Viewer",
-        "moreInfo": "You can now view how long you have been friends with any user in Compact Viewer. This replaces the old bio text display."
+        "moreInfo": "Shows how long you've been friends with a user."
       }
     ],
     "removed": [
       {
-        "text": "Filter by account age setting (fully removed)",
-        "moreInfo": "This filter has been permanently removed and will not return."
+        "text": "Filter by account age setting",
+        "moreInfo": "Permanently removed."
       },
       {
         "text": "Notify if a Friend Removes You is no longer Plus-only",
-        "moreInfo": "This feature has been removed to improve free user experience."
+        "moreInfo": "Moved to free tier."
       },
       {
-        "text": "Rocaptcha system removed from settings",
-        "moreInfo": "The Rocaptcha system has been fully removed from extension settings."
+        "text": "Rocaptcha system removed",
+        "moreInfo": "Fully removed from settings."
       }
     ],
     "fixed": [
       {
-        "text": "Settings no longer switch to mobile UI when resizing",
-        "moreInfo": "Resizing the settings page no longer forces mobile UI mode."
+        "text": "Settings mobile UI bug",
+        "moreInfo": "No longer forces mobile layout on resize."
       },
       {
-        "text": "Search and filter buttons now properly disable during loading/menu",
-        "moreInfo": "Prevents user actions during loading states."
+        "text": "Search and filter disable bug",
+        "moreInfo": "Buttons now properly disable during loading."
       },
       {
-        "text": "Block mode logo no longer appears on popup open",
-        "moreInfo": "Fixed an issue where the block mode logo appeared incorrectly on startup."
+        "text": "Block mode logo bug",
+        "moreInfo": "Fixed incorrect popup startup logo."
       },
       {
-        "text": "Fixed incorrect theme showing during loading (cached theme fix)",
-        "moreInfo": "The last applied theme now loads instantly without reverting to default."
+        "text": "Loading screen freeze",
+        "moreInfo": "Now times out after 20 seconds."
       },
       {
-        "text": "Unpin button fixed for banned accounts",
-        "moreInfo": "Fixed an issue where unpin actions did not work correctly for banned accounts."
+        "text": "Friend name security issue",
+        "moreInfo": "Prevents injection in usernames."
       },
       {
-        "text": "Menu now opens correctly when reopened",
-        "moreInfo": "Fixed a bug where the menu would fail to open if previously opened."
+        "text": "Notification spam",
+        "moreInfo": "Replaced with single summary toast."
       },
       {
-        "text": "Fixed 'undefined removed from friends list' notification",
-        "moreInfo": "Fixed notification bug causing incorrect usernames to appear."
+        "text": "Context menu protection",
+        "moreInfo": "Pinned users cannot be removed accidentally."
       },
       {
-        "text": "Search button fixed after closing history",
-        "moreInfo": "Restores search functionality after exiting history."
+        "text": "Non-friend removal errors",
+        "moreInfo": "Shows proper error instead of success."
       },
       {
-        "text": "UserDataManager method fixed (setSetting vs saveSetting mismatch)",
-        "moreInfo": "Fixed broken settings saving caused by incorrect method calls."
+        "text": "Scheduled friend protection",
+        "moreInfo": "Prevents accidental removal."
       }
     ],
     "improved": [
       {
-        "text": "Compact viewer arrows now loop continuously",
-        "moreInfo": "Smooth infinite navigation in compact view."
+        "text": "Performance optimizations",
+        "moreInfo": "Faster loading and avatar fetching."
       },
       {
-        "text": "FR+ startup detection improved",
-        "moreInfo": "Faster and more reliable FR+ detection on startup.",
+        "text": "Reduce animations mode",
+        "moreInfo": "Improves performance on weaker devices."
+      },
+      {
+        "text": "Large list optimization",
+        "moreInfo": "Auto enables performance mode for 400+ friends."
+      },
+      {
+        "text": "Menu redesign",
+        "moreInfo": "Now matches theme colors."
+      },
+      {
+        "text": "Popup navigation memory",
+        "moreInfo": "Remembers last page."
+      },
+      {
+        "text": "Verification system improvements",
+        "moreInfo": "Less frequent puzzles."
+      },
+      {
+        "text": "UI scaling improvements",
+        "moreInfo": "Cleaner layout overall."
+      }
+    ],
+    "experimental": [],
+    "other": [
+      {
+        "text": "Block Mode is now exclusive to FR+ members",
         "platform": "FR Plus"
       },
       {
-        "text": "Popup handling of active removals improved",
-        "moreInfo": "Improved stability when managing active friend removals."
+        "text": "Scheduled Removals are now exclusive to FR+ members",
+        "platform": "FR Plus"
       },
       {
-        "text": "Resume system for ongoing removals improved",
-        "moreInfo": "Improved continuation of paused removal processes."
+        "text": "Massive performance improvements throughout the entire extension"
       },
       {
-        "text": "Toast system uses capture-phase listeners",
-        "moreInfo": "Notifications now trigger more reliably."
+        "text": "Dozens of community-reported bugs have been fixed"
       },
       {
-        "text": "Game title truncation updated (26–28 characters)",
-        "moreInfo": "Cleaner display for long game titles."
-      },
-      {
-        "text": "Sent state now persists using local storage",
-        "moreInfo": "Sent status remains saved even after reopening history."
-      },
-      {
-        "text": "Untrust now re-renders list instantly",
-        "moreInfo": "Instant UI updates after untrusting a friend."
-      },
-      {
-        "text": "Bulk selection now persists after popup reopen",
-        "moreInfo": "Selection state is preserved after reopening."
-      },
-      {
-        "text": "Overall performance and stability improved",
-        "moreInfo": "General speed and stability improvements."
-      }
-    ],
-    "other": [
-      {
-        "text": "Schedule Removal now shows FR+ toast for non-Plus users",
-        "moreInfo": "Previously allowed setup without FR+, now properly restricted."
-      },
-      {
-        "text": "Status updated to show logged-in username",
-        "moreInfo": "Displays username instead of user ID in the status bar."
-      },
-      {
-        "text": "Rocaptcha now removes headless and same-color avatars from puzzle pool",
-        "moreInfo": "Skips problematic avatars in puzzle selection."
-      },
-      {
-        "text": "Pre-send check shows toast if already friends",
-        "moreInfo": "Prevents duplicate friend requests."
-      },
-      {
-        "text": "Rate limit handling (429) shows cooldown toast",
-        "moreInfo": "Shows cooldown message when rate-limited."
-      },
-      {
-        "text": "Unpin option added to three-dots menu (bulk select only)",
-        "moreInfo": "Allows bulk unpinning from menu."
-      },
-      {
-        "text": "Menu can now be accessed during removal screen",
-        "moreInfo": "Menu remains accessible during active operations."
-      },
-      {
-        "text": "FR+ features now run without API calls using ownership detection",
-        "moreInfo": "Improves performance by verifying FR+ locally."
+        "text": "Large friends lists now perform significantly better than before"
       }
     ]
   }
