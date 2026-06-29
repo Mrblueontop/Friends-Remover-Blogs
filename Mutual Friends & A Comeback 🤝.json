@@ -49,7 +49,6 @@
       {
         "text": "Security lock",
         "moreInfo": "Secure your account from misuse of Friends Remover to remove all friends. To reset your password, go to the Discord server.",
-        "platform": "FR Plus"
       },
       {
         "text": "Friend duration in Compact Viewer",
@@ -64,7 +63,6 @@
       {
         "text": "Notify if a Friend Removes You is no longer Plus-only",
         "moreInfo": "This FR+ feature has been removed to improve free user experience.",
-        "platform": "FR Plus"
       },
       {
         "text": "Rocaptcha system removed from settings",
@@ -156,7 +154,6 @@
       {
         "text": "Schedule Removal now shows FR+ toast for non-Plus users",
         "moreInfo": "Previously allowed setup without FR+, now properly restricted.",
-        "platform": "FR Plus"
       },
       {
         "text": "Status updated to show logged-in username",
