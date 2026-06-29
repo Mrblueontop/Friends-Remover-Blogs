@@ -1,0 +1,62 @@
+{
+  "title": "Mutual Friends & A Comeback 🤝",
+  "cat": "Updates",
+  "date": "June 29, 2026",
+  "badge": "COMING SOON",
+  "version": "1.6",
+  "breaking": false,
+  "platforms": ["Chrome"],
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+  },
+  "excerpt": "Compact View is now enforced on Chrome. Dark mode, Rotectors API, live Roblox status, and a ton of fixes.",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/CompactImage.png",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+  "body": <p>Recently, Friends Remover was hit hard by the removal of our extension. After weeks of rebuilding and improving, we're finally back—and stronger than ever. This may be our biggest update yet, bringing massive new features, major improvements, and countless bug fixes. We hope you enjoy this update, as it may be our last major update for a while. Thank you to everyone who continued to support Friends Remover throughout this journey. We couldn't have made this comeback without you.</p>
+  "changes": {
+    "added": [
+      "Special welcome messages in popup menu (Plus only)",
+      "Flagged filter for users flagged by Rotectors API",
+      "Suggest pins system in popup settings",
+      "Mutual friend viewer in popup",
+      "FR+ subscription system",
+      "Email required before purchasing FR+",
+      "FR+ policy acceptance requirement",
+      "Security lock (FR+ beta feature)",
+      "Pre-send check for existing friends (Add Back toast)",
+      "Code 5 handling (pending requests toast + button state)",
+      "Rate limit handling (429 toast + retry reset)",
+      "Persistent 'Sent' state using local storage",
+      "Untrust system re-renders list immediately",
+      "Bulk selection persistence across popup reopen",
+      "Unpin option in three-dots menu (bulk select only)"
+    ],
+    "removed": [
+      "Filter by account age (fully removed)",
+      "Notify if a Friend Removes You (Plus feature removed)",
+      "Rocaptcha system removed from settings"
+    ],
+    "fixed": [
+      "Settings turning into mobile UI when resizing",
+      "Search and filter buttons disabling during menu/loading",
+      "Block mode logo showing on popup open",
+      "Wrong theme showing during loading (cached theme fix added)",
+      "Unpin button not working for banned accounts",
+      "Menu not opening when opened before",
+      "Undefined 'removed from friends list' notification",
+      "Search button missing after closing history",
+      "UserDataManager method mismatch (setSetting vs saveSetting)"
+    ],
+    "improved": [
+      "Compact viewer arrows now loop continuously",
+      "FR+ features working without API calls (ownership-based fetch)",
+      "FR+ startup detection system improved",
+      "Popup handling of removals redesigned and stabilized",
+      "Toast system intercepts using capture-phase listeners",
+      "Removal resume/continue behavior improved",
+      "Game title truncation updated (26–28 characters)",
+      "Overall loading and theme caching system improved"
+    ]
+  }
+}
