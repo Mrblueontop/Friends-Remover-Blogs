@@ -176,16 +176,16 @@
         "text": "Schedule Removal upgrade toast for non-Plus users"
       },
       {
-        "text": "Pre-send friend check",
-        "moreInfo": "Attempting to add an existing friend now shows a toast instead of failing."
+        "text": "Unfriend History Pre-send friend check",
+        "moreInfo": "Attempting to add-back an existing friend in unfriend history now shows a toast instead of failing."
       },
       {
-        "text": "Code 5 error handling",
-        "moreInfo": "Existing outgoing friend requests now display a proper toast and automatically mark the button as sent."
+        "text": "Code 5 error handling in Unfriend History",
+        "moreInfo": " If you try clicking add-back to an existing outgoing friend requests now display a proper toast and automatically mark the button as sent."
       },
       {
         "text": "Unfriend History Rate limit Toast",
-        "moreInfo": "429 errors now display a toast letting you know."
+        "moreInfo": "429 errors now display a toast letting you know. that you adding people to quickly."
       }
     ]
   }
