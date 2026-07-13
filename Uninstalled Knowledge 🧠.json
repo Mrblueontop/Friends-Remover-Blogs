@@ -1,0 +1,70 @@
+{
+  "title": "Uninstalled Knowledge 🧠",
+  "cat": "Updates",
+  "date": "July 12, 2026",
+  "badge": "OUT NOW",
+  "badgeAfter": "COMING SOON",
+  "version": "1.7",
+  "breaking": false,
+  "coming_soon": false,
+  "platforms": ["Chrome"],
+  "excerpt": "Completely redesigned uninstall feedback with richer diagnostics, automatic detection, improved privacy transparency, and a better overall experience.",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/Uninstalled%20Knowledge%20%F0%9F%A7%A0.png",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+  "body": "<p>Understanding why users uninstall Friends Remover helps us build a better extension for everyone. This update completely redesigns our uninstall experience with richer diagnostics, automatic detection, and a much smoother feedback process.</p><p>We've expanded the uninstall page with more detailed feedback options, making it easier to tell us why you're uninstalling. Additional diagnostic information is now included with feedback reports to help us identify issues more accurately, including the user's country, platform, browser, extension version, Roblox detection, and other relevant technical details.</p><p><strong>This update does NOT collect your IP address or home address.</strong> We only collect your country, along with non-personal diagnostic information that helps us investigate bugs, understand trends, and improve the extension.</p><p>We've also fixed moderation issues and refreshed the uninstall experience with brand new options to make providing feedback faster, easier, and more useful. Every uninstall report helps shape future updates. Thank you to everyone who takes a moment to share their experience.</p>",
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+  },
+  "changes": {
+    "added": [
+      {
+        "text": "How was your overall experience?",
+        "moreInfo": "Users can now leave a one-way reaction describing their overall experience before uninstalling the extension."
+      },
+      {
+        "text": "Country field",
+        "moreInfo": "Added the user's country to uninstall logs for improved diagnostics. This does not include your IP address or home address."
+      },
+      {
+        "text": "Platform field",
+        "moreInfo": "Uninstall logs now include the user's operating system platform."
+      },
+      {
+        "text": "Browser and version field",
+        "moreInfo": "Browser name and version are now automatically included with uninstall reports."
+      },
+      {
+        "text": "Automatic version detection",
+        "moreInfo": "Extension version is now detected directly from the uninstall URL instead of being hardcoded."
+      },
+      {
+        "text": "Automatic Roblox user detection",
+        "moreInfo": "The uninstall page now detects the Roblox user directly from the URL when available."
+      },
+      {
+        "text": "FPS field",
+        "moreInfo": "Added an FPS field to help identify potential performance-related issues."
+      },
+      {
+        "text": "Rocaptcha count field",
+        "moreInfo": "Uninstall logs now include how many Rocaptchas were presented to the user."
+      }
+    ],
+    "removed": [],
+    "fixed": [
+      {
+        "text": "Moderation system",
+        "moreInfo": "Fixed an issue where moderation stopped working after updating our worker service, allowing some inappropriate submissions to bypass filtering."
+      }
+    ],
+    "improved": [
+      {
+        "text": "Completely redesigned uninstall page",
+        "moreInfo": "The uninstall experience has been rebuilt with a cleaner interface, more feedback options, improved diagnostics, and a smoother overall flow."
+      }
+    ],
+    "experimental": [],
+    "other": []
+  }
+}
