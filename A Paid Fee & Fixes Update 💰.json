@@ -1,0 +1,114 @@
+{
+  "title": "A Paid Fee & Fixes Update 💰",
+  "cat": "Updates",
+  "date": "July 25, 2026",
+  "badge": "VERSION 1.7",
+  "badgeAfter": "RELEASED",
+  "version": "1.7",
+  "breaking": false,
+  "coming_soon": false,
+  "platforms": ["Chrome"],
+  "excerpt": "Database improvements, bug fixes, faster loading, improved headshots, FR+ fixes, and quality-of-life improvements.",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/Update.png",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+  "body": "<p>For more than a month, I wasn’t able to pay for the database, which caused bugs and prevented some users’ data from saving properly.</p><p>That changes with this update.</p><p>The database fee has now been paid, meaning your data will continue to save properly — even if you uninstall and reinstall the extension.</p><p>Enjoy this new version with faster loading, improved performance, fewer bugs, and a smoother experience overall!</p>",
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+  },
+  "changes": {
+    "added": [
+      {
+        "text": "Headshot type setting",
+        "moreInfo": "Users can now select the type of thumbnail shown in the popup and Rocaptcha."
+      },
+      {
+        "text": "Unfriend Tracker",
+        "moreInfo": "Users unfriended from the Roblox website can now automatically be added to Unfriend History."
+      },
+      {
+        "text": "Friends Removing logo placement",
+        "moreInfo": "Added a new logo placement on the removal screen."
+      }
+    ],
+    "removed": [
+      {
+        "text": "Tutorial",
+        "moreInfo": "The old tutorial was removed."
+      },
+      {
+        "text": "Rotating FR+ popup messages",
+        "moreInfo": "Removed rotating messages that displayed FR+ features inside the popup.",
+        "platform": "FR Plus"
+      },
+      {
+        "text": "Game icon behind headshots",
+        "moreInfo": "Removed the game icon background from headshots."
+      }
+    ],
+    "fixed": [
+      {
+        "text": "Friend removal notifications",
+        "moreInfo": "Fixed notifications not appearing correctly after removing friends."
+      },
+      {
+        "text": "FR+ gamepass detection",
+        "moreInfo": "Fixed FR+ detection not working correctly.",
+        "platform": "FR Plus"
+      },
+      {
+        "text": "Notify if a Friend Removes You setting",
+        "moreInfo": "Fixed the setting not enabling correctly.",
+        "platform": "FR Plus"
+      },
+      {
+        "text": "Missing translation keys",
+        "moreInfo": "Fixed missing translation keys across supported languages."
+      }
+    ],
+    "improved": [
+      {
+        "text": "Database saving system",
+        "moreInfo": "The database fee has been paid, allowing user data to continue saving properly even after uninstalling and reinstalling the extension."
+      },
+      {
+        "text": "Inactivity Tracker",
+        "moreInfo": "Increased inactivity checking interval from 1 minute to 5 minutes."
+      },
+      {
+        "text": "Local storage systems",
+        "moreInfo": "Removed unnecessary local storage systems and moved more data handling to the backend."
+      },
+      {
+        "text": "Headshot quality",
+        "moreInfo": "Improved avatar quality for medium-sized friend lists. Compact Viewer avatars from 151–300 friends now load at a higher resolution instead of appearing blurry."
+      },
+      {
+        "text": "Popup headshot animations",
+        "moreInfo": "Added a smooth zoom animation when viewing headshots in the popup."
+      },
+      {
+        "text": "Error screen menu protection",
+        "moreInfo": "The menu button is now disabled during error screens."
+      },
+      {
+        "text": "Removal screen behavior",
+        "moreInfo": "The removal screen no longer appears when removing 5 friends or fewer."
+      },
+      {
+        "text": "Game name display",
+        "moreInfo": "Game names now have enough room to display fully instead of being cut off."
+      },
+      {
+        "text": "Default theme color",
+        "moreInfo": "Changed the default color to red to celebrate Spider-Man: Brand New Day."
+      },
+      {
+        "text": "FR+ backend reliability",
+        "moreInfo": "Improved FR+ data reliability with the new backend worker system.",
+        "platform": "FR Plus"
+      }
+    ],
+    "experimental": []
+  }
+}
