@@ -10,13 +10,13 @@
     "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgfahelckfinnhkpidebp"
   },
 
-  "excerpt": "Mobile Edition is coming soon alongside a major Unfriend History overhaul, improved stability, stronger security systems, performance upgrades, and major UI improvements.",
+  "excerpt": "Mobile Edition is coming soon alongside a major Unfriend History overhaul, improved stability, stronger security systems, performance upgrades, major UI improvements, and support for both Android and iOS.",
 
   "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/MobileEdition.png",
   "thumbFit": "contain",
   "thumbPosition": "center",
 
-  "body": "<p>For almost a year, Friends Remover has been one of the many extensions used to manage Roblox friends on PC. While the extension already includes features like Unfriend History and background removals, we are now working toward a larger goal: mobile support.</p><p>This is where Friends Remover Mobile Edition comes in. We have been experimenting and are preparing a beta version for mobile devices.</p><p><b>Android</b><br>How it works:</p><p>1. Open the Play Store.<br>2. Search for \"quetaa.\"<br>3. Install the app.<br>4. Open Chrome Web Store and search for \"Friends Remover.\"<br>5. Click \"Add to Chrome.\"</p><p>Mobile support will be available soon on Android, with iOS support planned afterward.</p>",
+  "body": "<p>For almost a year, Friends Remover has helped users manage their Roblox friends from desktop browsers. With features like Unfriend History, background removals, and advanced safety systems, we're now bringing the experience to mobile.</p><p>Friends Remover Mobile Edition is currently in beta and is designed to work on both Android and iOS using browsers that support Chrome extensions.</p><p><b>Android</b><br>How it works:</p><p>1. Open the Google Play Store.<br>2. Search for <b>Quetta</b>.<br>3. Install the browser.<br>4. Open the Chrome Web Store.<br>5. Search for <b>Friends Remover</b>.<br>6. Tap <b>Add to Chrome</b>.</p><p><b>iPhone / iPad (iOS)</b><br>How it works:</p><p>1. Install <b>Onion Browser</b> from the App Store.<br>2. Open Onion Browser.<br>3. Visit the Chrome Web Store.<br>4. Search for <b>Friends Remover</b>.<br>5. Follow the same installation steps used on Android.</p><p>Mobile Edition will continue receiving updates to improve compatibility, performance, and the overall experience across both Android and iOS.</p>",
 
   "changes": {
     "added": [
@@ -145,12 +145,12 @@
       {
         "text": "History Search Integration",
         "platform": "All",
-        "moreInfo": "Uses header search button for to search through friends now."
+        "moreInfo": "Uses the header search button to search through history."
       },
       {
         "text": "Mobile Settings Support",
         "platform": "Mobile",
-        "moreInfo": "Settings fully usable on mobile devices."
+        "moreInfo": "Settings are fully usable on mobile devices."
       },
       {
         "text": "Mobile Navigation System",
@@ -158,9 +158,14 @@
         "moreInfo": "Added hamburger menu and sidebar navigation."
       },
       {
-        "text": "Toast settings Update",
+        "text": "Toast Settings Update",
         "platform": "Mobile",
-        "moreInfo": "Toasts now slide from bottom instead of side."
+        "moreInfo": "Toast notifications now slide up from the bottom."
+      },
+      {
+        "text": "iOS Support",
+        "platform": "Mobile",
+        "moreInfo": "Friends Remover can now be used on iPhone and iPad through Onion Browser."
       }
     ]
   }
