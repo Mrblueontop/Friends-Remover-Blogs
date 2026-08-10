@@ -2,7 +2,7 @@
 "title": "A Mobilous Update ⚡",
 "cat": "Updates",
 "date": "August 10, 2026",
-"badge": "COMING SOON!",
+"badge": "OUT NOW!",
 "badgeAfter": "Coming Soon",
 "version": "1.9",
 "breaking": false,
@@ -44,15 +44,18 @@
 },
 {
 "text": "Mobile Navigation Setting",
-"moreInfo": "Mobile users can now choose between swipe navigation and arrow navigation for Compact View in the popup."
+"moreInfo": "Mobile users can now choose between swipe navigation and arrow navigation for Compact View in the popup.",
+"platform": "mobile"
 },
 {
 "text": "Dark Mode",
-"moreInfo": "Dark Mode has returned to Friends Remover with a fresh, cleaner appearance for the perfect return."
+"moreInfo": "Dark Mode has returned to Friends Remover with a fresh, cleaner appearance for the perfect return.",
+"platform": "mobile"
 },
 {
 "text": "Scrolling Frame",
-"moreInfo": "The classic Scrolling Frame has returned as an optional viewer. It includes performance improvements such as pagination and reduced loading demands."
+"moreInfo": "The classic Scrolling Frame has returned as an optional viewer. It includes performance improvements such as pagination and reduced loading demands.",
+"platform": "mobile"
 },
 {
 "text": "Suspended, Banned, or Deleted Account Detection",
@@ -68,15 +71,18 @@
 },
 {
 "text": "FR+ Group Role Detection",
-"moreInfo": "FR+ is now detected through the FR+ role in the Friends Remover group."
+"moreInfo": "FR+ is now detected through the FR+ role in the Friends Remover group.",
+"platform": "FR Plus"
 },
 {
 "text": "Free FR+ Activation Notifications",
-"moreInfo": "Users can now receive a notification when they are granted FR+ through the group system."
+"moreInfo": "Users can now receive a notification when they are granted FR+ through the group system.",
+"platform": "FR Plus"
 },
 {
 "text": "Removal Speed Options",
-"moreInfo": "Updated all removal speeds and removed the Quick removal speed option. Ultra Quick at 30ms and Fast at 100ms are available for FR+ users, while free users receive Normal at 300ms, Slow at 750ms, and Very Slow at 1500ms."
+"moreInfo": "Updated all removal speeds and removed the Quick removal speed option. Ultra Quick at 30ms and Fast at 100ms are available for FR+ users, while free users receive Normal at 300ms, Slow at 750ms, and Very Slow at 1500ms.",
+"platform": "FR Plus"
 }
 ],
 "removed": [
@@ -102,15 +108,18 @@
 },
 {
 "text": "Mobile Advanced Settings Tab",
-"moreInfo": "Removed the empty Advanced tab from mobile Settings until there are actual advanced options to display."
+"moreInfo": "Removed the empty Advanced tab from mobile Settings until there are actual advanced options to display.",
+"platform": "mobile"
 },
 {
 "text": "Mobile Update Carousel",
-"moreInfo": "Removed the update carousel from the mobile Settings interface."
+"moreInfo": "Removed the update carousel from the mobile Settings interface.",
+"platform": "mobile"
 },
 {
 "text": "Old FR+ Setup",
-"moreInfo": "Removed the old FR+ setup process. Users can now activate FR+ through supported Roblox methods such as group rank and game pass, not our database."
+"moreInfo": "Removed the old FR+ setup process. Users can now activate FR+ through supported Roblox methods such as group rank and game pass, not our database.",
+"platform": "FR Plus"
 },
 {
 "text": "Temporary Auto Remove Flagged Users",
@@ -128,7 +137,8 @@
 },
 {
 "text": "Mobile Settings",
-"moreInfo": "Fixed mobile users sometimes opening the desktop Settings interface."
+"moreInfo": "Fixed mobile users sometimes opening the desktop Settings interface.",
+"platform": "mobile"
 },
 {
 "text": "Popup Scheduled Removals",
@@ -152,17 +162,20 @@
 },
 {
 "text": "FR+ Loss Handling",
-"moreInfo": "When FR+ is lost, all FR+ features now disable properly."
+"moreInfo": "When FR+ is lost, all FR+ features now disable properly.",
+"platform": "FR Plus"
 },
 {
 "text": "Mobile Popup Animations",
-"moreInfo": "Reduced the performance cost of popup animations so mobile users can use them smoothly without needing to disable animations."
+"moreInfo": "Reduced the performance cost of popup animations so mobile users can use them smoothly without needing to disable animations.",
+"platform": "mobile"
 }
 ],
 "improved": [
 {
 "text": "Mobile Experience",
-"moreInfo": "Major improvements were made throughout the mobile popup, including navigation, settings, animations, spacing, performance, and responsiveness."
+"moreInfo": "Major improvements were made throughout the mobile popup, including navigation, settings, animations, spacing, performance, and responsiveness.",
+"platform": "mobile"
 },
 {
 "text": "Friends Remover Database",
@@ -186,15 +199,18 @@
 },
 {
 "text": "FR+ Activation",
-"moreInfo": "Removed routine FR+ worker membership checks, including GET /fr_plus, DELETE /fr_plus, popup startup checks, Settings startup checks, feature-lock checks, removal-speed checks, history checks, scheduling checks, and polling checks."
+"moreInfo": "Removed routine FR+ worker membership checks, including GET /fr_plus, DELETE /fr_plus, popup startup checks, Settings startup checks, feature-lock checks, removal-speed checks, history checks, scheduling checks, and polling checks.",
+"platform": "FR Plus"
 },
 {
 "text": "FR+ Verification",
-"moreInfo": "FR+ membership is now verified directly through Roblox's game-pass, subscription, and group systems."
+"moreInfo": "FR+ membership is now verified directly through Roblox's game-pass, subscription, and group systems.",
+"platform": "FR Plus"
 },
 {
 "text": "FR+ Pricing",
-"moreInfo": "Friends Remover is now again available as a one-time payment of $1.15 due to the lack of sales."
+"moreInfo": "Friends Remover is now again available as a one-time payment of $1.15 due to the lack of sales.",
+"platform": "FR Plus"
 },
 {
 "text": "Pinned Friend Notifications",
@@ -206,7 +222,8 @@
 },
 {
 "text": "Scrolling Frame Performance",
-"moreInfo": "The returning Scrolling Frame includes performance improvements such as 50 friends per page and additional optimizations to reduce lag."
+"moreInfo": "The returning Scrolling Frame includes performance improvements such as 50 friends per page and additional optimizations to reduce lag.",
+"platform": "mobile"
 },
 {
 "text": "Background Monitor Scheduling",
@@ -246,11 +263,13 @@
 },
 {
 "text": "Mobile Navigation",
-"moreInfo": "Mobile users can now choose between swipe navigation and arrow-based navigation."
+"moreInfo": "Mobile users can now choose between swipe navigation and arrow-based navigation.",
+"platform": "mobile"
 },
 {
 "text": "Removal Speeds",
-"moreInfo": "Removal speeds are faster overall. FR+ users receive Ultra Quick at 30ms and Fast at 100ms, while free users receive Normal at 300ms, Slow at 750ms, and Very Slow at 1500ms."
+"moreInfo": "Removal speeds are faster overall. FR+ users receive Ultra Quick at 30ms and Fast at 100ms, while free users receive Normal at 300ms, Slow at 750ms, and Very Slow at 1500ms.",
+"platform": "FR Plus"
 },
 {
 "text": "Block Mode Limit Awareness",
@@ -258,7 +277,8 @@
 },
 {
 "text": "Mobile Animations",
-"moreInfo": "Popup animations were optimized to reduce CPU and rendering demands on mobile devices."
+"moreInfo": "Popup animations were optimized to reduce CPU and rendering demands on mobile devices.",
+"platform": "mobile"
 },
 {
 "text": "Friends Detail View",
@@ -278,7 +298,8 @@
 },
 {
 "text": "Mobile Lag",
-"moreInfo": "Reduced unnecessary work and expensive animations throughout the mobile interface for a significantly smoother experience."
+"moreInfo": "Reduced unnecessary work and expensive animations throughout the mobile interface for a significantly smoother experience.",
+"platform": "mobile"
 }
 ],
 "experimental": []
