@@ -9,7 +9,7 @@
 "coming_soon": false,
 "platforms": ["Chrome", "Firefox"],
 "excerpt": "Our biggest mobile-focused update yet, with a redesigned mobile experience, new reporting system, improved performance, Block Mode fixes, FR+ improvements, a return of Scrolling Frame, and tons of quality-of-life changes.",
-"thumbImage": "",
+"thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/AMobilousUpdate.png",
 "thumbFit": "contain",
 "thumbPosition": "center",
 "body": "This is one of the biggest Friends Remover updates yet! We completely improved the mobile experience, brought back the classic Scrolling Frame, improved performance, fixed major Block Mode issues, introduced a new reporting system, rebuilt how FR+ activation works, and made countless improvements across the extension. Mobile users should notice significantly smoother animations, better navigation, improved settings, and less lag overall. We also made major changes to our backend and monitoring systems to reduce unnecessary Roblox API requests and improve reliability.",
