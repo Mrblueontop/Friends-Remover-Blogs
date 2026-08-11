@@ -14,7 +14,7 @@
   "thumbPosition": "center",
   "body": "This is one of the biggest Friends Remover updates yet! We completely improved the mobile experience, brought back the classic Scrolling Frame, improved performance, fixed major Block Mode issues, introduced a new reporting system, rebuilt how FR+ activation works, and made countless improvements across the extension.\n\nMobile users should notice significantly smoother animations, better navigation, improved settings, and less lag overall. We also made major changes to our background monitoring systems to reduce unnecessary Roblox API requests and improve reliability.",
   "download": {
-    "chrome": "[https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp](https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp)"
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp](https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
   },
   "changes": {
     "added": [
