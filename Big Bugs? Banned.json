@@ -1,0 +1,140 @@
+{
+"title": "Big Bugs? BANNED 🚫",
+"cat": "Updates",
+"date": "August 11, 2026",
+"badge": "COMING SOON",
+"badgeAfter": "Coming Soon",
+"version": "2.0",
+"breaking": false,
+"coming_soon": false,
+"platforms": ["Chrome"],
+"excerpt": "One of our fastest releases yet, packed with major bug fixes, Block History, improved Block Mode, better Mutual Mode protection, Dark Mode improvements, and more.",
+"thumbImage": "[https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BigBugsBanned.png](https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BigBugsBanned.png)",
+"thumbFit": "contain",
+"thumbPosition": "center",
+"body": "This update is one of our fastest releases yet! We fixed a huge number of bugs, introduced a better Block History system, improved Block Mode and Mutual Mode, and made Friends Remover smoother and more reliable overall.\n\nAnd to celebrate this update, BLOCK MODE is available for everyone for a LIMITED TIME!!! Seal your blocks in before it's too late.",
+"download": {
+"chrome": "[https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp](https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp)"
+},
+"changes": {
+"added": [
+{
+"text": "Block History",
+"moreInfo": "Added a dedicated history system for users you have blocked."
+},
+{
+"text": "Unblock Button",
+"moreInfo": "Added an unblock button that allows users to quickly unblock users from Block History."
+},
+{
+"text": "Friend Since Date Caching",
+"moreInfo": "Friends are now cached with their friend-since date for faster and more reliable access."
+},
+{
+"text": "Custom Unfriend History and Settings Icons",
+"moreInfo": "Added custom icons for both the Unfriend History and Settings buttons in the popup, replacing the old emoji icons."
+},
+{
+"text": "Limited-Time Free Block Mode",
+"moreInfo": "Block Mode is temporarily available for free to all users for a limited time. Get your blocks in before the offer ends!"
+},
+{
+"text": "Uninstall Error Logging",
+"moreInfo": "Added error-log detection to the uninstall system. When users provide a reason for uninstalling Friends Remover, relevant errors encountered by the extension can be collected to help identify and fix issues."
+},
+{
+"text": "Mutual Friends Removal Screen",
+"moreInfo": "Updated the Mutual Friends removal screen and added friend-count information to better display the size of the removal."
+}
+],
+"removed": [
+{
+"text": "Block Mode FR+ Requirement",
+"platform": "FR Plus",
+"moreInfo": "Block Mode is no longer restricted to FR+ users."
+},
+{
+"text": "Broken RoCaptcha Verification",
+"moreInfo": "Removed the broken RoCaptcha verification system from Settings."
+}
+],
+"fixed": [
+{
+"text": "Block Mode Now ACTUALLY WORKS!!",
+"moreInfo": "Fixed Block Mode completely not working because the wrong Roblox API was being used."
+},
+{
+"text": "Dismiss Users Check Mark",
+"moreInfo": "Fixed dismissed users sometimes not showing the correct check mark."
+},
+{
+"text": "Notification Settings",
+"moreInfo": "Fixed several systems not respecting the 'Receive Notifications' setting."
+},
+{
+"text": "Popup View Switching Headshots",
+"moreInfo": "Fixed headshots sometimes failing to load correctly after switching the popup view."
+},
+{
+"text": "Pinned and Trusted Users in Mutual Mode",
+"moreInfo": "Fixed pinned and trusted users being able to get removed through Mutual Mode."
+},
+{
+"text": "Mutual Mode Removal Count",
+"moreInfo": "Fixed the Compact Viewer removal button not updating to 'Remove (count)' when Mutual Mode was enabled."
+},
+{
+"text": "Popup Performance",
+"moreInfo": "Fixed multiple issues causing the popup to become laggy."
+},
+{
+"text": "Removal Screen Headshots",
+"moreInfo": "Fixed headshots flashing on the removal screen."
+},
+{
+"text": "Compact Viewer Search",
+"moreInfo": "Fixed searching in Compact View sometimes causing the 'No Friends Found' error."
+},
+{
+"text": "Switched to Friends List Toast",
+"platform": "Mobile",
+"moreInfo": "Fixed the 'Switched to Friends List' toast appearing too high."
+}
+],
+"improved": [
+{
+"text": "Popup Loading Screen",
+"moreInfo": "Made the popup loading screen more descriptive so users can better understand what Friends Remover is doing."
+},
+{
+"text": "Popup View Switcher",
+"moreInfo": "The popup button used to change the view type now displays an icon corresponding with the currently selected view."
+},
+{
+"text": "Block Mode Blue Theme",
+"moreInfo": "Fixed Block Mode losing its permanent blue theme and ensured the blue theme remains consistent."
+},
+{
+"text": "Removal Type Order",
+"moreInfo": "Block Mode now appears before Mutual Mode when selecting a removal type."
+},
+{
+"text": "Dark Mode Error Messages",
+"moreInfo": "Added Dark Mode support to all error messages."
+},
+{
+"text": "Dark Mode Text Readability",
+"moreInfo": "Fixed certain text becoming difficult to read when Dark Mode is enabled."
+},
+{
+"text": "Mutual Mode Removal Screen",
+"moreInfo": "Improved the Mutual Friends removal screen and added the current friend count to the removal information."
+},
+{
+"text": "Block History",
+"moreInfo": "Improved Block Mode history with dedicated history entries and direct unblock controls."
+}
+],
+"experimental": []
+}
+}
