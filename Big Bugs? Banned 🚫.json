@@ -9,7 +9,7 @@
   "coming_soon": false,
   "platforms": ["Chrome", "Firefox"],
   "excerpt": "Our fastest release yet! We smashed a huge number of bugs, introduced Block History, improved Mutual Mode protection, and made Block Mode available to everyone for a limited time.",
-  "thumbImage": "[https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BigBugsBanned.png](https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BigBugsBanned.png)",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/Big%20Bugs%3F%20Banned%20%F0%9F%9A%AB.png"
   "thumbFit": "contain",
   "thumbPosition": "center",
   "body": "This is one of our fastest Friends Remover updates yet! Just after our previous update, we went straight back into development and eliminated a massive number of bugs, improved stability, and introduced several new systems.\n\nWe've also completely upgraded Block Mode with a new Block History system and an Unblock button. And, to celebrate this release, Block Mode is available to everyone for a LIMITED TIME! Seal your blocks in before it's too late.\n\nThis update also improves Mutual Mode protection, popup performance, history controls, error handling, uninstall diagnostics, and much more.",
