@@ -2,23 +2,20 @@
   "title": "Big Bugs? BANNED 🚫",
   "cat": "Updates",
   "date": "August 11, 2026",
-  "badge": "VERSION 2.0",
+  "badge": "OUT NOW!",
+  "badgeAfter": "Coming Soon",
   "version": "2.0",
   "breaking": false,
+  "coming_soon": false,
   "platforms": ["Chrome", "Firefox"],
-
-  "download": {
-    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgfahelckfinnhkpidebp"
-  },
-
   "excerpt": "Our fastest release yet! We smashed a huge number of bugs, introduced Block History, improved Mutual Mode protection, and made Block Mode available to everyone for a limited time.",
-
-  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BigBugsBanned.png",
+  "thumbImage": "[https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BigBugsBanned.png](https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/BigBugsBanned.png)",
   "thumbFit": "contain",
   "thumbPosition": "center",
-
-  "body": "<p><strong>Big Bugs? BANNED! 🚫</strong> This is one of our fastest releases yet. Just after our previous update, we went straight back into development and eliminated a massive number of bugs, improved stability, and introduced several new systems.</p><p>We've also completely upgraded Block Mode with a new Block History system and an Unblock button. And, to celebrate this release, <strong>Block Mode is available to everyone for a LIMITED TIME!</strong> Seal your blocks in before it's too late.</p><p>This update also improves Mutual Mode protection, popup performance, history controls, error handling, uninstall diagnostics, and much more.</p>",
-
+  "body": "This is one of our fastest Friends Remover updates yet! Just after our previous update, we went straight back into development and eliminated a massive number of bugs, improved stability, and introduced several new systems.\n\nWe've also completely upgraded Block Mode with a new Block History system and an Unblock button. And, to celebrate this release, Block Mode is available to everyone for a LIMITED TIME! Seal your blocks in before it's too late.\n\nThis update also improves Mutual Mode protection, popup performance, history controls, error handling, uninstall diagnostics, and much more.",
+  "download": {
+    "chrome": "[https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp](https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgfahelckfinnhkpidebp)"
+  },
   "changes": {
     "added": [
       {
@@ -31,41 +28,39 @@
       },
       {
         "text": "Friends Since Caching",
-        "moreInfo": "Friends are now cached with their original friends-since date for faster access and better friend information."
+        "moreInfo": "Friends are now cached with their original friends-since date for better friend information and data handling."
       },
       {
         "text": "Custom History Icons",
-        "moreInfo": "Added dedicated history icons in the popup and settings instead of using emoji icons."
+        "moreInfo": "Added dedicated history icons in the popup and Settings instead of using emoji icons."
       },
       {
         "text": "Uninstall Error Detection",
-        "moreInfo": "The uninstall system can now collect detected errors and the user's friend count when they choose to provide feedback."
+        "moreInfo": "The uninstall system can now detect and collect errors along with the user's friend count to help identify issues."
       },
       {
         "text": "Uninstall Diagnostics",
-        "moreInfo": "When you enter a reason for uninstalling Friends Remover, detected errors are collected to help us identify and fix issues."
+        "moreInfo": "When you enter the reason you uninstalled Friends Remover, we can collect detected errors you experienced to help us find ways to fix issues."
       },
       {
         "text": "Block Mode Availability",
-        "moreInfo": "Block Mode is temporarily available to everyone, including users without FR+."
+        "moreInfo": "Block Mode is now available to everyone for a LIMITED TIME, including users without FR+."
       },
       {
         "text": "Improved Mutual Removal Screen",
-        "moreInfo": "The Mutual Mode removal screen has been updated to provide better friend-count information and a clearer removal experience."
+        "moreInfo": "Updated the Mutual Mode removal screen and added the user's friend count to make the removal experience clearer."
       }
     ],
-
     "removed": [
       {
         "text": "reCAPTCHA Verification",
-        "moreInfo": "Removed the broken reCAPTCHA verification system from settings."
+        "moreInfo": "Removed the broken reCAPTCHA verification system from Settings."
       },
       {
         "text": "Block Mode FR+ Requirement",
-        "moreInfo": "Block Mode is no longer permanently restricted to FR+ users."
+        "moreInfo": "Block Mode is no longer restricted to FR+ users."
       }
     ],
-
     "fixed": [
       {
         "text": "Dismissed User Checkmarks",
@@ -73,19 +68,19 @@
       },
       {
         "text": "Notification Settings",
-        "moreInfo": "Fixed systems that were not properly respecting the 'Receive Notifications' setting."
+        "moreInfo": "Fixed certain systems not properly respecting the 'Receive Notifications' setting."
       },
       {
         "text": "Popup Headshots",
-        "moreInfo": "Fixed headshots failing to load correctly after switching popup view types."
+        "moreInfo": "Fixed headshots failing to load properly after switching popup view types."
       },
       {
         "text": "Mutual Mode Protected Users",
-        "moreInfo": "Fixed pinned and trusted users being incorrectly removable through Mutual Mode."
+        "moreInfo": "Fixed pinned and trusted users being able to get removed through Mutual Mode."
       },
       {
         "text": "Compact Viewer Removal Count",
-        "moreInfo": "Fixed the removal button failing to update to 'Remove (count)' when Mutual Mode was enabled in Compact Viewer."
+        "moreInfo": "Fixed the removal button not updating to 'Remove (count)' when Mutual Mode was enabled in Compact Viewer."
       },
       {
         "text": "Removal Screen Headshots",
@@ -93,26 +88,21 @@
       },
       {
         "text": "Compact Viewer Search",
-        "moreInfo": "Fixed searching in Compact Viewer incorrectly showing the 'No friends found' error."
+        "moreInfo": "Fixed searching in Compact Viewer causing the 'No Friends Found' error."
       },
       {
         "text": "Dark Mode Error Messages",
-        "moreInfo": "Fixed error messages that were difficult to read when Dark Mode was enabled."
+        "moreInfo": "Added proper Dark Mode support to error messages and fixed messages that were difficult to read."
       },
       {
         "text": "Theme Text Visibility",
-        "moreInfo": "Fixed certain texts becoming unreadable depending on the selected theme."
-      },
-      {
-        "text": "Popup Lag",
-        "moreInfo": "Fixed multiple issues causing the popup to feel laggy."
+        "moreInfo": "Fixed certain texts becoming unreadable depending on the selected theme when Dark Mode was enabled."
       },
       {
         "text": "Friends List Toast",
         "moreInfo": "Fixed the 'Switched to Friends List' toast appearing too high on the screen."
       }
     ],
-
     "improved": [
       {
         "text": "Popup Loading Screen",
@@ -123,16 +113,24 @@
         "moreInfo": "The popup view-switching button now uses an icon that correctly corresponds with the currently selected view."
       },
       {
-        "text": "Block Mode",
+        "text": "Block Mode Placement",
         "moreInfo": "Block Mode now comes before Mutual Mode when selecting a removal type."
       },
       {
         "text": "Mutual Mode Protection",
-        "moreInfo": "Mutual Mode now provides stronger protection for pinned and trusted users so they cannot accidentally be removed."
+        "moreInfo": "Improved Mutual Mode protection so pinned and trusted users cannot accidentally be removed."
+      },
+      {
+        "text": "Popup Performance",
+        "moreInfo": "Fixed popup lag and improved how smoothly the popup responds during normal use."
+      },
+      {
+        "text": "Friend Data Caching",
+        "moreInfo": "Friend data is now cached with the friends-since date for better data handling."
       },
       {
         "text": "History UI",
-        "moreInfo": "Updated history controls and icons across the popup and settings for a cleaner and more consistent experience."
+        "moreInfo": "Added special custom history icons throughout the popup and Settings for a cleaner and more consistent interface."
       },
       {
         "text": "Error Handling",
@@ -143,13 +141,10 @@
         "moreInfo": "Uninstall feedback now provides useful diagnostic information that can help identify bugs users experienced before uninstalling."
       },
       {
-        "text": "Popup Performance",
-        "moreInfo": "Made the popup feel smoother and less laggy during normal use."
-      },
-      {
-        "text": "Friend Data Caching",
-        "moreInfo": "Friends are now cached with their friends-since date for better data handling."
+        "text": "Mutual Mode Removal Screen",
+        "moreInfo": "Updated the removal screen to display the user's friend count and provide a clearer progress experience."
       }
-    ]
+    ],
+    "experimental": []
   }
 }
