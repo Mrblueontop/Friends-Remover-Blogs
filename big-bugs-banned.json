@@ -1,3 +1,4 @@
+```json
 {
   "title": "Big Bugs? BANNED 🚫",
   "cat": "Updates",
@@ -14,7 +15,7 @@
   "thumbPosition": "center",
   "body": "This is one of our fastest Friends Remover updates yet! Just after our previous update, we went straight back into development and eliminated a massive number of bugs, improved stability, and introduced several new systems.\n\nWe've also completely upgraded Block Mode with a new Block History system and an Unblock button. And, to celebrate this release, Block Mode is available to everyone for a LIMITED TIME! Seal your blocks in before it's too late.\n\nThis update also improves Mutual Mode protection, popup performance, history controls, error handling, uninstall diagnostics, and much more.",
   "download": {
-    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp](https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
   },
   "changes": {
     "added": [
@@ -43,8 +44,8 @@
         "moreInfo": "When you enter the reason you uninstalled Friends Remover, we can collect detected errors you experienced to help us find ways to fix issues."
       },
       {
-        "text": "Block Mode Availability",
-        "moreInfo": "Block Mode is now available to everyone for a LIMITED TIME, including users without FR+."
+        "text": "Block Mode Is Free for a Limited Time",
+        "moreInfo": "Block Mode is now completely free for all users for a LIMITED TIME. Try it out before the promotion ends!"
       },
       {
         "text": "Improved Mutual Removal Screen",
@@ -55,10 +56,6 @@
       {
         "text": "reCAPTCHA Verification",
         "moreInfo": "Removed the broken reCAPTCHA verification system from Settings."
-      },
-      {
-        "text": "Block Mode FR+ Requirement",
-        "moreInfo": "Block Mode is no longer restricted to FR+ users."
       }
     ],
     "fixed": [
@@ -148,3 +145,4 @@
     "experimental": []
   }
 }
+```
