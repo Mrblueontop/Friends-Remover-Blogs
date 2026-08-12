@@ -31,16 +31,12 @@
         "moreInfo": "Friends are now cached with their original friends-since date for better friend information and data handling."
       },
       {
-        "text": "Custom History Icons",
+        "text": "Replaced Emojis Wih Custom Icons",
         "moreInfo": "Added dedicated history icons in the popup and Settings instead of using emoji icons."
       },
       {
         "text": "Uninstall Error Detection",
         "moreInfo": "The uninstall system can now detect and collect errors along with the user's friend count to help identify issues."
-      },
-      {
-        "text": "Uninstall Diagnostics",
-        "moreInfo": "When you enter the reason you uninstalled Friends Remover, we can collect detected errors you experienced to help us find ways to fix issues."
       },
       {
         "text": "Block Mode Is Free for a Limited Time",
@@ -59,8 +55,8 @@
     ],
     "fixed": [
       {
-        "text": "Dismissed User Checkmarks",
-        "moreInfo": "Fixed an issue where dismissed users would sometimes fail to show the correct checkmark."
+        "text": "Dismissed User",
+        "moreInfo": "Fixed an issue where dimissing a user would still show them."
       },
       {
         "text": "Notification Settings",
@@ -107,10 +103,6 @@
       {
         "text": "View Type Button",
         "moreInfo": "The popup view-switching button now uses an icon that correctly corresponds with the currently selected view."
-      },
-      {
-        "text": "Block Mode Placement",
-        "moreInfo": "Block Mode now comes before Mutual Mode when selecting a removal type."
       },
       {
         "text": "Mutual Mode Protection",
