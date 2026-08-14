@@ -8,30 +8,38 @@
   "breaking": false,
   "coming_soon": false,
   "platforms": ["Chrome", "Firefox"],
-  "excerpt": "Our fastest release yet! We smashed a huge number of bugs, introduced Block History, improved Mutual Mode protection, and made Block Mode available to everyone for a limited time.",
+  "excerpt": "This might just be one of our fastest releases yet! Right after version 1.9, we're introducing Friend Notes, bringing back Block History, adding direct unblocking, and delivering a bunch of bug fixes and popup UI improvements.",
   "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/big-bugs-banned.png",
   "thumbFit": "contain",
   "thumbPosition": "center",
-  "body": "This is one of our fastest Friends Remover updates yet! Just after our previous update, we went straight back into development and eliminated a massive number of bugs, improved stability, and introduced several new systems.\n\nWe've also completely upgraded Block Mode with a new Block History system and an Unblock button. And, to celebrate this release, Block Mode is available to everyone for a LIMITED TIME! Seal your blocks in before it's too late.\n\nThis update also improves Mutual Mode protection, popup performance, history controls, error handling, uninstall diagnostics, and much more.",
+  "body": "This might just be one of our fastest releases yet! Right after our previous update, version 1.9, we went straight back into development and started working on even more improvements.\n\nIntroducing Friend Notes! 📝 You can now add notes to your friends so you can remember why they're your friend, who they are, or anything else you want to remember about them. Notes are saved to our servers and can be accessed directly from Compact Viewer or Friends Details.\n\nIntroducing Block History! 🚫 The return of Block History is here! You can now view your blocked users directly from the popup, with Block History using its own separate database. You can also unblock users directly from Block History.\n\nWe've also fixed several bugs, made a few popup changes, and improved the UI across Friends Remover to make everything feel cleaner and smoother.\n\nWe've also added Show Background in PFPs, allowing you to display a user's selected Roblox Avatar Background behind their avatar. This feature is enabled by default.\n\nThe popup has also been made slightly bigger to give the interface more room, while the outlines around trusted and pinned users have been removed for a cleaner look.\n\nWe've also moved Mutual Mode to appear before Block Mode in the popup, making the layout more organized and easier to navigate.\n\nAnd that's just the start. 👀",
   "download": {
     "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
   },
   "changes": {
     "added": [
       {
-        "text": "Block History",
-        "moreInfo": "You can now view users you've blocked through a dedicated Block History system."
+        "text": "📝 A Brand New Note",
+        "moreInfo": "You can now add notes to your friends so you can remember who they are, why they're your friend, or anything else you want to remember. Notes are saved to our servers and can be accessed directly from Compact Viewer or Friends Details."
+      },
+      {
+        "text": "🚫 Block History Returns",
+        "moreInfo": "Block History is back! You can now view your blocked users directly from the popup using a dedicated Block History system with its own separate database."
       },
       {
         "text": "Unblock Button",
-        "moreInfo": "Added a dedicated button that lets you quickly unblock users directly from Block History."
+        "moreInfo": "You can now unblock users directly from Block History."
+      },
+      {
+        "text": "Show Background in PFPs",
+        "moreInfo": "You can now display a user's selected Roblox Avatar Background behind their avatar. This feature is enabled by default."
       },
       {
         "text": "Friends Since Caching",
         "moreInfo": "Friends are now cached with their original friends-since date for better friend information and data handling."
       },
       {
-        "text": "Replaced Emojis Wih Custom Icons",
+        "text": "Replaced Emojis With Custom Icons",
         "moreInfo": "Added dedicated history icons in the popup and Settings instead of using emoji icons."
       },
       {
@@ -51,12 +59,16 @@
       {
         "text": "reCAPTCHA Verification",
         "moreInfo": "Removed the broken reCAPTCHA verification system from Settings."
+      },
+      {
+        "text": "Trusted & Pinned User Outlines",
+        "moreInfo": "Removed the outlines around trusted and pinned users for a cleaner and more minimal interface."
       }
     ],
     "fixed": [
       {
         "text": "Dismissed User",
-        "moreInfo": "Fixed an issue where dimissing a user would still show them."
+        "moreInfo": "Fixed an issue where dismissing a user would still show them."
       },
       {
         "text": "Notification Settings",
@@ -97,6 +109,18 @@
     ],
     "improved": [
       {
+        "text": "Popup Size",
+        "moreInfo": "Slightly increased the popup size to give the interface more room and make it more comfortable to use."
+      },
+      {
+        "text": "Popup UI",
+        "moreInfo": "Made several UI improvements throughout the popup to create a cleaner, smoother, and more polished experience."
+      },
+      {
+        "text": "Mutual Mode Placement",
+        "moreInfo": "Moved Mutual Mode to appear before Block Mode in the popup removal type changer."
+      },
+      {
         "text": "Popup Loading Screen",
         "moreInfo": "Made the popup loading screen more descriptive so users have a better idea of what is happening while the extension loads."
       },
@@ -127,10 +151,6 @@
       {
         "text": "Uninstall Feedback",
         "moreInfo": "Uninstall feedback now provides useful diagnostic information that can help identify bugs users experienced before uninstalling."
-      },
-      {
-        "text": "Mutual Mode Removal Screen",
-        "moreInfo": "Updated the removal screen to display the user's friend count and provide a clearer progress experience."
       }
     ],
     "experimental": []
