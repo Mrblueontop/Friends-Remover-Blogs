@@ -12,18 +12,18 @@
   "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/big-bugs-banned.png",
   "thumbFit": "contain",
   "thumbPosition": "center",
-  "body": "This might just be one of our fastest releases yet! Right after our previous update, version 1.9, we went straight back into development and started working on even more improvements.\n\nIntroducing Friend Notes! 📝 You can now add notes to your friends so you can remember why they're your friend, who they are, or anything else you want to remember about them. Notes are saved to our servers and can be accessed directly from Compact Viewer or Friends Details.\n\nIntroducing Block History! 🚫 The return of Block History is here! You can now view your blocked users directly from the popup, with Block History using its own separate database. You can also unblock users directly from Block History.\n\nWe've also fixed several bugs, made a few popup changes, and improved the UI across Friends Remover to make everything feel cleaner and smoother.\n\nWe've also added Show Background in PFPs, allowing you to display a user's selected Roblox Avatar Background behind their avatar. This feature is enabled by default.\n\nThe popup has also been made slightly bigger to give the interface more room, while the outlines around trusted and pinned users have been removed for a cleaner look.\n\nWe've also moved Mutual Mode to appear before Block Mode in the popup, making the layout more organized and easier to navigate.\n\nAnd that's just the start. 👀",
+  "body": "This might just be one of our fastest releases yet! Right after our previous update, version 1.9, we went straight back into development and started working on even more improvements.\n\nIntroducing Friend Notes! You can now add notes to your friends so you can remember why they're your friend, who they are, or anything else you want to remember about them. Notes are saved to our servers and can be accessed directly from Compact Viewer or Friends Details.\n\nIntroducing Block History! The return of Block History is here! You can now view your blocked users directly from the popup, with Block History using its own separate database. You can also unblock users directly from Block History.\n\nWe've also fixed several bugs, made a few popup changes, and improved the UI across Friends Remover to make everything feel cleaner and smoother.\n\nWe've also added Show Background in PFPs, allowing you to display a user's selected Roblox Avatar Background behind their avatar. This feature is enabled by default.\n\nThe popup has also been made slightly bigger to give the interface more room, while the outlines around trusted and pinned users have been removed for a cleaner look.\n\nWe've also moved Mutual Mode to appear before Block Mode in the popup, making the layout more organized and easier to navigate.\n\nAnd that's just the start.",
   "download": {
-    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgfahelckfinnhkpidebp"
   },
   "changes": {
     "added": [
       {
-        "text": "📝 A Brand New Note",
+        "text": "A Brand New Note",
         "moreInfo": "You can now add notes to your friends so you can remember who they are, why they're your friend, or anything else you want to remember. Notes are saved to our servers and can be accessed directly from Compact Viewer or Friends Details."
       },
       {
-        "text": "🚫 Block History Returns",
+        "text": "Block History Returns",
         "moreInfo": "Block History is back! You can now view your blocked users directly from the popup using a dedicated Block History system with its own separate database."
       },
       {
@@ -118,7 +118,7 @@
       },
       {
         "text": "Mutual Mode Placement",
-        "moreInfo": "Moved Mutual Mode to appear before Block Mode in the popup removal type changer."
+        "moreInfo": "Moved Mutual Mode to appear before Block Mode in the popup for a more organized and intuitive layout."
       },
       {
         "text": "Popup Loading Screen",
@@ -151,6 +151,10 @@
       {
         "text": "Uninstall Feedback",
         "moreInfo": "Uninstall feedback now provides useful diagnostic information that can help identify bugs users experienced before uninstalling."
+      },
+      {
+        "text": "Mutual Mode Removal Screen",
+        "moreInfo": "Updated the removal screen to display the user's friend count and provide a clearer progress experience."
       }
     ],
     "experimental": []
