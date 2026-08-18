@@ -30,7 +30,8 @@
       },
       {
         "text": "Self-Repair Systems",
-        "moreInfo": "The error handler can now force multiple recovery methods to help get the extension working again."
+        "moreInfo": "The error handler can now force multiple recovery methods to help get the extension working again.",
+        "status": "discontinued"
       },
       {
         "text": "Notification Cooldown System",
@@ -38,11 +39,13 @@
       },
       {
         "text": "Daily Scheduled Removal Limits",
-        "moreInfo": "Added daily scheduled removal limits. VIP users can bypass the restriction."
+        "moreInfo": "Added daily scheduled removal limits. VIP users can bypass the restriction.",
+        "status": "discontinued"
       },
       {
         "text": "Settings Report System",
-        "moreInfo": "Users can now report broken settings directly through the extension."
+        "moreInfo": "Users can now report broken settings directly through the extension.",
+        "status": "discontinued"
       },
       {
         "text": "Popup Error Report System",
