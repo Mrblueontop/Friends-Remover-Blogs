@@ -1,0 +1,159 @@
+{
+  "title": "A Fresh History 📜",
+  "cat": "Updates",
+  "date": "August 20, 2026",
+  "badge": "COMING SOON!",
+  "badgeAfter": "Coming Soon",
+  "version": "2.1",
+  "breaking": false,
+  "coming_soon": false,
+  "platforms": ["Chrome", "Firefox"],
+  "excerpt": "A fresh update to Unfriend History with removal batches, faster removals, new icons, and more improvements.",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/A%20Fresh%20History%20%F0%9F%93%9C.png",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+  "body": "<p>Unfriend History has been reworked with support for both individual friends and complete removal batches. You can now view a whole batch of friends you removed and give each batch its own name.</p><p>Friend selection in Compact Viewer has also been improved. You can now click a friend's headshot to select them.</p><p>Removal is now faster and more consistent. Random stops, random jitter, and unrelated humanization pauses have been removed, while Removal Speed now represents the actual delay between removals.</p><p>We've also added new custom icons, a special background for pinned users, a gold Pin button, and several other visual improvements.</p><p>The Roblox Admin and Roblox Plus badges have also been redesigned, while the Star Creator badge has been removed from user badges.</p><p>A number of older systems have been removed or cleaned up, including the old self-repair utility, Rocpathca from the popup, the Backspace removal shortcut, the Pin button cooldown, and the old bot detection system.</p><p>We've also fixed Automatic Remove Banned Users, theme reverting to blue, the authentication modal appearing twice, pinned users exceeding the Plus limit, and several other issues.</p><p>And that's just some of what's new in A Fresh History.</p>",
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+  },
+  "changes": {
+    "added": [
+      {
+        "text": "Single Friends & Removal Batches",
+        "moreInfo": "Unfriend History now supports viewing individual removed friends or entire removal batches. Removal batches can also be named."
+      },
+      {
+        "text": "Custom Icons",
+        "moreInfo": "Added new custom icons, including a custom Pin icon and Trash icon."
+      },
+      {
+        "text": "Pinned User Background",
+        "moreInfo": "Added a special background for pinned users."
+      },
+      {
+        "text": "Custom Background Polling",
+        "moreInfo": "You can now set your own polling time for background removals. Friends Remover Plus users get access to a shorter delay option."
+      },
+      {
+        "text": "Redesigned Roblox Badges",
+        "moreInfo": "Redesigned the Roblox Admin and Roblox Plus badges with a fresh new look."
+      }
+    ],
+    "removed": [
+      {
+        "text": "self-repair.js",
+        "moreInfo": "Removed the old self-repair.js utility."
+      },
+      {
+        "text": "Rocapthca",
+        "moreInfo": "Removed Rocpathca from the popup."
+      },
+      {
+        "text": "Random Removal Jitter",
+        "moreInfo": "Removed the random ±20% variation during removals."
+      },
+      {
+        "text": "Random Humanization Pauses",
+        "moreInfo": "Removed unrelated random pauses during removal."
+      },
+      {
+        "text": "Backspace Removal Shortcut",
+        "moreInfo": "Removed Backspace as a Compact Viewer removal shortcut."
+      },
+      {
+        "text": "Pin Button Cooldown",
+        "moreInfo": "Removed the Pin button cooldown."
+      },
+      {
+        "text": "Old Bot Detection",
+        "moreInfo": "Removed the old bot detection system."
+      },
+      {
+        "text": "Star Creator Badge",
+        "moreInfo": "Removed the Star Creator badge from user badges."
+      }
+    ],
+    "fixed": [
+      {
+        "text": "Automatic Banned User Removal",
+        "moreInfo": "Fixed Automatic Remove Banned Users so it works again."
+      },
+      {
+        "text": "Theme Reverting to Blue",
+        "moreInfo": "Fixed the Settings popup reverting to blue instead of displaying the selected theme."
+      },
+      {
+        "text": "Full Avatar Background",
+        "moreInfo": "Fixed Full Avatar mode not including the selected background."
+      },
+      {
+        "text": "Plus Pin Limit",
+        "moreInfo": "Fixed pinned users remaining above the allowed limit after losing Friends Remover Plus."
+      },
+      {
+        "text": "Authentication Modal",
+        "moreInfo": "Fixed the authentication modal appearing twice."
+      },
+      {
+        "text": "Friend Selection",
+        "moreInfo": "Fixed selecting friends causing them to be removed automatically."
+      }
+    ],
+    "improved": [
+      {
+        "text": "Compact Viewer Selection",
+        "moreInfo": "Click a friend's headshot to select them directly."
+      },
+      {
+        "text": "Removal Speed",
+        "moreInfo": "Removal Speed now represents the actual delay between removals: Very Slow is 10 seconds, Slow is 7 seconds, Normal is 3 seconds, Fast is 2 seconds, and Ultra Quick is 50 milliseconds."
+      },
+      {
+        "text": "Popup Menu",
+        "moreInfo": "Reconstructed parts of the menu and moved older menu buttons into the header."
+      },
+      {
+        "text": "Loading Protection",
+        "moreInfo": "Loading now blocks buttons, inputs, and other interactive controls until loading finishes."
+      },
+      {
+        "text": "Automatic Removal Settings",
+        "moreInfo": "Automatic removal changes are now staged until Save All Settings is clicked."
+      },
+      {
+        "text": "Mode Switching",
+        "moreInfo": "Unfriend, Mutual, Block, and Unfriend transitions are now serialized so rapid clicks cannot apply stale states."
+      },
+      {
+        "text": "Status Feedback",
+        "moreInfo": "Clicking a status now provides clearer feedback, such as showing that a friend is currently online."
+      },
+      {
+        "text": "Toast Icons",
+        "moreInfo": "Replaced toast emojis with consistent inline SVG icons."
+      },
+      {
+        "text": "Toast Duration",
+        "moreInfo": "Toasts now remain visible for one additional second all toasts."
+      },
+      {
+        "text": "Closer Badges",
+        "moreInfo": "Moved badges closer to usernames."
+      },
+      {
+        "text": "Unfriend History Badges",
+        "moreInfo": "Name badges now appear in the Unfriend History."
+      },
+      {
+        "text": "Golden Pin Button",
+        "moreInfo": "It’s about time the Pin button was gold."
+      },
+      {
+        "text": "Mode Logos",
+        "moreInfo": "Unfriend Mode and Block Mode now load the correct GitHub-hosted logo."
+      }
+    ],
+    "experimental": [],
+    "other": []
+  }
+}
