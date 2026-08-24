@@ -1,1 +1,91 @@
-
+{
+  "title": "A Global Voice 🌎",
+  "cat": "Updates",
+  "date": "August 24, 2026",
+  "badge": "OUT NOW!",
+  "badgeAfter": "Coming Soon",
+  "version": "2.2",
+  "breaking": false,
+  "coming_soon": false,
+  "platforms": ["Chrome", "Firefox"],
+  "excerpt": "Friends Remover goes global with a complete translation rework, cached languages, translated menus, notifications, Compact Viewer, and more.",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/A%20Global%20Voice%20%F0%9F%8C%8E.png?",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+  "body": "<p>After update after update, one feature had quietly remained unfinished: languages. It was a silent, discontinued feature that simply couldn't stay silent anymore. That's why we're excited to announce <strong>A Global Voice</strong>, a complete rework of languages across Friends Remover.</p><p>Translations now work throughout the popup, Settings, Friends List, Unfriend History, Block History, notifications, toasts, and the entire Compact Viewer. The language system has been rebuilt from the ground up to make translations work consistently across Friends Remover.</p><p>We've also started using Google's translation API to help power our translations and improve the translation system.</p><p>Languages are now cached, meaning your selected language can load much faster when opening the popup or Settings. Cached translations are also updated in the background to keep everything current.</p><p>Alongside the language rework, we've fixed several issues across Friends Remover, including banned and deleted friends, popup interactions, button states, theme resets, thumbnails, mutual-friend feedback, and inactivity monitoring.</p><p>And that's just some of what's new in A Global Voice.</p>",
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+  },
+  "changes": {
+    "added": [
+      {
+        "text": "Complete Language Support",
+        "moreInfo": "Translations now cover Settings, the popup menu, Friends List, Unfriend History, Block History, notifications, toasts, and the entire Compact Viewer.",
+        "platform": "translation"
+      },
+      {
+        "text": "Google Translation API",
+        "moreInfo": "Started using Google's translation API to help power translations and improve the translation system.",
+        "platform": "translation"
+      },
+      {
+        "text": "Cached Languages",
+        "moreInfo": "Selected languages are now cached so translations load much faster in the popup and Settings.",
+        "platform": "translation"
+      },
+      {
+        "text": "Mutual Friend Feedback",
+        "moreInfo": "Clicking the + mutual-friends button now shows a toast listing the other mutual friends."
+      }
+    ],
+    "removed": [],
+    "fixed": [
+      {
+        "text": "Inactivity Monitor",
+        "moreInfo": "Fixed the inactivity monitor activating without being enabled and incorrectly removing friends."
+      },
+      {
+        "text": "Scheduled Removal Menu Lock",
+        "moreInfo": "Prevented popup menus from being clicked while the scheduled-removal modal is open."
+      },
+      {
+        "text": "Banned & Deleted Friend Pins",
+        "moreInfo": "Banned and deleted friends can now be pinned again."
+      },
+      {
+        "text": "Banned & Deleted Friend Names",
+        "moreInfo": "Fixed banned and deleted friends' names not updating or displaying correctly."
+      },
+      {
+        "text": "Split-Second Thumbnails",
+        "moreInfo": "Fixed incorrect bust thumbnails briefly appearing when another thumbnail type is selected."
+      },
+      {
+        "text": "Button States",
+        "moreInfo": "Fixed button states and updated styling while switching between Remove, Cancel, Dismiss, Add Back, Unblock, and Block modes."
+      },
+      {
+        "text": "Language Theme Reset",
+        "moreInfo": "Changing the language and clicking Save All no longer resets the selected theme back to blue."
+      },
+      {
+        "text": "Block History Spelling",
+        "moreInfo": "Fixed the Block History bulk-action text to correctly say Dismiss Selected (N) instead of Remove Selected (N)."
+      }
+    ],
+    "improved": [
+      {
+        "text": "Confirmation Messages",
+        "moreInfo": "Single- and multi-friend confirmation messages are now correctly localized across supported languages.",
+        "platform": "translation"
+      },
+      {
+        "text": "Spanish Settings Translation",
+        "moreInfo": "Added Spanish translations for the Settings menu.",
+        "platform": "translation"
+      }
+    ],
+    "experimental": [],
+    "other": []
+  }
+}
