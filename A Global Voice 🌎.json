@@ -78,11 +78,6 @@
         "text": "Confirmation Messages",
         "moreInfo": "Single- and multi-friend confirmation messages are now correctly localized across supported languages.",
         "platform": "translation"
-      },
-      {
-        "text": "Spanish Settings Translation",
-        "moreInfo": "Added Spanish translations for the Settings menu.",
-        "platform": "translation"
       }
     ],
     "experimental": [],
