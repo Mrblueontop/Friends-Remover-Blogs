@@ -1,18 +1,18 @@
 {
-  "title": "Friends Remover - A Frame With A Name 🖼️",
+  "title": "A Frame With A Name 🖼️",
   "cat": "Updates",
-  "date": "Unknown",
-  "badge": "COMING SOON",
+  "date": "September 12, 2026",
+  "badge": "VERSION 2.1",
   "badgeAfter": "Latest",
   "version": "2.3",
   "breaking": false,
   "coming_soon": false,
   "platforms": ["Chrome", "Firefox"],
-  "excerpt": "We finally introduced Profile Frames! Your friends' Roblox Profile Frames can now be shown directly in Compact Viewer, along with over 20 bug fixes, performance improvements, and stability updates.",
+  "excerpt": "A massive Friends Remover update is here! Introducing Profile Frames, Compact Viewer, Removal Ranks, Friend History, improved scheduled removals, smarter pin suggestions, redesigned status toasts, new FR Plus themes, and over 20 performance and stability improvements.",
   "thumbImage": "",
   "thumbFit": "contain",
   "thumbPosition": "center",
-  "body": "<p>We finally introduced <strong>Profile Frames</strong>! 🖼️</p><p>If your friend has a Roblox Profile Frame on Roblox, Friends Remover can now display that frame directly in <strong>Compact Viewer</strong>. This brings another part of your friends' Roblox profiles directly into Friends Remover.</p><p>Profile Frames are enabled by default and are designed to fit naturally into Compact Viewer while keeping the viewer compact and easy to use.</p><p>We've also made <strong>major improvements across Friends Remover</strong>, eliminating over <strong>20 issues</strong> that could cause bugs, lag, unexpected behavior, or other problems.</p><p>These fixes improve the overall stability and performance of Friends Remover, making the extension smoother and more reliable during everyday use.</p><p>We've also continued improving how Friends Remover handles friend data, Compact Viewer, background systems, loading, and other parts of the extension.</p><p>This update may look simple at first, but it includes a large number of behind-the-scenes improvements designed to make Friends Remover work better.</p><p>And this is only the beginning. 🚀</p>",
+  "body": "<p>Friends Remover just received one of its biggest updates yet! 🖼️</p><p>We finally introduced <strong>Profile Frames</strong>. If your friend has a Roblox Profile Frame, you can now view it directly in Compact Viewer. We created our own implementation based on Roblox's system, converted the frames into a square format for Compact Viewer, and added a setting to enable or disable them. Profile Frames are enabled by default.</p><p>We've also introduced the brand-new <strong>Compact Viewer</strong>, giving you a much more compact way to view and manage your friends. Names and friend counts such as <strong>2/200</strong> are positioned closer together so you can see more information at once without scrolling.</p><p><strong>Removal Ranks</strong> are also here! You can now view a friend's Friends Remover removal rank when they have used Friends Remover. The more friends they have unfriended, the higher their Removal Rank can become. Removal Ranks are available in Friends Details and Compact Viewer.</p><p>FR Plus users can now use the <strong>Friend History Viewer</strong> to view a friend's unfriend history from Compact Viewer or Friends Details. Users can also choose through Settings whether their own history can be viewed by themselves or their friends.</p><p>Scheduled removals have received major improvements too. You can now schedule removals up to <strong>20 days ahead</strong>, scheduled friends remain protected by multiple removal systems, and scheduled removals can continue executing even when you are not logged into the correct account.</p><p>We've also made major improvements to performance and stability. Friends Remover now loads friend lists faster, uses less unnecessary background activity, has reduced lag, and performs better with large friend lists.</p><p>And that's only part of this update. We've made improvements across the UI, notifications, themes, search, friend statuses, badges, password validation, pin suggestions, and many other systems.</p><p>Overall, this update eliminates more than <strong>20 issues</strong> that could cause bugs, lag, instability, or unexpected behavior.</p><p>Friends Remover is now smoother, faster, and more reliable than ever. 🚀</p>",
   "download": {
     "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
   },
@@ -20,100 +20,249 @@
     "added": [
       {
         "text": "Profile Frames",
-        "moreInfo": "We finally introduced Profile Frames! When a friend has a Roblox Profile Frame, Friends Remover can now display it directly in Compact Viewer."
+        "moreInfo": "You can now view your friends' Roblox Profile Frames directly in Compact Viewer. Friends Remover uses its own implementation of Roblox's Profile Frames, converted into a square format for Compact Viewer. Profile Frames are enabled by default and can be enabled or disabled through Settings."
       },
       {
-        "text": "Profile Frames in Compact Viewer",
-        "moreInfo": "Profile Frames are now integrated directly into Compact Viewer so you can see a friend's profile frame while browsing your friends."
+        "text": "Compact Viewer",
+        "moreInfo": "Added a new, more compact way to view your friends. Names and friend counts such as \"2/200\" are positioned closer together so you can see more information at once without scrolling."
+      },
+      {
+        "text": "Removal Ranks",
+        "moreInfo": "You can now view your friends' Friends Remover Removal Ranks if they have used Friends Remover. The more friends they have unfriended, the higher their rank can become. Removal Ranks are available in Friends Details and Compact Viewer."
+      },
+      {
+        "text": "Friend History Viewer",
+        "moreInfo": "FR Plus users can now view their friends' unfriend history from Compact Viewer or Friends Details."
+      },
+      {
+        "text": "Friend History Privacy",
+        "moreInfo": "Users can choose through Settings whether their own unfriend history can be kept hidden from themselves or their friends."
+      },
+      {
+        "text": "Compact Viewer Action Button",
+        "moreInfo": "Added a dedicated header button in Compact Viewer for Select All, Deselect All, and Refresh Friends List. These actions are no longer located inside the three-dots menu."
+      },
+      {
+        "text": "Updated Tutorial",
+        "moreInfo": "Added the tutorial back with smoother animations and new steps."
+      },
+      {
+        "text": "Removal Confirmation Toast",
+        "moreInfo": "Restored the previous removal confirmation toast: \"Tap to confirm removal of name (12% of your friends list).\""
+      },
+      {
+        "text": "Free Yellow Theme",
+        "moreInfo": "Added a new free yellow theme, which is now the default theme."
       }
     ],
-    "removed": [],
+    "removed": [
+      {
+        "text": "Custom Background Removal Intervals",
+        "moreInfo": "Removed custom background-removal intervals."
+      },
+      {
+        "text": "Friends List Account Badges",
+        "moreInfo": "Friends List Viewer no longer displays account badges."
+      },
+      {
+        "text": "Premium, Verified, Roblox Plus, and Admin Badge Requests",
+        "moreInfo": "Friends List Viewer no longer requests Premium, Verified, Roblox Plus, or Admin badge data."
+      }
+    ],
     "fixed": [
       {
-        "text": "20+ Bug Fixes",
-        "moreInfo": "Eliminated over 20 issues across Friends Remover that could cause bugs, unexpected behavior, errors, or other problems."
+        "text": "White Mode Badge Logos",
+        "moreInfo": "Fixed a White Mode-only bug where the Roblox Plus logo and Roblox Admin logo were swapped."
       },
       {
-        "text": "Lag Issues",
-        "moreInfo": "Fixed multiple issues that could cause unnecessary lag and slowdowns throughout Friends Remover."
+        "text": "Repeated FR Plus Grant Notification",
+        "moreInfo": "Fixed the FR Plus grant notification appearing repeatedly."
       },
       {
-        "text": "Compact Viewer Stability",
-        "moreInfo": "Fixed multiple issues that could cause Compact Viewer to behave unexpectedly or become unstable."
+        "text": "Compact Viewer Friend Sorting",
+        "moreInfo": "Fixed an issue where friend sorting in Compact Viewer could sometimes break."
       },
       {
-        "text": "Friend Data Issues",
-        "moreInfo": "Fixed several issues involving friend data being loaded, displayed, or handled incorrectly."
+        "text": "Scheduled Friend Protection",
+        "moreInfo": "Scheduled friends are now protected by multiple removal systems, including background removal."
       },
       {
-        "text": "Loading Issues",
-        "moreInfo": "Fixed issues that could cause Friends Remover components to load incorrectly or take longer than expected."
+        "text": "Scheduled Friend Pinning",
+        "moreInfo": "Fixed scheduled friends being available to pin through Friends List Viewer."
       },
       {
-        "text": "Background Activity Issues",
-        "moreInfo": "Fixed issues involving unnecessary background activity that could affect performance."
+        "text": "Scheduled Friend Selection",
+        "moreInfo": "Fixed scheduled friends being selectable through Friends List Viewer."
       },
       {
-        "text": "Friend List Issues",
-        "moreInfo": "Fixed multiple issues affecting friend-list handling and general friend-list functionality."
+        "text": "Scheduled Friend Removal",
+        "moreInfo": "Fixed scheduled friends being removable through Friends List Viewer."
       },
       {
-        "text": "View Switching Issues",
-        "moreInfo": "Fixed issues that could occur when switching between different Friends Remover views."
+        "text": "Friend Bio Display",
+        "moreInfo": "Fixed a bug where a friend's bio could sometimes appear in Compact Viewer or Friends Details instead of Friends Since information."
       },
       {
-        "text": "Popup Stability",
-        "moreInfo": "Fixed several issues that could cause the popup to behave incorrectly or become less responsive."
+        "text": "Mutual Friend Viewer Search",
+        "moreInfo": "Fixed Mutual Friend Viewer behavior when a search query was active."
       },
       {
-        "text": "Selection Issues",
-        "moreInfo": "Fixed issues affecting friend selection and selection state in Friends Remover."
+        "text": "Friends List Badge Requests",
+        "moreInfo": "Fixed unnecessary requests for Premium, Verified, Roblox Plus, and Admin badge data in Friends List Viewer."
       },
       {
         "text": "Refresh Issues",
-        "moreInfo": "Fixed issues that could cause friend-list refreshing to behave incorrectly."
+        "moreInfo": "Fixed issues affecting friend-list refreshing."
+      },
+      {
+        "text": "Friend Selection Issues",
+        "moreInfo": "Fixed issues affecting friend selection and removal selection states."
+      },
+      {
+        "text": "Friend Removal Issues",
+        "moreInfo": "Fixed several issues that could interfere with friend removal."
+      },
+      {
+        "text": "View Switching Stability",
+        "moreInfo": "Fixed issues that could occur when switching views or reopening the popup."
       }
     ],
     "improved": [
       {
-        "text": "Profile Frame Display",
-        "moreInfo": "Improved Compact Viewer so Roblox Profile Frames can be displayed correctly when a friend has one."
+        "text": "Background Settings Poller",
+        "moreInfo": "Updated the background settings polling system."
       },
       {
-        "text": "Compact Viewer",
-        "moreInfo": "Improved Compact Viewer performance and stability while adding Profile Frame support."
+        "text": "Background Removal Polling",
+        "moreInfo": "Updated background removal polling time to improve performance and reliability."
       },
       {
-        "text": "Overall Performance",
-        "moreInfo": "Made Friends Remover run more smoothly by eliminating numerous performance-related issues."
+        "text": "Loading Screen",
+        "moreInfo": "Updated the loading screen so it is centered and displays a larger headshot."
       },
       {
-        "text": "Reduced Lag",
-        "moreInfo": "Reduced sources of unnecessary lag throughout the extension to improve responsiveness."
+        "text": "Pin Suggestions",
+        "moreInfo": "The maximum number of pin suggestions increased from 3 to 5, while the suggestion percentage increased from 5% to 25%."
       },
       {
-        "text": "Extension Stability",
-        "moreInfo": "Improved overall extension stability by resolving more than 20 issues across different systems."
+        "text": "Free User Pinning",
+        "moreInfo": "Free users must now be friends with someone for three full days before they can pin them."
       },
       {
-        "text": "Friend List Performance",
-        "moreInfo": "Improved the way Friends Remover handles friend-list data to provide a smoother experience."
+        "text": "Friend Status Positioning",
+        "moreInfo": "Friend statuses are now displayed separately below the headshot, similar to names."
+      },
+      {
+        "text": "Name Badge Positioning",
+        "moreInfo": "Name badges are now positioned closer to names. After multiple previous adjustments, this positioning is now finalized."
+      },
+      {
+        "text": "Name Badge Index",
+        "moreInfo": "The name badge index is no longer displayed above the three-dots modal."
+      },
+      {
+        "text": "Untrust System",
+        "moreInfo": "Updated the untrust system so it now displays a toast notification."
+      },
+      {
+        "text": "Scheduled Removals",
+        "moreInfo": "Scheduled removals now support up to 20 days ahead."
+      },
+      {
+        "text": "Scheduled Removal Execution",
+        "moreInfo": "Scheduled removals now continue executing even when the user is not logged into the correct account."
+      },
+      {
+        "text": "Status Toasts",
+        "moreInfo": "Updated status notifications with clearer messaging and dedicated status colors."
+      },
+      {
+        "text": "In-Game Status Toast",
+        "moreInfo": "In-game friends now use a green toast showing the friend's name, game name, and \"Click to join.\""
+      },
+      {
+        "text": "Online Status Toast",
+        "moreInfo": "Online friends now use a blue toast explaining that they are currently online."
+      },
+      {
+        "text": "Studio Status Toast",
+        "moreInfo": "Friends in Roblox Studio now use an orange toast."
+      },
+      {
+        "text": "Offline Status Toast",
+        "moreInfo": "Offline friends now use a gray toast with last-seen timing when available."
+      },
+      {
+        "text": "Inactive Status Toast",
+        "moreInfo": "Inactive friends now use a muted gray toast."
+      },
+      {
+        "text": "Deleted and Flagged Status Toast",
+        "moreInfo": "Deleted, unavailable, and flagged friends now use a red toast with a clear explanation."
+      },
+      {
+        "text": "Fixed Status Palettes",
+        "moreInfo": "Status toast colors now use fixed palettes, preventing Dark Mode, Light Mode, and custom themes from overriding status colors."
+      },
+      {
+        "text": "Dark Mode",
+        "moreInfo": "Dark Mode is now the default theme."
+      },
+      {
+        "text": "Performance",
+        "moreInfo": "Friends Remover now runs more smoothly with reduced lag and unnecessary background activity."
+      },
+      {
+        "text": "Friend List Loading",
+        "moreInfo": "Friend-list loading is now faster."
       },
       {
         "text": "Background Performance",
-        "moreInfo": "Improved background performance and reduced unnecessary activity that could affect the extension."
+        "moreInfo": "Reduced unnecessary background activity to help Friends Remover run more smoothly."
       },
       {
-        "text": "Loading Performance",
-        "moreInfo": "Improved loading behavior to make Friends Remover feel faster and more responsive."
+        "text": "Large Friend List Performance",
+        "moreInfo": "Improved performance when handling large friend lists."
       },
       {
-        "text": "Popup Responsiveness",
-        "moreInfo": "Improved popup responsiveness and reduced issues that could make the interface feel slow."
+        "text": "Popup Stability",
+        "moreInfo": "Improved stability when switching views or reopening the popup."
+      },
+      {
+        "text": "Search Query Caching",
+        "moreInfo": "Search queries in both Compact Viewer and Friends List are now cached."
+      },
+      {
+        "text": "Mutual Friend Viewer",
+        "moreInfo": "Mutual Friend Viewer now continues working when a search is active and removes the current search query when opened."
+      },
+      {
+        "text": "FR Plus Themes",
+        "moreInfo": "Replaced the old FR Plus themes with a new set of special themes."
+      },
+      {
+        "text": "Password Setup",
+        "moreInfo": "Removed uppercase and lowercase requirements from password setup and validation flows."
+      },
+      {
+        "text": "Password Validation",
+        "moreInfo": "Password validation no longer requires both uppercase and lowercase characters."
       },
       {
         "text": "Friend Data Handling",
-        "moreInfo": "Improved how friend information is processed and displayed throughout Friends Remover."
+        "moreInfo": "Improved how friend information is loaded and handled across Friends Remover."
+      },
+      {
+        "text": "Compact Viewer Layout",
+        "moreInfo": "Made Compact Viewer more compact and positioned names and friend counts closer together to keep more information visible in a single view."
+      },
+      {
+        "text": "Profile Frame Integration",
+        "moreInfo": "Improved Profile Frame integration so frames can be displayed in a square format that fits Compact Viewer."
+      },
+      {
+        "text": "Overall Stability",
+        "moreInfo": "Improved overall stability by eliminating more than 20 issues that could cause bugs, lag, or unexpected behavior."
       }
     ],
     "experimental": [],
