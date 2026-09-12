@@ -1,0 +1,191 @@
+{
+  "title": "A Frame With A Name 🖼️",
+  "cat": "Updates",
+  "date": "September 12, 2026",
+  "badge": "VERSION 2.1",
+  "badgeAfter": "Latest",
+  "version": "2.1",
+  "breaking": false,
+  "coming_soon": false,
+  "platforms": ["Chrome", "Firefox"],
+  "excerpt": "Friends Remover just got a massive update! Introducing Compact Viewer, Removal Ranks, Friend History, profile frames, improved scheduled removals, smarter pin suggestions, redesigned status toasts, major performance improvements, and much more.",
+  "thumbImage": "",
+  "thumbFit": "contain",
+  "thumbPosition": "center",
+  "body": "<p>This is one of our biggest Friends Remover updates yet. We've made major changes across the extension, including a brand-new Compact Viewer, improved friend information, better removal protections, new customization options, and significant performance improvements.</p><p>Introducing Compact Viewer! The new Compact Viewer gives you a much more compact way to manage your friends. Names and friend counts such as \"2/200\" are positioned closer together so you can see more of your friends at once without constantly scrolling.</p><p>We've also added Removal Ranks. Friends who have used Friends Remover can now have their removal rank displayed. The more friends someone has unfriended using Friends Remover, the higher their rank can become. Removal Ranks are available in Friends Details and Compact Viewer.</p><p>FR Plus users can now access the Friend History Viewer, allowing them to view a friend's unfriend history directly from Compact Viewer or Friends Details. Users can also choose through Settings whether their own history can be viewed by themselves or their friends.</p><p>Profile Frames have also been added. Friends' Roblox profile frames can now be displayed inside Friends Remover using our own implementation. Frames are converted into a square format for Compact Viewer, are enabled by default, and can be disabled through Settings.</p><p>We've completely updated friend status toasts. In-game friends now receive a green toast showing their name, game, and a \"Click to join\" option. Online friends use blue, Studio uses orange, offline uses gray, inactive uses muted gray, and deleted, unavailable, or flagged users use red. These status colors are now fixed and cannot be overridden by themes or Dark Mode.</p><p>Scheduled removals have also received major improvements. You can now schedule removals up to 20 days ahead, scheduled friends remain protected from removal systems, and scheduled removals can continue executing even when you're not logged into the correct account.</p><p>Pin Suggestions have been improved as well. The maximum number of suggestions has increased from 3 to 5, while the suggestion percentage has increased from 5% to 25%. Free users must also now be friends with someone for three full days before they can pin them.</p><p>We've also made Friends Remover significantly faster and smoother. Friend-list loading is faster, background activity has been reduced, large friend lists perform better, and several refreshing, selecting, removing, and view-switching issues have been fixed.</p><p>Dark Mode is now the default, and FR Plus themes have been replaced with a new set of special themes. We've also added a new free yellow theme, which is now the default theme.</p><p>And that's just the beginning. This update contains a huge number of fixes, improvements, and quality-of-life changes throughout Friends Remover.</p>",
+  "download": {
+    "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
+  },
+  "changes": {
+    "added": [
+      {
+        "text": "Compact Viewer",
+        "moreInfo": "Added a new compact friends viewer designed to display more information at once without scrolling. Names and friend counts such as \"2/200\" are positioned closer together."
+      },
+      {
+        "text": "Profile Frames",
+        "moreInfo": "Added profile frames for friends based on Roblox's profile frame system. Frames use a square format in Compact Viewer, are enabled by default, and can be disabled in Settings."
+      },
+      {
+        "text": "Removal Ranks",
+        "moreInfo": "Added Removal Ranks. Friends who have used Friends Remover can now have a rank based on how many friends they have unfriended. Removal Ranks are available in Friends Details and Compact Viewer."
+      },
+      {
+        "text": "Friend History Viewer",
+        "moreInfo": "FR Plus users can now view their friends' unfriend history from Compact Viewer or Friends Details."
+      },
+      {
+        "text": "Friend History Privacy",
+        "moreInfo": "Users can control whether their unfriend history can be viewed by themselves or their friends through Settings."
+      },
+      {
+        "text": "Compact Viewer Actions",
+        "moreInfo": "Added Select All, Deselect All, and Refresh Friends List buttons directly to the Compact Viewer header."
+      },
+      {
+        "text": "Updated Tutorial",
+        "moreInfo": "Added the tutorial back with smoother animations and redesigned steps."
+      },
+      {
+        "text": "Removal Confirmation Toast",
+        "moreInfo": "Restored the previous removal confirmation toast: \"Tap to confirm removal of name (12% of your friends list).\""
+      },
+      {
+        "text": "Updated Untrust Toast",
+        "moreInfo": "The untrust system now displays a toast notification when a user is untrusted."
+      },
+      {
+        "text": "Removal Status Toasts",
+        "moreInfo": "Added updated status-specific toast designs for in-game, online, Studio, offline, inactive, deleted, unavailable, and flagged friends."
+      },
+      {
+        "text": "Free Yellow Theme",
+        "moreInfo": "Added a new free yellow theme, which is now the default theme."
+      }
+    ],
+    "removed": [
+      {
+        "text": "Custom Background Removal Intervals",
+        "moreInfo": "Removed the ability to configure custom background-removal intervals."
+      },
+      {
+        "text": "Account Badges From Friends List",
+        "moreInfo": "Friends List Viewer no longer displays account badges."
+      },
+      {
+        "text": "Badge Data Requests",
+        "moreInfo": "Friends List Viewer no longer requests Premium, Verified, Roblox Plus, or Admin badge data."
+      }
+    ],
+    "fixed": [
+      {
+        "text": "White Mode Badges",
+        "moreInfo": "Fixed a White Mode-only issue where the Roblox Plus logo and Roblox Admin logo were swapped."
+      },
+      {
+        "text": "Repeated FR Plus Grant Notification",
+        "moreInfo": "Fixed FR Plus grant notifications appearing repeatedly."
+      },
+      {
+        "text": "Compact Viewer Friend Sorting",
+        "moreInfo": "Fixed an issue where friend sorting in Compact Viewer could sometimes break."
+      },
+      {
+        "text": "Scheduled Friend Protection",
+        "moreInfo": "Fixed scheduled friends being vulnerable to removal by ensuring they are protected by multiple removal systems, including background removal."
+      },
+      {
+        "text": "Scheduled Friend Selection",
+        "moreInfo": "Fixed scheduled friends being selectable or removable through the Friends List Viewer."
+      },
+      {
+        "text": "Scheduled Friend Pinning",
+        "moreInfo": "Fixed scheduled friends being available for pinning through the Friends List Viewer."
+      },
+      {
+        "text": "Friend Data Display",
+        "moreInfo": "Fixed friend bio information sometimes appearing in Compact Viewer or Friends Details where Friends Since information should be displayed."
+      },
+      {
+        "text": "Friends List Performance",
+        "moreInfo": "Fixed unnecessary badge requests from the Friends List Viewer."
+      }
+    ],
+    "improved": [
+      {
+        "text": "Background Polling",
+        "moreInfo": "Updated background settings polling and background-removal polling times to improve reliability and performance."
+      },
+      {
+        "text": "Loading Screen",
+        "moreInfo": "Updated the loading screen with centered content and a larger headshot."
+      },
+      {
+        "text": "Pin Suggestions",
+        "moreInfo": "Increased the maximum number of pin suggestions from 3 to 5 and increased the suggestion percentage from 5% to 25%."
+      },
+      {
+        "text": "Friend Status Layout",
+        "moreInfo": "Friend statuses are now displayed separately below the headshot, similar to names."
+      },
+      {
+        "text": "Name Badge Positioning",
+        "moreInfo": "Moved name badges closer to names. This positioning has now been finalized."
+      },
+      {
+        "text": "Scheduled Removals",
+        "moreInfo": "Scheduled removals now support up to 20 days ahead and continue executing even when the user is not logged into the correct account."
+      },
+      {
+        "text": "Scheduled Removal Protection",
+        "moreInfo": "Scheduled friends are now protected by multiple removal systems, including background removal."
+      },
+      {
+        "text": "Dark Mode",
+        "moreInfo": "Dark Mode is now enabled by default."
+      },
+      {
+        "text": "Status Toast Colors",
+        "moreInfo": "Status toast colors now use fixed palettes so Dark Mode, Light Mode, and custom themes cannot override them."
+      },
+      {
+        "text": "Search Query Caching",
+        "moreInfo": "Search queries in Compact Viewer and Friends List are now cached for faster repeated searches."
+      },
+      {
+        "text": "Mutual Friend Viewer",
+        "moreInfo": "Mutual Friend Viewer now continues to work while searching and removes the active search query when opened."
+      },
+      {
+        "text": "FR Plus Themes",
+        "moreInfo": "Replaced the previous FR Plus themes with a new set of special themes."
+      },
+      {
+        "text": "Password Validation",
+        "moreInfo": "Removed uppercase and lowercase requirements from password setup and validation flows."
+      },
+      {
+        "text": "Performance",
+        "moreInfo": "Improved overall performance, reduced lag, reduced unnecessary background activity, and made Friends Remover run more smoothly."
+      },
+      {
+        "text": "Friend List Loading",
+        "moreInfo": "Improved friend-list loading speed, especially when working with larger friend lists."
+      },
+      {
+        "text": "View Stability",
+        "moreInfo": "Improved stability when switching views or reopening the popup."
+      },
+      {
+        "text": "Selection and Removal",
+        "moreInfo": "Improved reliability when refreshing, selecting, and removing friends."
+      },
+      {
+        "text": "Compact Viewer Actions",
+        "moreInfo": "Moved Select All, Deselect All, and Refresh Friends List actions from the three-dots menu into the Compact Viewer header."
+      }
+    ],
+    "experimental": [],
+    "other": []
+  }
+}
