@@ -2,17 +2,17 @@
 "title": "A Second Halloween 🎃",
 "cat": "Updates",
 "date": "October 8, 2026",
-"badge": "COMING SOON",
+"badge": "VERSION 3.4",
 "badgeAfter": "Latest",
 "version": "3.4",
 "breaking": false,
 "coming_soon": false,
 "platforms": ["Chrome", "Firefox"],
-"excerpt": "October 23 marks the anniversary of our first Halloween update announcement! Today, we celebrate our second Halloween together with another special theme, bringing a little spooky spirit to Friends Remover. 👻🕸️",
+"excerpt": "October 23 marks the anniversary of our first Halloween update announcement! Today, we celebrate our second Halloween together with a special theme, Friend Filters, unfriend history on Roblox, and major improvements to removal reliability, performance, and stability. 👻🕸️",
 "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/refs/heads/main/A%20Second%20Halloween%20%F0%9F%8E%83.png",
 "thumbFit": "contain",
 "thumbPosition": "center",
-"body": "<p>Friends Remover V.34 celebrates our second Halloween with a special seasonal theme and a major collection of new features, improvements, and fixes. This update introduces Friend Filters, unfriend history directly on Roblox's official Friends List, single-friend removal, removal ranks in the Friends List, and more control over background removals. We've also improved rate-limit detection, removal reliability, popup performance, and interface stability.</p>",
+"body": "<p>Friends Remover V.34 celebrates our second Halloween with a special seasonal theme and a major collection of new features, improvements, and fixes. This update introduces Friend Filters, unfriend history directly on Roblox's official Friends List, single-friend removal, removal ranks in the Friends List, and more control over background removals. We've also improved rate-limit detection, removal reliability, popup performance, and interface stability. The Compact Viewer and friend reporting system have also been removed as we continue refining the extension.</p>",
 "download": {
 "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
 },
@@ -61,8 +61,16 @@
 ],
 "removed": [
 {
+"text": "Compact Viewer",
+"moreInfo": "Removed the Compact Viewer as part of the extension's ongoing changes and improvements."
+},
+{
 "text": "Friend Reporting System",
 "moreInfo": "Officially discontinued and removed the friend reporting system. The feature saw very little use, and maintaining a separate reporting system was no longer a priority. Friends Remover will continue focusing on helping users manage and remove friends efficiently."
+},
+{
+"text": "Friend Statuses",
+"moreInfo": "Removed friend status displays due to the additional API requests they generated and their limited usefulness."
 },
 {
 "text": "Block Mode",
