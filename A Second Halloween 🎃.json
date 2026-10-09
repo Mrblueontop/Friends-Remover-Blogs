@@ -12,7 +12,7 @@
 "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/refs/heads/main/A%20Second%20Halloween%20%F0%9F%8E%83.png",
 "thumbFit": "contain",
 "thumbPosition": "center",
-"body": "<p>Friends Remover V.34 celebrates our second Halloween with a special seasonal theme and a major collection of new features, improvements, and fixes. This update introduces Friend Filters, unfriend history directly on Roblox's official Friends List, single-friend removal, removal ranks in the Friends List, and more control over background removals. We've also improved rate-limit detection, removal reliability, popup performance, and interface stability. The Compact Viewer and friend reporting system have also been removed as we continue refining the extension.</p>",
+"body": "<p>Friends Remover celebrates our second Halloween with a special seasonal theme and a major collection of new features, improvements, and fixes. This update introduces Friend Filters, unfriend history directly on Roblox's official Friends List, single-friend removal, removal ranks in the Friends List, and more control over background removals. We've also improved rate-limit detection, removal reliability, popup performance, and interface stability. The Compact Viewer and friend reporting system have also been removed as we continue refining the extension.</p>",
 "download": {
 "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
 },
