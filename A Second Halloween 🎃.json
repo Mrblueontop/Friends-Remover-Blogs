@@ -2,37 +2,41 @@
 "title": "A Second Halloween 🎃",
 "cat": "Updates",
 "date": "October 8, 2026",
-"badge": "VERSION 3.4",
+"badge": "COMING SOON",
 "badgeAfter": "Latest",
 "version": "3.4",
 "breaking": false,
 "coming_soon": false,
 "platforms": ["Chrome", "Firefox"],
-"excerpt": "Today, we celebrate our second Halloween together with another special theme, bringing a little spooky spirit to Friends Remover. 👻🕸️",
+"excerpt": "October 23 marks the anniversary of our first Halloween update announcement! Today, we celebrate our second Halloween together with another special theme, bringing a little spooky spirit to Friends Remover. 👻🕸️",
 "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/Frame%20With%20Name%20%F0%9F%96%BC%EF%B8%8F.png",
 "thumbFit": "contain",
 "thumbPosition": "center",
-"body": "<p>Friends Remover V.34 introduces a major collection of new features, interface improvements, and stability fixes. This update brings a new Halloween theme, Friend Filters, unfriend history directly on Roblox's official Friends List, single-friend removal, and more control over background removals. We've also improved rate-limit detection, removal reliability, popup performance, and several parts of the extension's interface.</p>",
+"body": "<p>Friends Remover V.34 celebrates our second Halloween with a special seasonal theme and a major collection of new features, improvements, and fixes. This update introduces Friend Filters, unfriend history directly on Roblox's official Friends List, single-friend removal, removal ranks in the Friends List, and more control over background removals. We've also improved rate-limit detection, removal reliability, popup performance, and interface stability.</p>",
 "download": {
 "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
 },
 "changes": {
 "added": [
 {
+"text": "Gray Default Theme",
+"moreInfo": "Introduced a gray default theme for users who prefer a neutral appearance."
+},
+{
 "text": "Halloween Theme 🎃",
-"moreInfo": "Introduced a brand-new Halloween theme, which is now the default theme through November 5, 2026."
+"moreInfo": "Introduced a special Halloween theme, which is now the default theme through November 5, 2026."
 },
 {
 "text": "Friend Filters",
-"moreInfo": "Replaced the previous status filter with a dedicated Friend Filters system featuring multiple options for filtering your friends."
+"moreInfo": "Replaced the previous status filter with a dedicated Friend Filters system featuring multiple options for filtering friends in both the popup and Roblox's official Friends List page."
 },
 {
-"text": "Single-Friend Removal on Roblox",
-"moreInfo": "You can now remove individual friends directly from Roblox's official Friends List page using Friends Remover."
+"text": "Friend Removals on Roblox",
+"moreInfo": "You can now remove individual friends directly from Roblox's official Friends List page."
 },
 {
 "text": "Unfriend History on Roblox",
-"moreInfo": "Added unfriend history directly to Roblox's official Friends page, making it easier to access your friend removal history."
+"moreInfo": "Moved unfriend history from the popup directly to Roblox's official Friends page, making it easier to access your friend removal history."
 },
 {
 "text": "Background Removal Controls",
@@ -47,12 +51,8 @@
 "moreInfo": "Added translation support for the extension's context menu."
 },
 {
-"text": "Friends List Badges Return",
-"moreInfo": "Brought back badges in the Friends List."
-},
-{
-"text": "Quick Actions in the Tutorial",
-"moreInfo": "Added quick actions to the tutorial to make the available controls easier to understand."
+"text": "Removal Ranks in Friends List",
+"moreInfo": "Removal ranks are now displayed in the Friends List."
 },
 {
 "text": "Roblox Rate-Limit Warning",
@@ -61,20 +61,16 @@
 ],
 "removed": [
 {
-"text": "Friend Statuses",
-"moreInfo": "Removed friend status displays due to the additional API requests they generated and their limited usefulness."
-},
-{
 "text": "Friend Reporting System",
-"moreInfo": "Officially discontinued the friend reporting system. The feature saw very little use, and maintaining a separate reporting system was no longer a priority. Friends Remover will continue focusing on helping users manage and remove friends efficiently."
+"moreInfo": "Officially discontinued and removed the friend reporting system. The feature saw very little use, and maintaining a separate reporting system was no longer a priority. Friends Remover will continue focusing on helping users manage and remove friends efficiently."
 },
 {
 "text": "Block Mode",
 "moreInfo": "Removed Block Mode in favor of Free Mode."
 },
 {
-"text": "Duplicate Refresh Action",
-"moreInfo": "Removed the duplicate Refresh action from the friends-load error screen. Try Again is now the only recovery button and continues to clear the cache before retrying the status check."
+"text": "Duplicate Refresh Button",
+"moreInfo": "Removed the duplicate Refresh action from the friends-load error screen. Try Again is now the only recovery button and still clears the cache before retrying the status check."
 },
 {
 "text": "Expensive Popup Animations",
@@ -91,8 +87,8 @@
 "moreInfo": "Fixed an issue that prevented the settings menu from working correctly on mobile devices."
 },
 {
-"text": "Quick Actions, Search, and Filter Controls",
-"moreInfo": "Fixed an issue where multiple controls could remain enabled simultaneously. Opening Search, Filter, Quick Actions, or the three-dots menu now automatically closes the previously open control without disabling the newly selected one."
+"text": "Search, Filter, and Quick Action Controls",
+"moreInfo": "Fixed an issue where multiple controls could remain open simultaneously. Opening Search, Filter, Quick Actions, or the three-dots menu now automatically closes the previously open control without disabling the newly selected one."
 },
 {
 "text": "Welcome Message Spacing",
@@ -100,7 +96,7 @@
 },
 {
 "text": "Mutual Viewer Layout",
-"moreInfo": "Fixed the Mutual Viewer layout so it starts at the top of the profile frame and extends to the bottom correctly."
+"moreInfo": "Fixed the Mutual Viewer layout so it correctly starts at the top of the profile frame and extends to the bottom."
 },
 {
 "text": "Refresh Navigation",
@@ -111,20 +107,8 @@
 "moreInfo": "Fixed missing failure notifications when removing fewer than five friends. Small batches use a toast instead of the full removal screen, and the toast now correctly reports failures and rate limiting."
 },
 {
-"text": "Removal Rate-Limit Handling",
-"moreInfo": "Improved rate-limit detection so the extension can identify when requests are being limited and pause removals appropriately."
-},
-{
 "text": "Removal Locking and Concurrency",
-"moreInfo": "Added worker-enforced removal locking, disabled removal controls during active runs, persistent status tracking for small batches, and shared rate limiting across manual and automated removals to prevent conflicting removal processes."
-},
-{
-"text": "Accent Theme Styling",
-"moreInfo": "Fixed accent theme styling in the menu, including the comma character."
-},
-{
-"text": "Removal Screen Mutual Mode",
-"moreInfo": "Fixed the removal screen so the Mutual Friends Viewer no longer appears when Mutual Mode is active."
+"moreInfo": "Implemented worker-enforced removal locking, disabled removal controls during active runs, persistent status tracking for small batches, and shared rate limiting across manual and automated removals to prevent conflicting removal processes."
 }
 ],
 "improved": [
@@ -134,7 +118,7 @@
 },
 {
 "text": "Image Memory Usage",
-"moreInfo": "Optimized image assets to reduce the number of unnecessarily large images consuming excessive kilobytes or megabytes."
+"moreInfo": "Optimized image assets to reduce excessive memory usage caused by unnecessarily large images."
 },
 {
 "text": "Extension Logo",
@@ -166,7 +150,7 @@
 },
 {
 "text": "Removal Rate-Limit System",
-"moreInfo": "Improved the removal rate-limit system to detect rate limiting earlier and determine when to pause and resume removal requests."
+"moreInfo": "Improved rate-limit detection so the extension can identify rate limiting earlier and determine when to pause and resume removal requests."
 },
 {
 "text": "Background Removal Reliability",
