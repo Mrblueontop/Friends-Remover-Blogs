@@ -1,9 +1,9 @@
 {
   "title": "A Second Halloween 🎃",
   "cat": "Updates",
-  "date": "October 8, 2026",
+  "date": "October 17, 2026",
   "badge": "COMING SOON!",
-  "badgeTimestamp": "2026-10-16T12:00:00Z",
+  "badgeTimestamp": "2026-10-17T16:00:00Z",
   "badgeAfter": "LET'S GET SPOOKY!",
   "version": "2.4",
   "breaking": false,
@@ -12,11 +12,11 @@
     "Chrome",
     "Firefox"
   ],
-  "excerpt": "October 23 marks the anniversary of our first Halloween update announcement! We're celebrating our second Halloween with a special theme, persistent notifications, Friend Filters, stronger security, and major improvements to removal reliability and performance. 🎃",
+  "excerpt": "We're celebrating our second Halloween with a special seasonal theme, exciting changes, and improvements across Friends Remover. 🎃",
   "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/refs/heads/main/A%20Second%20Halloween%20%F0%9F%8E%83.png",
   "thumbFit": "contain",
   "thumbPosition": "center",
-  "body": "<p>🎃 October 23 marks the anniversary of the announcement of our very first Halloween update, and now we're celebrating our second Halloween together! This year, Friends Remover is getting another spooky makeover with a special seasonal theme, exciting new features, and major improvements across the extension. From a refreshed interface to stronger security, smarter removal tools, and a brand-new notification system, there's plenty to discover in this update.</p><p>🔔 One of the biggest additions is the new Friends Remover Notifications system! Notifications are saved to a dedicated database and integrated directly into Roblox's own notifications interface. Your notifications remain saved even when receiving notifications is disabled in the settings. We've also introduced Friend Filters for the popup and Roblox's official Friends List, added unfriend history and individual friend removal directly to Roblox's website, and made it possible to send friend requests to people you've previously removed.</p><p>🔒 Security and customization have also received important improvements. Notes moderation has been strengthened with patches for multiple text-filter bypasses and warnings for content that mocks tragic events. PIN protection now applies when canceling scheduled removals, provided you've configured a PIN. Friends must also have been on your friends list for at least three days before they can be pinned. Meanwhile, the chance of a suggested pin appearing has increased from 25% to 65%, making suggestions much more frequent.</p><p>⚙️ We've made substantial improvements behind the scenes, too. Removal reliability, rate-limit detection, background removal controls, and coordination between manual and automated removals have all received attention. The removal progress bar is now more consistent, time estimates are more accurate, and FR Plus removal speeds will no longer disappear when you refresh your settings. Several settings that failed to initialize correctly have also been fixed, alongside improvements to random-removal notifications so your own removals don't trigger alerts intended for unexpected removals.</p><p>The interface has received its own set of refinements. The popup now uses Builder Sans throughout, theme loading is faster, image assets consume less memory, and the extension features its updated logo. We've also updated Block Mode's interface and toast notifications, improved the Friends List refresh experience, refined menu spacing, and added missing translations for several settings. Various issues involving mobile settings, search, filters, quick actions, and removal notifications have been addressed as well.</p><p>🧹 This update also marks the removal of several existing features. The Compact Viewer, tutorial, friend reporting system, and friend status displays have been discontinued as we focus on the most useful parts of Friends Remover. Block Mode has been replaced by Free Mode, while resource-intensive animations and duplicate controls have been removed to reduce unnecessary processing and improve performance.</p><p>Our second Halloween celebration is about more than a seasonal theme. It's another step toward making Friends Remover more reliable, secure, customizable, and easier to use. Thank you for continuing to support the project and being part of another Halloween with us. Enjoy the spooky season, explore the new features, and let's make this our best Halloween yet! 🎃👻</p>",
+  "body": "<p>🎃 October 23 marks the anniversary of our very first Halloween update announcement, and now we're celebrating our second Halloween together! Friends Remover is getting another spooky makeover with a special seasonal theme and plenty of exciting changes.</p><p>👻 This update brings a fresh experience, new ways to manage your friends, improvements to notifications, and important upgrades to security, reliability, and performance.</p><p>🕸️ We've also made changes behind the scenes, refined the interface, and reworked parts of the extension to make Friends Remover smoother and more enjoyable to use.</p><p>Thank you for being part of our second Halloween celebration! Get ready to explore what's new and enjoy the spooky season with Friends Remover. 🎃</p>",
   "download": {
     "chrome": "https://chromewebstore.google.com/detail/friends-remover/agdjmncghlhgkfahelckfinnhkpidebp"
   },
@@ -40,7 +40,7 @@
       },
       {
         "text": "Unfriend History on Roblox",
-        "moreInfo": "Moved unfriend history from the popup directly to Roblox's official Friends page, making it easier to access your friend removal history."
+        "moreInfo": "Added Unfriend History directly to Roblox's official Friends page, making it easier to access and review your friend removal history."
       },
       {
         "text": "Background Removal Controls",
@@ -61,10 +61,6 @@
       {
         "text": "Roblox Rate-Limit Warning",
         "moreInfo": "Added a warning to the removal screen when Roblox is rate-limiting requests."
-      },
-      {
-        "text": "Friend Requests for Removed Friends",
-        "moreInfo": "You can now send friend requests to people you've previously removed from your friends list, making it easier to reconnect."
       },
       {
         "text": "Persistent Roblox Notifications",
@@ -185,10 +181,6 @@
         "moreInfo": "Reduced the gap between the welcome message and the menu buttons from 24px to 12px."
       },
       {
-        "text": "Uninstall Logging",
-        "moreInfo": "Added more detailed logging to the uninstall page to make troubleshooting easier."
-      },
-      {
         "text": "Friends List Refresh Loading",
         "moreInfo": "The Refresh button in the Friends List now displays a loading screen while refreshing."
       },
@@ -214,7 +206,7 @@
       },
       {
         "text": "Three-Day Friendship Requirement",
-        "moreInfo": "Friends must have been on your friends list for at least three days before they can be pinned."
+        "moreInfo": "Fully enforced the three-day friendship requirement across Friends Remover. Friends must have been on your friends list for at least three days before they can be pinned, and this restriction is enforced everywhere throughout the extension."
       },
       {
         "text": "Block Mode Interface and Toasts",
