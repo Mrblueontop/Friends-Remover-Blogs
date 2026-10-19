@@ -1,4 +1,5 @@
 {
+  "id": "update-2-2",
   "title": "A Global Voice 🌎",
   "cat": "Updates",
   "date": "August 27, 2026",
@@ -20,25 +21,30 @@
     "added": [
       {
         "text": "Complete Language Support",
+        "id": "complete-language-support",
         "moreInfo": "Translations now cover Settings, the popup menu, Friends List, Unfriend History, Block History, notifications, toasts, and the entire Compact Viewer.",
         "platform": "translation"
       },
       {
         "text": "Google Translation API",
+        "id": "google-translation-api",
         "moreInfo": "Started using Google's translation API to help power translations and improve the translation system.",
         "platform": "translation"
       },
       {
         "text": "Cached Languages",
+        "id": "cached-languages",
         "moreInfo": "Selected languages are now cached so translations load much faster in the popup and Settings.",
         "platform": "translation"
       },
       {
         "text": "Roblox Premium Badge",
+        "id": "roblox-premium-badge",
         "moreInfo": "Friends with Roblox Premium can now have the Premium badge displayed next to their names, alongside other supported badges."
       },
       {
         "text": "Mutual Friend Feedback",
+        "id": "mutual-friend-feedback",
         "moreInfo": "Clicking the + mutual-friends button now shows a toast listing the other mutual friends."
       }
     ],
@@ -46,44 +52,54 @@
     "fixed": [
       {
         "text": "Roblox Plus Badge",
+        "id": "roblox-plus-badge",
         "moreInfo": "Fixed the Roblox Plus badge not appearing by switching to the correct API."
       },
       {
         "text": "Inactivity Monitor",
+        "id": "inactivity-monitor",
         "moreInfo": "Fixed the inactivity monitor activating without being enabled and incorrectly removing friends."
       },
       {
         "text": "Scheduled Removal Menu Lock",
+        "id": "scheduled-removal-menu-lock",
         "moreInfo": "Prevented popup menus from being clicked while the scheduled-removal modal is open."
       },
       {
         "text": "Banned & Deleted Friend Pins",
+        "id": "banned-and-deleted-friend-pins",
         "moreInfo": "Banned and deleted friends can now be pinned again."
       },
       {
         "text": "Banned & Deleted Friend Names",
+        "id": "banned-and-deleted-friend-names",
         "moreInfo": "Fixed banned and deleted friends' names not updating or displaying correctly."
       },
       {
         "text": "Split-Second Thumbnails",
+        "id": "split-second-thumbnails",
         "moreInfo": "Fixed incorrect bust thumbnails briefly appearing when another thumbnail type is selected."
       },
       {
         "text": "Button States",
+        "id": "button-states",
         "moreInfo": "Fixed button states and updated styling while switching between Remove, Cancel, Dismiss, Add Back, Unblock, and Block modes."
       },
       {
         "text": "Language Theme Reset",
+        "id": "language-theme-reset",
         "moreInfo": "Changing the language and clicking Save All no longer resets the selected theme back to blue."
       },
       {
         "text": "Block History Spelling",
+        "id": "block-history-spelling",
         "moreInfo": "Fixed the Block History bulk-action text to correctly say Dismiss Selected (N) instead of Remove Selected (N)."
       }
     ],
     "improved": [
       {
         "text": "Confirmation Messages",
+        "id": "confirmation-messages",
         "moreInfo": "Single- and multi-friend confirmation messages are now correctly localized across supported languages.",
         "platform": "translation"
       }
