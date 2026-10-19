@@ -101,9 +101,9 @@
         "moreInfo": "Removed friend status displays due to the additional API requests they generated and their limited usefulness."
       },
       {
-        "text": "Block Mode",
-        "id": "block-mode",
-        "moreInfo": "Removed Block Mode in favor of Free Mode."
+        "text": "Free Block Mode",
+        "id": "free-block-mode",
+        "moreInfo": "Removed Free Block Mode for the limited time it's now FR Plus only again."
       },
       {
         "text": "Tutorial",
