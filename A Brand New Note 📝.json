@@ -1,4 +1,5 @@
 {
+  "id": "update-2-0",
   "title": "A Brand New Note 📝",
   "cat": "Updates",
   "date": "August 18, 2026",
@@ -20,140 +21,173 @@
     "added": [
       {
         "text": "Friend Note System",
+        "id": "friend-note-system",
         "moreInfo": "You can now add notes to your friends so you can remember who they are, why they're your friend, or anything else you want to remember. Notes are saved to our servers and can be accessed directly from Compact Viewer or Friends Details."
       },
       {
         "text": "Block History Returns",
+        "id": "block-history-returns",
         "moreInfo": "Block History is back! You can now view your blocked users directly from the popup using a dedicated Block History system with its own separate database."
       },
       {
         "text": "Unblock Button",
+        "id": "unblock-button",
         "moreInfo": "You can now unblock users directly from Block History."
       },
       {
         "text": "Show Background in PFPs",
+        "id": "show-background-in-pfps",
         "moreInfo": "You can now display a user's selected Roblox Avatar Background behind their avatar. This feature is enabled by default."
       },
       {
         "text": "Friends Since Caching",
+        "id": "friends-since-caching",
         "moreInfo": "Friends are now cached with their original friends-since date for better friend information and data handling."
       },
       {
         "text": "Replaced Emojis With Custom Icons",
+        "id": "replaced-emojis-with-custom-icons",
         "moreInfo": "Added dedicated history icons in the popup and Settings instead of using emoji icons."
       },
       {
         "text": "Uninstall Error Detection",
+        "id": "uninstall-error-detection",
         "moreInfo": "The uninstall system can now detect and collect errors along with the user's friend count to help identify issues."
       },
       {
         "text": "Block Mode Is Free for a Limited Time",
+        "id": "block-mode-is-free-for-a-limited-time",
         "moreInfo": "Block Mode is now completely free for all users for a LIMITED TIME. Try it out before the promotion ends!"
       },
       {
         "text": "Improved Mutual Removal Screen",
+        "id": "improved-mutual-removal-screen",
         "moreInfo": "Updated the Mutual Mode removal screen and added the user's friend count to make the removal experience clearer."
       }
     ],
     "removed": [
       {
         "text": "reCAPTCHA Verification",
+        "id": "recaptcha-verification",
         "moreInfo": "Removed the broken reCAPTCHA verification system from Settings."
       },
       {
         "text": "Trusted & Pinned User Outlines",
+        "id": "trusted-and-pinned-user-outlines",
         "moreInfo": "Removed the outlines around trusted and pinned users for a cleaner and more minimal interface."
       }
     ],
     "fixed": [
       {
         "text": "Dismissed User",
+        "id": "dismissed-user",
         "moreInfo": "Fixed an issue where dismissing a user would still show them."
       },
       {
         "text": "Notification Settings",
+        "id": "notification-settings",
         "moreInfo": "Fixed certain systems not properly respecting the 'Receive Notifications' setting."
       },
       {
         "text": "Popup Headshots",
+        "id": "popup-headshots",
         "moreInfo": "Fixed headshots failing to load properly after switching popup view types."
       },
       {
         "text": "Mutual Mode Protected Users",
+        "id": "mutual-mode-protected-users",
         "moreInfo": "Fixed pinned and trusted users being able to get removed through Mutual Mode."
       },
       {
         "text": "Compact Viewer Removal Count",
+        "id": "compact-viewer-removal-count",
         "moreInfo": "Fixed the removal button not updating to 'Remove (count)' when Mutual Mode was enabled in Compact Viewer."
       },
       {
         "text": "Removal Screen Headshots",
+        "id": "removal-screen-headshots",
         "moreInfo": "Fixed headshots flashing or displaying incorrectly on the removal screen."
       },
       {
         "text": "Compact Viewer Search",
+        "id": "compact-viewer-search",
         "moreInfo": "Fixed searching in Compact Viewer causing the 'No Friends Found' error."
       },
       {
         "text": "Dark Mode Error Messages",
+        "id": "dark-mode-error-messages",
         "moreInfo": "Added proper Dark Mode support to error messages and fixed messages that were difficult to read."
       },
       {
         "text": "Theme Text Visibility",
+        "id": "theme-text-visibility",
         "moreInfo": "Fixed certain texts becoming unreadable depending on the selected theme when Dark Mode was enabled."
       },
       {
         "text": "Friends List Toast",
+        "id": "friends-list-toast",
         "moreInfo": "Fixed the 'Switched to Friends List' toast appearing too high on the screen."
       }
     ],
     "improved": [
       {
         "text": "Popup Size",
+        "id": "popup-size",
         "moreInfo": "Slightly increased the popup size to give the interface more room and make it more comfortable to use."
       },
       {
         "text": "Popup UI",
+        "id": "popup-ui",
         "moreInfo": "Made several UI improvements throughout the popup to create a cleaner, smoother, and more polished experience."
       },
       {
         "text": "Mutual Mode Placement",
+        "id": "mutual-mode-placement",
         "moreInfo": "Moved Mutual Mode to appear before Block Mode in the popup for a more organized and intuitive layout."
       },
       {
         "text": "Popup Loading Screen",
+        "id": "popup-loading-screen",
         "moreInfo": "Made the popup loading screen more descriptive so users have a better idea of what is happening while the extension loads."
       },
       {
         "text": "View Type Button",
+        "id": "view-type-button",
         "moreInfo": "The popup view-switching button now uses an icon that correctly corresponds with the currently selected view."
       },
       {
         "text": "Mutual Mode Protection",
+        "id": "mutual-mode-protection",
         "moreInfo": "Improved Mutual Mode protection so pinned and trusted users cannot accidentally be removed."
       },
       {
         "text": "Popup Performance",
+        "id": "popup-performance",
         "moreInfo": "Fixed popup lag and improved how smoothly the popup responds during normal use."
       },
       {
         "text": "Friend Data Caching",
+        "id": "friend-data-caching",
         "moreInfo": "Friend data is now cached with the friends-since date for better data handling."
       },
       {
         "text": "History UI",
+        "id": "history-ui",
         "moreInfo": "Added special custom history icons throughout the popup and Settings for a cleaner and more consistent interface."
       },
       {
         "text": "Error Handling",
+        "id": "error-handling",
         "moreInfo": "Improved error detection and handling across multiple extension systems."
       },
       {
         "text": "Uninstall Feedback",
+        "id": "uninstall-feedback",
         "moreInfo": "Uninstall feedback now provides useful diagnostic information that can help identify bugs users experienced before uninstalling."
       },
       {
         "text": "Mutual Mode Removal Screen",
+        "id": "mutual-mode-removal-screen",
         "moreInfo": "Updated the removal screen to display the user's friend count and provide a clearer progress experience."
       }
     ],
