@@ -1,4 +1,5 @@
 {
+  "id": "update-1-3",
   "title": "A Trusted Friend 💙",
   "cat": "Updates",
   "date": "May 27, 2026",
@@ -20,133 +21,174 @@
     "added": [
       {
         "text": "Trusted Friends Protection",
+        "id": "trusted-friends-protection",
         "moreInfo": "Trusted Friends are now treated the same as pinned friends and are fully protected from manual removals and automatic/background removals."
       },
       {
         "text": "Trusted Friends support everywhere pinned friends are supported",
+        "id": "trusted-friends-support-everywhere-pinned-friends-are-supported",
         "moreInfo": "Trusted Friends now work with all systems that previously only supported pinned friends."
       },
       {
         "text": "Auto Re-Add Removed Pinned Friends setting",
+        "id": "auto-re-add-removed-pinned-friends-setting",
         "moreInfo": "If a pinned friend gets removed somehow, Friends Remover can automatically attempt to re-add them."
       },
       {
         "text": "Tutorial System",
+        "id": "tutorial",
         "moreInfo": "New users will now see a guided tutorial explaining the popup, removal system, selection system, and major buttons. Tutorials are skippable for new users only."
       },
       {
         "text": "Roblox badges next to usernames",
+        "id": "roblox-badges-next-to-usernames",
         "moreInfo": "Users who are verified or have other special status will now have their corresponding badges next to their display names or usernames in the popup."
       },
       {
         "text": "Friends Remover badge",
+        "id": "friends-remover-badge",
         "moreInfo": "Users who have or used Friends Remover now have a sleek badge next to their username or display name."
       },
       {
         "text": "\"Notify if a Friend Removes You\" Setting",
+        "id": "notify-if-a-friend-removes-you-setting",
         "moreInfo": "If this setting is on, you will be notified if a friend is removed from your friends list."
       },
       {
         "text": "Captcha when removing friends",
+        "id": "captcha-when-removing-friends",
         "moreInfo": "Extra protection was added to prevent accidental removals and improve reliability during large removals."
       },
       {
         "text": "Reduce Animations setting",
+        "id": "reduce-animations-setting",
         "moreInfo": "This setting doesn't have a fixed default and will be determined to turn on or off depending on your frames per second when you first install the extension and start using the popup. The extension can now dynamically reduce animations if you start to experience lag while using the popup."
       },
       {
         "text": "Speed Arrows in Compact View",
+        "id": "speed-arrows-in-compact-view",
         "moreInfo": "Holding the arrows now instantly jumps to the first or last friend in your list."
       },
       {
         "text": "Sleek new easter egg",
+        "id": "sleek-new-easter-egg",
         "moreInfo": "Shhh... it has something to do with interacting with the developer as a friend in Compact View."
       },
       {
         "text": "Warning when removing large or important users",
+        "id": "warning-when-removing-large-or-important-users",
         "moreInfo": "Extra warnings now appear when attempting to remove users such as admins, verified users, or Star Creators."
       },
       {
         "text": "Toggle for bad users visibility",
+        "id": "toggle-for-bad-users-visibility",
         "moreInfo": "You can now choose whether bad users flagged by Rotectors API are shown or hidden."
       },
       {
         "text": "Game icon shown behind headshots",
+        "id": "game-icon-behind-headshots",
         "moreInfo": "When a friend is currently playing a game, their game icon will now appear behind their avatar headshot."
       }
     ],
     "removed": [
-      "Old hold-to-select removal logic",
+      {
+        "text": "Old hold-to-select removal logic",
+        "id": "old-hold-to-select-removal-logic"
+      },
       {
         "text": "Dark Mode",
+        "id": "dark-mode",
         "moreInfo": "Dark Mode may return in the future, but for now it has been removed due to maintenance and usability issues."
       }
     ],
     "fixed": [
-      "Multiple selection being extremely glitchy",
+      {
+        "text": "Multiple selection being extremely glitchy",
+        "id": "multiple-selection-being-extremely-glitchy"
+      },
       {
         "text": "Status removal issues",
+        "id": "status-removal-issues",
         "moreInfo": "I don't know why the status was missing from the last update, but we fixed it. So sorry, lol."
       },
       {
         "text": "Updated inactivity tracker showing logic",
+        "id": "updated-inactivity-tracker-showing-logic",
         "moreInfo": "The activity tracker will no longer show on specific pages when you're doing specific stuff in the popup, such as when you're on the friend removal screen, and even when you're doing our tutorial."
       },
       {
         "text": "Local storage handling",
+        "id": "local-storage-handling",
         "moreInfo": "The extension now handles offline saving and API downtime much better using improved local storage systems."
       }
     ],
     "improved": [
       {
         "text": "Pins now save after closing the popup",
+        "id": "pins-now-save-after-closing-the-popup",
         "moreInfo": "Pinned users are no longer instantly synced every time you pin or unpin somebody. Changes now save after closing the popup for much better performance."
       },
       {
         "text": "Settings now save after closing the settings page",
+        "id": "settings-now-save-after-closing-the-settings-page",
         "moreInfo": "Settings are now batched together and saved only after leaving settings instead of constantly syncing changes."
       },
       {
         "text": "Block Mode",
+        "id": "block-mode",
         "moreInfo": "Block Mode now includes a dedicated logo and temporarily changes the popup theme to blue while enabled without affecting your actual saved theme."
       },
       {
         "text": "Friends playing status UI",
+        "id": "friends-playing-status-ui",
         "moreInfo": "Game statuses now use sleek toast notifications instead of modals."
       },
       {
         "text": "Headshot styling",
+        "id": "headshot-styling",
         "moreInfo": "Users who are currently in a game will now have a shadow added to their avatar only if the game icon is shown behind them."
       },
       {
         "text": "Game title truncation",
+        "id": "game-title-truncation",
         "moreInfo": "Long game titles are now displayed better and unnecessary title tags like (NEW), (UPD), and similar text are automatically cleaned."
       },
       {
         "text": "Presence refresh interval",
+        "id": "presence-refresh-interval",
         "moreInfo": "Friend activity and status updates now refresh faster."
       },
       {
         "text": "Friend selection logic",
+        "id": "friend-selection-logic",
         "moreInfo": "Selecting friends is now much cleaner and easier. Simply use the checkmark system instead of holding users."
       },
       {
         "text": "Replaced confirmation and success modals with clickable toasts",
+        "id": "replaced-confirmation-and-success-modals-with-clickable-toasts",
         "moreInfo": "The popup now feels significantly faster and cleaner during removals and actions."
       },
       {
         "text": "Inactivity tracker",
+        "id": "inactivity-tracker",
         "moreInfo": "You are now considered inactive after 1 minute of no popup interaction and are given a 30 second warning before the popup closes."
       },
       {
         "text": "Statuses now use a new API",
+        "id": "statuses-now-use-a-new-api",
         "moreInfo": "Statuses are now powered by a cleaner and easier-to-maintain API."
       }
     ],
     "experimental": [],
     "other": [
-      "Pinned users will now have a golden username",
-      "Popup performance has been heavily optimized throughout the extension"
+      {
+        "text": "Pinned users will now have a golden username",
+        "id": "pinned-users-will-now-have-a-golden-username"
+      },
+      {
+        "text": "Popup performance has been heavily optimized throughout the extension",
+        "id": "popup-performance-has-been-heavily-optimized-throughout-the-extension"
+      }
     ]
   }
 }
