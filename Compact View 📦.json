@@ -1,4 +1,5 @@
 {
+  "id": "update-1-1",
   "title": "Compact View 📦",
   "cat": "Updates",
   "date": "April 24, 2026",
@@ -16,28 +17,76 @@
   "body": "<p>With the recent reupload of Friends Remover, we gained over 100 users in just one week. We also saw an increase in how long people use the popup with Compact View — it's less laggy since it requires fewer API calls and only displays one friend at a time.</p><p>Because of this, we've officially removed the old friends list-style popup on Chrome. Compact View has become one of our best updates, so we're now fully enforcing it.</p>",
   "changes": {
     "added": [
-      "Dark mode to Compact View",
-      "Rotectors API — auto-removal in background settings and flagger in popup",
-      "Live Roblox status in popup",
-      "Scroll cooldown",
-      "Pin cooldown and spam protection",
-      "Search bar to unfriend history",
-      "API freezes after inactivity in settings or popup"
+      {
+        "text": "Dark mode to Compact View",
+        "id": "dark-mode-to-compact-view"
+      },
+      {
+        "text": "Rotectors API — auto-removal in background settings and flagger in popup",
+        "id": "rotectors-api-auto-removal-in-background-settings-and-flagger-in-popup"
+      },
+      {
+        "text": "Live Roblox status in popup",
+        "id": "live-roblox-status-in-popup"
+      },
+      {
+        "text": "Scroll cooldown",
+        "id": "scroll-cooldown"
+      },
+      {
+        "text": "Pin cooldown and spam protection",
+        "id": "pin-cooldown-and-spam-protection"
+      },
+      {
+        "text": "Search bar to unfriend history",
+        "id": "search-bar-to-unfriend-history"
+      },
+      {
+        "text": "API freezes after inactivity in settings or popup",
+        "id": "api-freezes-after-inactivity-in-settings-or-popup"
+      }
     ],
     "removed": [
-      "Friends list-style popup — Compact View is now enforced on Chrome"
+      {
+        "text": "Friends list-style popup — Compact View is now enforced on Chrome",
+        "id": "friends-list-style-popup-compact-view-is-now-enforced-on-chrome"
+      }
     ],
     "fixed": [
-      "Multi-select in Compact View buttons",
-      "Friend removal completion after closing and reopening the popup",
-      "Glitchy homepage behind Compact View"
+      {
+        "text": "Multi-select in Compact View buttons",
+        "id": "multi-select-in-compact-view-buttons"
+      },
+      {
+        "text": "Friend removal completion after closing and reopening the popup",
+        "id": "friend-removal-completion-after-closing-and-reopening-the-popup"
+      },
+      {
+        "text": "Glitchy homepage behind Compact View",
+        "id": "glitchy-homepage-behind-compact-view"
+      }
     ],
     "improved": [
-      "Settings loading screen",
-      "Headshot loading speed",
-      "Reduced API calls",
-      "Moved background removers into their own dropdown and settings card",
-      "Updated all popup modals"
+      {
+        "text": "Settings loading screen",
+        "id": "settings-loading-screen"
+      },
+      {
+        "text": "Headshot loading speed",
+        "id": "headshot-loading-speed"
+      },
+      {
+        "text": "Reduced API calls",
+        "id": "reduced-api-calls"
+      },
+      {
+        "text": "Moved background removers into their own dropdown and settings card",
+        "id": "moved-background-removers-into-their-own-dropdown-and-settings-card"
+      },
+      {
+        "text": "Updated all popup modals",
+        "id": "updated-all-popup-modals"
+      }
     ]
   }
 }
