@@ -1,4 +1,5 @@
 {
+  "id": "update-1-9",
   "title": "A Mobilous Update ⚡",
   "cat": "Updates",
   "date": "August 11, 2026",
@@ -20,52 +21,64 @@
     "added": [
       {
         "text": "Friend Reporting System",
+        "id": "friend-reporting-system",
         "moreInfo": "Users can now report bad users directly from their friends list while using Compact View. After reporting, the user is automatically removed and added to Unfriend History. Free users can submit up to 5 reports per Roblox account per day, while FR+ users can submit up to 15 reports per day. Reports are sent for review, with AI-assisted review followed by manual moderation."
       },
       {
         "text": "Flagged User Pinning",
+        "id": "flagged-user-pinning",
         "moreInfo": "Users can now pin flagged users as long as they are not flagged for child-predator-related reasons. Other flagged categories will still be flagged but will not prevent pinning."
       },
       {
         "text": "Friends Detail System",
+        "id": "friends-detail-system",
         "moreInfo": "Added a Friends Detail system that mirrors Compact View for users in the classic Friends List."
       },
       {
         "text": "Unfriend History Filters",
+        "id": "unfriend-history-filters",
         "moreInfo": "Added filters that let users filter Unfriend History based on how users were removed."
       },
       {
         "text": "Popup Viewer Switcher",
+        "id": "popup-viewer-switcher",
         "moreInfo": "Added a menu button that lets users quickly switch between Compact View and the classic Friends List directly in the popup."
       },
       {
         "text": "Mobile Navigation Setting",
+        "id": "mobile-navigation-setting",
         "platform": "Mobile",
         "moreInfo": "Mobile users can now choose between swipe navigation and arrow navigation for Compact View in the Settings General tab."
       },
       {
         "text": "Dark Mode",
+        "id": "dark-mode",
         "moreInfo": "Dark Mode has returned to Friends Remover with a fresh, cleaner appearance."
       },
       {
         "text": "Scrolling Frame",
+        "id": "scrolling-frame",
         "moreInfo": "The classic Scrolling Frame is back and can be enabled through Settings. It includes performance improvements such as 50 friends per page to reduce lag."
       },
       {
         "text": "Suspended, Banned, or Deleted Account Detection",
+        "id": "suspended-banned-or-deleted-account-detection",
         "moreInfo": "A custom popup error screen now appears when your Roblox account is suspended, banned, or deleted."
       },
       {
         "text": "Updated Removal Screen",
+        "id": "updated-removal-screen",
         "moreInfo": "The removal screen now includes a larger profile picture, improved spacing, a progress bar, and an estimated completion time."
       },
       {
         "text": "FR+ Group Role Detection",
+        "id": "fr-group-role-detection",
         "platform": "FR Plus",
         "moreInfo": "FR+ can now be detected through the FR+ role in the Friends Remover group."
       },
       {
         "text": "Free FR+ Activation Notifications",
+        "id": "free-fr-activation-notifications",
         "platform": "FR Plus",
         "moreInfo": "Users can now receive a notification when they are granted free FR+ through the group system."
       }
@@ -73,72 +86,88 @@
     "removed": [
       {
         "text": "Report Settings System",
+        "id": "settings-report-system",
         "moreInfo": "Removed the old Report settings system."
       },
       {
         "text": "Old Import and Export System",
+        "id": "old-import-and-export-system",
         "moreInfo": "Removed the old Import and Export system from Settings."
       },
       {
         "text": "Old Update Notification System",
+        "id": "old-update-notification-system",
         "moreInfo": "Removed the unused update notification system that was originally planned to make older Friends Remover versions unsupported."
       },
       {
         "text": "GitHub Update Poller",
+        "id": "github-update-poller",
         "moreInfo": "Removed the unused GitHub update polling system from background.js."
       },
       {
         "text": "Dynamic Friend Removal Polling",
+        "id": "dynamic-friend-removal-polling",
         "moreInfo": "Removed dynamic polling for background friend-removal checks. Each monitor now uses its own fixed interval."
       },
       {
         "text": "Mobile Advanced Settings",
+        "id": "mobile-advanced-settings",
         "platform": "Mobile",
         "moreInfo": "Removed the empty Advanced tab from Settings on mobile."
       },
       {
         "text": "Mobile Update Carousel",
+        "id": "mobile-update-carousel",
         "platform": "Mobile",
         "moreInfo": "Removed the update carousel from mobile Settings."
       },
       {
         "text": "Old FR+ Setup",
+        "id": "old-fr-setup",
         "platform": "FR Plus",
         "moreInfo": "Removed the old FR+ setup process. Users can now activate FR+ through supported Roblox methods such as group rank and game pass, not our database."
       },
       {
         "text": "Auto Remove Flagged Users",
+        "id": "auto-remove-flagged-users",
         "moreInfo": "Temporarily removed Auto Remove Flagged Users while the new Friends Remover database is being built."
       }
     ],
     "fixed": [
       {
         "text": "Block Mode Now ACTUALLY WORKS!!",
+        "id": "block-mode-now-actually-works",
         "moreInfo": "Fixed Block Mode completely not working because the wrong Roblox API was being used."
       },
       {
         "text": "Block Mode Blue Theme",
+        "id": "block-mode-blue-theme",
         "moreInfo": "Fixed Block Mode losing its permanent blue theme."
       },
       {
         "text": "Mobile Settings",
+        "id": "mobile-settings",
         "platform": "Mobile",
         "moreInfo": "Fixed mobile Settings opening the desktop interface."
       },
       {
         "text": "Unfriend History Arrows",
+        "id": "unfriend-history-arrows",
         "moreInfo": "Fixed the arrows in Unfriend History being positioned too far away."
       },
       {
         "text": "Removal Wording in Block Mode",
+        "id": "removal-wording-in-block-mode",
         "moreInfo": "Fixed multiple places displaying 'Removal' even when Block Mode was enabled."
       },
       {
         "text": "Pinned Friend Notifications",
+        "id": "pinned-friend-notifications",
         "moreInfo": "Fixed pinned removals creating unnecessary notifications when Auto Re-add is enabled."
       },
       {
         "text": "FR+ Loss Handling",
+        "id": "fr-loss-handling",
         "platform": "FR Plus",
         "moreInfo": "When FR+ is lost, all FR+ features now disable properly."
       }
@@ -146,70 +175,86 @@
     "improved": [
       {
         "text": "Mobile Performance",
+        "id": "mobile-performance",
         "platform": "Mobile",
         "moreInfo": "Made popup animations and other mobile systems less demanding, resulting in smoother performance and reduced lag."
       },
       {
         "text": "Flagged Status UI",
+        "id": "flagged-status-ui",
         "moreInfo": "Flagged statuses now look like normal status indicators and their tooltips now match the extension."
       },
       {
         "text": "Flagged User Pin Logic",
+        "id": "flagged-user-pin-logic",
         "moreInfo": "When a flagged user is pinned, their flagged badge is removed from the current user's view so their normal status is displayed. They will still remain flagged for other users."
       },
       {
         "text": "Suggest Pins",
+        "id": "suggest-pins",
         "moreInfo": "Suggest Pins is no longer optional and is automatically enabled."
       },
       {
         "text": "Warn Bad Players",
+        "id": "warn-bad-players",
         "moreInfo": "Warn Bad Players is no longer optional and is automatically enabled."
       },
       {
         "text": "FR+ Activation",
+        "id": "fr-activation",
         "platform": "FR Plus",
         "moreInfo": "Removed routine FR+ worker membership checks, including popup and Settings startup checks and worker checks for feature locks, removal speed, history, scheduling, and polling."
       },
       {
         "text": "FR+ Verification",
+        "id": "fr-verification",
         "platform": "FR Plus",
         "moreInfo": "FR+ membership is now verified directly through Roblox's game-pass, subscription, and group systems."
       },
       {
         "text": "Pinned Friend Notifications",
+        "id": "pinned-friend-notifications",
         "moreInfo": "Pinned removals now use one notification when Auto Re-add is enabled. Notify if a Friend Removes You will only notify when Auto Re-add is disabled."
       },
       {
         "text": "Popup Header",
+        "id": "popup-header",
         "moreInfo": "Made the popup header slightly bigger and brought back the header animation."
       },
       {
         "text": "Background API Throttling",
+        "id": "background-api-throttling",
         "moreInfo": "Ban, inactive, pinned, friend-request, external-removal, and flagged-user background checks no longer run at the same time and compete for Roblox API requests. Manual removal and Block Mode still run immediately and can run ahead of background checks."
       },
       {
         "text": "BETTER Console Logs",
+        "id": "better-console-logs",
         "moreInfo": "Updated console logs to make them easier to read."
       },
       {
         "text": "Block Mode Limit Detection",
+        "id": "block-mode-limit-detection",
         "moreInfo": "Added a 1,000 blocked-friend limit check so Block Mode can tell users when they reach Roblox's limit."
       },
       {
         "text": "Friends List Filters",
+        "id": "friends-list-filters",
         "moreInfo": "Friends List filter selections are now saved locally, fixing the 'No Friends Found' error caused by filters not being remembered correctly."
       },
       {
         "text": "Scheduled Removal Popup",
+        "id": "scheduled-removal-popup",
         "moreInfo": "The popup now automatically removes scheduled users live when their scheduled removal occurs."
       },
       {
         "text": "Mobile Animations",
+        "id": "mobile-animations",
         "platform": "Mobile",
         "moreInfo": "Reduced the performance demands of popup animations for mobile users."
       },
       {
         "text": "Mobile Settings",
+        "id": "mobile-settings",
         "platform": "Mobile",
         "moreInfo": "Added additional mobile checks and improvements throughout Settings."
       }
