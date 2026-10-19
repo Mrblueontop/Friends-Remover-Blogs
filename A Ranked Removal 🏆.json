@@ -1,4 +1,5 @@
 {
+  "id": "update-2-5",
   "title": "A Ranked Removal 🏆",
   "cat": "Updates",
   "date": "October 23, 2026",
@@ -21,38 +22,47 @@
     "added": [
       {
         "text": "Removal Rank Screen",
+        "id": "removal-rank-screen",
         "moreInfo": "Added a dedicated screen where users can view their Removal Rank."
       },
       {
         "text": "Rank-Up Animations",
+        "id": "rank-up-animations",
         "moreInfo": "Users now receive a notification with a new animation when their Removal Rank increases."
       },
       {
         "text": "Removal Rank in Menu",
+        "id": "removal-rank-in-menu",
         "moreInfo": "Users can now view their Removal Rank directly from the menu."
       },
       {
         "text": "Removal Rank Colors",
+        "id": "removal-rank-colors",
         "moreInfo": "Special Removal Rank name colors now appear in the Friends List."
       },
       {
         "text": "Roblox Badge Support",
+        "id": "roblox-badge-support",
         "moreInfo": "Added support for displaying FR+, Removal Rank, Roblox Verified, Roblox Premium, Roblox Plus, and Roblox Admin badges in the Friends List."
       },
       {
         "text": "Halloween Theme in Light Mode",
+        "id": "halloween-theme-in-light-mode",
         "moreInfo": "The Halloween theme can now be used while Light Mode is enabled."
       },
       {
         "text": "Bulk Dismiss",
+        "id": "bulk-dismiss",
         "moreInfo": "Brought Bulk Dismiss back to Unfriend History."
       },
       {
         "text": "Removal Method in History",
+        "id": "removal-method-in-history",
         "moreInfo": "Unfriend History cards now display the method used to remove each friend."
       },
       {
         "text": "FR+ Notes Improvements",
+        "id": "fr-notes-improvements",
         "platform": "FR Plus",
         "moreInfo": "FR+ users can now use swear words in their notes and have an increased character limit of 100, up from 50."
       }
@@ -60,42 +70,51 @@
     "removed": [
       {
         "text": "Receive Notifications Setting on Mobile",
+        "id": "receive-notifications-setting-on-mobile",
         "platform": "Mobile",
         "moreInfo": "Removed the Receive Notifications setting from mobile Settings."
       },
       {
         "text": "Privacy First — One-Time Use",
+        "id": "privacy-first-one-time-use",
         "moreInfo": "Removed the Privacy First — One-Time Use option from Settings."
       }
     ],
     "fixed": [
       {
         "text": "Removal Mode Settings",
+        "id": "removal-mode-settings",
         "moreInfo": "Fixed an issue preventing Removal Mode settings from saving correctly."
       },
       {
         "text": "Single Dismiss",
+        "id": "single-dismiss",
         "moreInfo": "Fixed the Single Dismiss option not working."
       },
       {
         "text": "Mutual Mode Checkmarks",
+        "id": "mutual-mode-checkmarks",
         "moreInfo": "Fixed an issue preventing friends in Mutual Mode from displaying their checkmarks."
       },
       {
         "text": "Mutual Mode Scheduled Protection",
+        "id": "mutual-mode-scheduled-protection",
         "moreInfo": "Fixed Mutual Mode failing to apply scheduled friend protection."
       },
       {
         "text": "Banned User Pinning",
+        "id": "banned-user-pinning",
         "moreInfo": "Fixed an issue preventing users from pinning banned users."
       },
       {
         "text": "FR+ Notification",
+        "id": "fr-notification",
         "platform": "FR Plus",
         "moreInfo": "Fixed an issue causing the FR+ notification to appear incorrectly."
       },
       {
         "text": "FR+ Pricing Display",
+        "id": "fr-pricing-display",
         "platform": "FR Plus",
         "moreInfo": "Fixed Settings incorrectly displaying FR+ as 115 per month instead of a one-time payment."
       }
@@ -103,59 +122,73 @@
     "improved": [
       {
         "text": "Mutual Mode Loading",
+        "id": "mutual-mode-loading",
         "moreInfo": "Mutual Mode now loads only friends who share mutual connections with you."
       },
       {
         "text": "Security Lock",
+        "id": "security-lock",
         "moreInfo": "Security Lock is no longer in beta."
       },
       {
         "text": "Local Unfriend History Imports",
+        "id": "local-unfriend-history-imports",
         "moreInfo": "Imported Unfriend History is now stored locally."
       },
       {
         "text": "Removal Rank History Tracking",
+        "id": "removal-rank-history-tracking",
         "moreInfo": "Imported history no longer contributes toward Removal Rank progression."
       },
       {
         "text": "Unfriend History Limit",
+        "id": "unfriend-history-limit",
         "moreInfo": "Enforced the 1,000-entry Unfriend History limit and fixed an issue that allowed users to import more data than the limit."
       },
       {
         "text": "Full History Protection",
+        "id": "full-history-protection",
         "moreInfo": "Manual friend removal is now blocked when Unfriend History is full. Users must clear their history before removing more friends."
       },
       {
         "text": "FR+ Group Rank Display",
+        "id": "fr-group-rank-display",
         "platform": "FR Plus",
         "moreInfo": "The FR+ rank is now displayed in the Friends List even when obtained through a group rank."
       },
       {
         "text": "Removal Mode Performance",
+        "id": "removal-mode-performance",
         "moreInfo": "Reduced lag when switching between Removal Modes."
       },
       {
         "text": "Unfriend History Notifications",
+        "id": "unfriend-history-notifications",
         "moreInfo": "Changed the Unfriend History toast notification to purple."
       },
       {
         "text": "Roblox Status API Efficiency",
+        "id": "roblox-status-api-efficiency",
         "moreInfo": "Reduced the number of Roblox Status API calls to improve efficiency."
       },
       {
         "text": "Roblox Badge Loading",
+        "id": "roblox-badge-loading",
         "moreInfo": "Improved Roblox badge loading in the Friends List."
       },
       {
         "text": "Friends List Badge Sizing",
+        "id": "friends-list-badge-sizing",
         "moreInfo": "Reduced the size of the new Friends List badges."
       },
       {
         "text": "Friends List Badge Order",
+        "id": "friends-list-badge-order",
         "moreInfo": "The Removal Rank badge now appears before the FR+ badge."
       },
       {
         "text": "Friends List Badge Spacing",
+        "id": "friends-list-badge-spacing",
         "moreInfo": "Improved badge spacing and presentation for a cleaner, easier-to-read Friends List."
       }
     ],
