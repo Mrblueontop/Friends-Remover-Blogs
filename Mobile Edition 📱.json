@@ -1,4 +1,5 @@
 {
+  "id": "update-1-4",
   "title": "Mobile Edition 📱",
   "cat": "Updates",
   "date": "June 5, 2026",
@@ -22,148 +23,171 @@
     "added": [
       {
         "text": "Mobile UI Settings Redesign",
+        "id": "mobile-ui-settings-redesign",
         "platform": "Mobile",
         "moreInfo": "Redesigned settings UI for mobile devices."
       },
       {
         "text": "Swipe Navigation",
+        "id": "swipe-navigation",
         "platform": "Mobile",
         "moreInfo": "Swipe left or right to switch between friends."
       },
       {
         "text": "AFK Warning Toast",
+        "id": "afk-warning-toast",
         "platform": "All",
         "moreInfo": "AFK warning now appears as a toast notification."
       },
       {
         "text": "Dismiss Entry System",
+        "id": "dismiss-entry-system",
         "platform": "All",
         "moreInfo": "Unfriend History entries can now be dismissed."
       },
       {
         "text": "Custom Unfriend History Logo",
+        "id": "custom-unfriend-history-logo",
         "platform": "All",
         "moreInfo": "Logo changes when Unfriend History is open."
       },
       {
         "text": "FrActionGuard",
+        "id": "fractionguard",
         "platform": "All",
         "moreInfo": "Rate-limits sensitive actions and triggers CAPTCHA when needed."
       }
     ],
-
     "fixed": [
       {
         "text": "Unfriend History Server Sync",
+        "id": "unfriend-history-server-sync",
         "platform": "All",
         "moreInfo": "Fixed history loading only local data instead of server data."
       },
       {
         "text": "History Redirect Bug",
+        "id": "history-redirect-bug",
         "platform": "All",
         "moreInfo": "Fixed redirecting back to friends list."
       },
       {
         "text": "Captcha Avatar Loading",
+        "id": "captcha-avatar-loading",
         "platform": "All",
         "moreInfo": "Fixed missing avatars during CAPTCHA sessions."
       },
       {
         "text": "Inactive Friends System",
+        "id": "inactive-friends-system",
         "platform": "All",
         "moreInfo": "Fixed inactive friend detection and background removal logic."
       },
       {
         "text": "Menu Button Bug",
+        "id": "menu-button-bug",
         "platform": "All",
         "moreInfo": "Fixed menu button randomly disabling."
       }
     ],
-
     "improved": [
       {
         "text": "Unfriend History UI",
+        "id": "unfriend-history-ui",
         "platform": "All",
         "moreInfo": "Updated history UI to match friends compact view design."
       },
       {
         "text": "Simplified Unfriend History Menu",
+        "id": "simplified-unfriend-history-menu",
         "platform": "All",
         "moreInfo": "Reduced options to only View Profile."
       },
       {
         "text": "Expanded Auto Sync System",
+        "id": "expanded-auto-sync-system",
         "platform": "All",
         "moreInfo": "Background sync now waits for API recovery before applying changes."
       },
       {
         "text": "Dynamic CAPTCHA Scaling",
+        "id": "dynamic-captcha-scaling",
         "platform": "All",
         "moreInfo": "CAPTCHA requirements scale based on action size."
       },
       {
         "text": "Dynamic Background Polling",
+        "id": "dynamic-background-polling",
         "platform": "All",
         "moreInfo": "Polling speed adapts to friend count."
       },
       {
         "text": "Dynamic Headshot Quality",
+        "id": "dynamic-headshot-quality",
         "platform": "All",
         "moreInfo": "Avatar quality scales with friend count for performance."
       },
       {
         "text": "Logging Cleanup",
+        "id": "logging-cleanup",
         "platform": "All",
         "moreInfo": "Removed excessive debug logging."
       },
       {
         "text": "Reduced Animation Mode",
+        "id": "reduced-animation-mode",
         "platform": "All",
         "moreInfo": "Reduces animations and avatar rendering load."
       }
     ],
-
     "security": [
       {
         "text": "Expanded CAPTCHA Protection",
+        "id": "expanded-captcha-protection",
         "platform": "All",
         "moreInfo": "CAPTCHA added to more sensitive actions."
       },
       {
         "text": "Removal Safety Lock",
+        "id": "removal-safety-lock",
         "platform": "All",
         "moreInfo": "Prevents cancellation when fewer than 7 friends remain."
       }
     ],
-
     "other": [
       {
         "text": "History Entry Limit",
+        "id": "history-entry-limit",
         "platform": "All",
         "moreInfo": "Hard limit set to 775 entries."
       },
       {
         "text": "History Search Integration",
+        "id": "history-search-integration",
         "platform": "All",
         "moreInfo": "Uses the header search button to search through history."
       },
       {
         "text": "Mobile Settings Support",
+        "id": "mobile-settings-support",
         "platform": "Mobile",
         "moreInfo": "Settings are fully usable on mobile devices."
       },
       {
         "text": "Mobile Navigation System",
+        "id": "mobile-navigation-system",
         "platform": "Mobile",
         "moreInfo": "Added hamburger menu and sidebar navigation."
       },
       {
         "text": "Toast Settings Update",
+        "id": "toast-settings-update",
         "platform": "Mobile",
         "moreInfo": "Toast notifications now slide up from the bottom."
       },
       {
         "text": "iOS Support",
+        "id": "ios-support",
         "platform": "Mobile",
         "moreInfo": "Friends Remover can now be used on iPhone and iPad through Onion Browser."
       }
