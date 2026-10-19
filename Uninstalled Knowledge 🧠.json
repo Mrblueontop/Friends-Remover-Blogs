@@ -1,4 +1,5 @@
 {
+  "id": "update-1-7",
   "title": "Uninstalled Knowledge 🧠",
   "cat": "Updates",
   "date": "July 14, 2026",
@@ -20,72 +21,88 @@
     "added": [
       {
         "text": "Overall experience reaction",
+        "id": "overall-experience-reaction",
         "moreInfo": "Users can now leave a one-way reaction describing their overall experience before uninstalling the extension."
       },
       {
         "text": "Country field",
+        "id": "country-field",
         "moreInfo": "Added the user's country to uninstall logs for improved diagnostics. This does not include your IP address or home address."
       },
       {
         "text": "Platform field",
+        "id": "platform-field",
         "moreInfo": "Uninstall logs now include the user's operating system platform."
       },
       {
         "text": "Browser and version field",
+        "id": "browser-and-version-field",
         "moreInfo": "Browser name and version are now automatically included with uninstall reports."
       },
       {
         "text": "Automatic version detection",
+        "id": "automatic-version-detection",
         "moreInfo": "The extension version is now detected directly from the uninstall URL instead of being hardcoded."
       },
       {
         "text": "Automatic Roblox user detection",
+        "id": "automatic-roblox-user-detection",
         "moreInfo": "The uninstall page now detects the Roblox user directly from the URL when available."
       },
       {
         "text": "FPS field",
+        "id": "fps-field",
         "moreInfo": "Added an FPS field to help identify performance-related issues experienced before uninstalling."
       },
       {
         "text": "Rocaptcha count field",
+        "id": "rocaptcha-count-field",
         "moreInfo": "Uninstall logs now include how many Rocaptchas were presented to the user."
       }
     ],
     "removed": [
       {
         "text": "Legacy Xtero Login",
+        "id": "legacy-xtero-login",
         "moreInfo": "Removed the old Xtero Login system as it is no longer required."
       },
       {
         "text": "Beta Assistant Chat",
+        "id": "beta-assistant-chat",
         "moreInfo": "Removed the legacy beta Assistant Chat system."
       }
     ],
     "fixed": [
       {
         "text": "Uninstall Moderation system",
+        "id": "uninstall-moderation-system",
         "moreInfo": "Fixed an issue where moderation stopped working after updating our worker service, allowing some inappropriate submissions to bypass filtering."
       },
       {
         "text": "Removal stopped toast",
+        "id": "removal-stopped-toast",
         "moreInfo": "Fixed an issue where the '⏹️ Removal stopped' toast always displayed '0 of X friends removed' instead of the correct number of friends removed."
       },
       {
         "text": "Removal toast",
+        "id": "removal-toast",
         "moreInfo": "Fixed an issue where the removal progress toast would sometimes fail to appear."
       }
     ],
     "improved": [
       {
         "text": "Completely redesigned uninstall page",
+        "id": "completely-redesigned-uninstall-page",
         "moreInfo": "The uninstall experience has been rebuilt with a cleaner interface, more feedback options, improved diagnostics, better usability, and a smoother overall flow."
       },
       {
         "text": "Popup and settings performance",
+        "id": "popup-and-settings-performance",
         "moreInfo": "Improved loading speeds for both the popup and the settings page."
       },
       {
         "text": "Quick Removal Speed",
+        "id": "quick-removal-speed",
         "moreInfo": "Quick Removal Speed is now available to all users instead of being exclusive to Friends Remover Plus."
       }
     ],
