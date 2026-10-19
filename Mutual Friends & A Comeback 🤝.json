@@ -1,4 +1,5 @@
 {
+  "id": "update-1-6",
   "title": "Mutual Friends & A Comeback 🤝",
   "cat": "Updates",
   "date": "July 1, 2026",
@@ -20,171 +21,210 @@
     "added": [
       {
         "text": "Special welcome messages for FR+ users",
+        "id": "special-welcome-messages-for-fr-users",
         "moreInfo": "Plus users now receive exclusive welcome messages when opening the menu, replacing the standard welcome messages shown to regular users.",
         "platform": "FR Plus"
       },
       {
         "text": "Flagged filter",
+        "id": "flagged-filter",
         "moreInfo": "We added a new Flagged filter to the filter menu. If you have any flagged friends, you can now filter your friends list to view only those users. The Flagged filter option will only appear if you have at least one flagged friend; otherwise, it will remain hidden."
       },
       {
         "text": "Smart Suggest Pins",
+        "id": "smart-suggest-pins",
         "moreInfo": "Introducing Smart Suggest. Smart Suggest recommends friends that you may want to pin based on factors such as how long you've been friends and how many mutual friends you share. This feature can be disabled at any time in the Settings > General tab."
       },
       {
         "text": "Mutual Friend Viewer",
+        "id": "mutual-friend-viewer",
         "moreInfo": "Added a mutual friends viewer directly inside the popup."
       },
       {
         "text": "Friend duration display",
+        "id": "friend-duration-display",
         "moreInfo": "The bio section in Compact Viewer has been replaced with 'Friends Since'."
       },
       {
         "text": "Advanced bot protection system",
+        "id": "advanced-bot-protection-system",
         "moreInfo": "We added an advanced bot protection system to detect when a user may be interacting with the extension using automated tools or bot-like browser behavior. When suspicious activity is detected, additional verification challenges (such as extra captchas) may be shown. This system is still in development and will be expanded and improved in future updates."
       },
       {
         "text": "FR+ subscription system",
+        "id": "fr-subscription-system",
         "moreInfo": "FR+ has been converted from a gamepass to a subscription-based membership of R$115/Month.",
         "platform": "FR Plus"
       },
       {
         "text": "Email verification for FR+",
+        "id": "email-verification-for-fr",
         "moreInfo": "Users must now provide an email address before purchasing FR+.",
         "platform": "FR Plus"
       },
       {
         "text": "FR+ policy acceptance",
+        "id": "fr-policy-acceptance",
         "moreInfo": "Users are now required to accept the FR+ policy before purchasing.",
         "platform": "FR Plus"
       },
       {
         "text": "Security Lock",
+        "id": "security-lock",
         "moreInfo": "Was originally planned to be one of our biggest new features, but we didn’t have enough time to fully develop or test it. Because of that, we weren’t able to add a beta badge before release, but it is now available for users."
       },
       {
         "text": "Unpin option in three-dots menu",
+        "id": "unpin-option-in-three-dots-menu",
         "moreInfo": "Added an Unpin option to pinned users when bulk selecting users."
       }
     ],
     "removed": [
       {
         "text": "Filter by account age",
+        "id": "filter-by-account-age",
         "moreInfo": "This feature has been permanently removed and will not return."
       },
       {
         "text": "Notify if a Friend Removes You from FR+",
+        "id": "notify-if-a-friend-removes-you-from-fr",
         "moreInfo": "This feature is no longer exclusive to FR+."
       },
       {
         "text": "Rocaptcha in settings",
+        "id": "rocaptcha-in-settings",
         "moreInfo": "The Rocaptcha in settings page has been removed."
       }
     ],
     "fixed": [
       {
         "text": "Settings mobile resize bug",
+        "id": "settings-mobile-resize-bug",
         "moreInfo": "Settings no longer incorrectly switch to the mobile layout when resizing the window with settings page active."
       },
       {
         "text": "Search and filter button states",
+        "id": "search-and-filter-button-states",
         "moreInfo": "Search and filter buttons now properly disable during loading and menu screen."
       },
       {
         "text": "Block Mode startup logo",
+        "id": "block-mode-startup-logo",
         "moreInfo": "Fixed Block Mode logo incorrectly appearing when opening the popup."
       },
       {
         "text": "Theme loading cache",
+        "id": "theme-loading-cache",
         "moreInfo": "Added a cache for the last applied theme to prevent the blue theme flash during startup."
       },
       {
         "text": "Unpin button on banned accounts",
+        "id": "unpin-button-on-banned-accounts",
         "moreInfo": "Fixed it not allowing you to unpin banned users."
       },
       {
         "text": "UserDataManager settings bug",
+        "id": "userdatamanager-settings-bug",
         "moreInfo": "Fixed the popup using saveSetting() instead of the correct setSetting() method."
       },
       {
         "text": "Menu reopening bug",
+        "id": "menu-reopening-bug",
         "moreInfo": "Fixed the menu failing to open after previously being opened and closed."
       },
       {
         "text": "undefined has been removed notification",
+        "id": "undefined-has-been-removed-notification",
         "moreInfo": "Fixed this unnecessary notification appearing incorrectly and removed it completely bye-bye bug."
       },
       {
         "text": "Search button disappearing after history",
+        "id": "search-button-disappearing-after-history",
         "moreInfo": "Fixed a one-character typo causing the Search button to disappear after closing history."
       }
     ],
     "improved": [
       {
         "text": "Infinite Compact Viewer navigation",
+        "id": "infinite-compact-viewer-navigation",
         "moreInfo": "Compact Viewer arrows now loop continuously."
       },
       {
         "text": "Status display",
+        "id": "status-display",
         "moreInfo": "Status text now shows 'Logged in as [username]' instead of displaying the user ID."
       },
       {
         "text": "FR+ startup detection",
+        "id": "fr-startup-detection",
         "moreInfo": "Now uses the Roblox API for subscriptions on startup",
         "platform": "FR Plus"
       },
       {
         "text": "Removal screen menu access",
+        "id": "removal-screen-menu-access",
         "moreInfo": "The menu can now be accessed while removal screens are running."
       },
       {
         "text": "Removal progress handling",
+        "id": "removal-progress-handling",
         "moreInfo": "Updated how the popup handles and visually displays active removals."
       },
       {
         "text": "Resume removal handling",
+        "id": "resume-removal-handling",
         "moreInfo": "Improved the resume system for paused removals."
       },
       {
         "text": "Toast interception",
+        "id": "toast-interception",
         "moreInfo": "Toast notifications now use capture-phase event listeners for guaranteed execution."
       },
       {
         "text": "Rocaptcha filtering",
+        "id": "rocaptcha-filtering",
         "moreInfo": "Rocaptcha now skips headless avatars and avatars with identical colors all over their avatar."
       },
       {
         "text": "Game title truncation",
+        "id": "game-title-truncation",
         "moreInfo": "Game titles now truncate around 26–28 characters."
       },
       {
         "text": "Persistent Sent state",
+        "id": "persistent-sent-state",
         "moreInfo": "Friend request states are now stored locally and persist after reopening the popup."
       },
       {
         "text": "Bulk selection persistence",
+        "id": "bulk-selection-persistence",
         "moreInfo": "Bulk selections now survive closing and reopening the popup."
       },
       {
         "text": "Untrust refresh",
+        "id": "untrust-refresh",
         "moreInfo": "The friends list now refreshes immediately after untrusting a user."
       }
     ],
     "experimental": [],
     "other": [
       {
-        "text": "Schedule Removal upgrade toast for non-Plus users"
+        "text": "Schedule Removal upgrade toast for non-Plus users",
+        "id": "schedule-removal-upgrade-toast-for-non-plus-users"
       },
       {
         "text": "Unfriend History Pre-send friend check",
+        "id": "unfriend-history-pre-send-friend-check",
         "moreInfo": "Attempting to add-back an existing friend in unfriend history now shows a toast instead of failing."
       },
       {
         "text": "Code 5 error handling in Unfriend History",
+        "id": "code-5-error-handling-in-unfriend-history",
         "moreInfo": " If you try clicking add-back to an existing outgoing friend requests now display a proper toast and automatically mark the button as sent."
       },
       {
         "text": "Unfriend History Rate limit Toast",
+        "id": "unfriend-history-rate-limit-toast",
         "moreInfo": "429 errors now display a toast letting you know. that you adding people to quickly."
       }
     ]
