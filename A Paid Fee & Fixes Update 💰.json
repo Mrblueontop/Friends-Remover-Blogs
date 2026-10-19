@@ -1,4 +1,5 @@
 {
+  "id": "update-1-8",
   "title": "A Paid Fee & Fixes Update 💰",
   "cat": "Updates",
   "date": "July 28, 2026",
@@ -20,91 +21,111 @@
     "added": [
       {
         "text": "Headshot type setting",
+        "id": "headshot-type-setting",
         "moreInfo": "Users can now select the type of thumbnail shown in the popup and Rocaptcha."
       },
       {
         "text": "Unfriend Tracker",
+        "id": "unfriend-tracker",
         "moreInfo": "Users unfriended from the Roblox website can now automatically be added to Unfriend History."
       },
       {
         "text": "Friends Removing logo placement",
+        "id": "friends-removing-logo-placement",
         "moreInfo": "Added a new logo placement on the removal screen."
       }
     ],
     "removed": [
       {
         "text": "Tutorial",
+        "id": "tutorial",
         "moreInfo": "The old tutorial was removed."
       },
       {
         "text": "Rotating FR+ popup messages",
+        "id": "rotating-fr-popup-messages",
         "moreInfo": "Removed rotating messages that displayed FR+ features inside the popup.",
         "platform": "FR Plus"
       },
       {
         "text": "Game icon behind headshots",
+        "id": "game-icon-behind-headshots",
         "moreInfo": "Removed the game icon background from headshots."
       }
     ],
     "fixed": [
       {
         "text": "Friend removal notifications",
+        "id": "friend-removal-notifications",
         "moreInfo": "Fixed notifications not appearing correctly after removing friends."
       },
       {
         "text": "FR+ gamepass detection",
+        "id": "fr-gamepass-detection",
         "moreInfo": "Fixed FR+ detection not working correctly.",
         "platform": "FR Plus"
       },
       {
         "text": "Notify if a Friend Removes You setting",
+        "id": "notify-if-a-friend-removes-you-setting",
         "moreInfo": "Fixed the setting not enabling correctly.",
         "platform": "FR Plus"
       },
       {
         "text": "Missing translation keys",
+        "id": "missing-translation-keys",
         "moreInfo": "Fixed missing translation keys across supported languages."
       }
     ],
     "improved": [
       {
         "text": "Database saving system",
+        "id": "database-saving-system",
         "moreInfo": "The database fee has been paid, allowing user data to continue saving properly even after uninstalling and reinstalling the extension."
       },
       {
         "text": "Inactivity Tracker",
+        "id": "inactivity-tracker",
         "moreInfo": "Increased inactivity checking interval from 1 minute to 5 minutes."
       },
       {
         "text": "Local storage systems",
+        "id": "local-storage-systems",
         "moreInfo": "Removed unnecessary local storage systems and moved more data handling to the backend."
       },
       {
         "text": "Headshot quality",
+        "id": "headshot-quality",
         "moreInfo": "Improved avatar quality for medium-sized friend lists. Compact Viewer avatars from 151–300 friends now load at a higher resolution instead of appearing blurry."
       },
       {
         "text": "Popup headshot animations",
+        "id": "popup-headshot-animations",
         "moreInfo": "Added a smooth zoom animation when viewing headshots in the popup."
       },
       {
         "text": "Error screen menu protection",
+        "id": "error-screen-menu-protection",
         "moreInfo": "The menu button is now disabled during error screens."
       },
       {
         "text": "Removal screen behavior",
+        "id": "removal-screen-behavior",
         "moreInfo": "The removal screen no longer appears when removing 5 friends or fewer."
       },
       {
         "text": "Game name display",
+        "id": "game-name-display",
         "moreInfo": "Game names now have enough room to display fully instead of being cut off."
       },
       {
         "text": "Default theme color",
+        "id": "default-theme-color",
         "moreInfo": "Changed the default color to red to celebrate Spider-Man: Brand New Day."
       },
       {
         "text": "FR+ backend reliability",
+        "id": "fr-backend-reliability",
         "moreInfo": "Improved FR+ data reliability with the new backend worker system.",
         "platform": "FR Plus"
       }
