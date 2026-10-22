@@ -11,7 +11,7 @@
   "coming_soon": false,
   "platforms": ["Chrome", "Firefox"],
   "excerpt": "Introducing Removal Ranks, rank-up animations, expanded badge support, improved Unfriend History, FR+ updates, and more!",
-  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/FRUpdate25.png",
+  "thumbImage": "https://raw.githubusercontent.com/Mrblueontop/Friends-Remover-Blogs/main/A%20Ranked%20Removal%20%F0%9F%8F%86.png",
   "thumbFit": "contain",
   "thumbPosition": "center",
   "body": "FR UPDATE 2.5 introduces Removal Ranks, bringing new rank-up animations, special name colors, and rank badges to your Friends List. We've also improved Unfriend History, expanded Roblox badge support, introduced new FR+ improvements, and delivered numerous fixes and performance enhancements.",
@@ -65,6 +65,21 @@
         "id": "fr-notes-improvements",
         "platform": "FR Plus",
         "moreInfo": "FR+ users can now use swear words in their notes and have an increased character limit of 100, up from 50."
+      },
+      {
+        "text": "Play Game System",
+        "id": "play-game-system",
+        "moreInfo": "You can now play a fun puzzle game during the removal screen."
+      },
+      {
+        "text": "Notice System",
+        "id": "notice-system",
+        "moreInfo": "Added a notice system for warnings."
+      },
+      {
+        "text": "Roblox Legacy UI Notification Support",
+        "id": "roblox-legacy-ui-notifications",
+        "moreInfo": "Added notification support for the Roblox legacy UI."
       }
     ],
     "removed": [
@@ -117,6 +132,26 @@
         "id": "fr-pricing-display",
         "platform": "FR Plus",
         "moreInfo": "Fixed Settings incorrectly displaying FR+ as 115 per month instead of a one-time payment."
+      },
+      {
+        "text": "Pin System HTML Bypass",
+        "id": "pin-system-html-bypass",
+        "moreInfo": "Fixed the HTML bypass with the pin system by changing disabled to enabled."
+      },
+      {
+        "text": "Notes Rejected Max Before Timeout",
+        "id": "notes-rejected-max-before-timeout",
+        "moreInfo": "Increased the number of rejected note attempts before timeout from 3 to 5 tries."
+      },
+      {
+        "text": "Error Messages & Z-Index",
+        "id": "error-messages-z-index",
+        "moreInfo": "Updated many error messages, added new buttons for some, and fixed z-index issues."
+      },
+      {
+        "text": "Scheduled Removal Notification",
+        "id": "scheduled-removal-notification",
+        "moreInfo": "Updated the scheduled removal notification to correctly say scheduled removal complete."
       }
     ],
     "improved": [
@@ -190,6 +225,17 @@
         "text": "Friends List Badge Spacing",
         "id": "friends-list-badge-spacing",
         "moreInfo": "Improved badge spacing and presentation for a cleaner, easier-to-read Friends List."
+      },
+      {
+        "text": "Random Removal Notification on Mobile",
+        "id": "random-removal-notification-mobile",
+        "platform": "FR Plus",
+        "moreInfo": "The notification for when a friend is randomly removed is now available on mobile for FR+ users only."
+      },
+      {
+        "text": "Inactive Tracker",
+        "id": "inactive-tracker",
+        "moreInfo": "The inactive tracker now uses a 5-minute threshold instead of 1 minute."
       }
     ],
     "experimental": []
