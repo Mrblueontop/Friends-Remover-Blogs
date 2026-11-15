@@ -1,3 +1,4 @@
+
 {
   "id": "update-2-6",
   "title": "A Second Christmas 🎄",
@@ -108,6 +109,16 @@
         "text": "Profile Frame Loading",
         "id": "profile-frame-loading",
         "moreInfo": "Improved profile frame loading across the extension."
+      },
+      {
+        "text": "Pin Button Colors",
+        "id": "pin-button-colors",
+        "moreInfo": "Updated the pin button colors. It now appears white when Dark Mode is enabled and black when White Mode is enabled, replacing the previous solid orange appearance."
+      },
+      {
+        "text": "Popup Ripple Effects",
+        "id": "popup-ripple-effects",
+        "moreInfo": "Added a clean, smooth ripple effect when clicking buttons and interactive elements throughout the popup, giving interactions a more polished and satisfying feel."
       }
     ],
     "experimental": []
