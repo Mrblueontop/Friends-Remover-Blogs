@@ -1,4 +1,3 @@
-
 {
   "id": "update-2-6",
   "title": "A Second Christmas 🎄",
@@ -7,6 +6,7 @@
   "badge": "COMING SOON!",
   "badgeTimestamp": "2026-11-20T22:00:00Z",
   "badgeAfter": "OUT NOW!",
+  "countdownHidden": true,
   "version": "2.6",
   "breaking": false,
   "coming_soon": false,
